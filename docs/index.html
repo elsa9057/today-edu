@@ -317,6 +317,8 @@ dialog::backdrop{background:rgba(15,18,25,.45)}
   .publine span{font-size:11.5px;font-weight:700;line-height:1.5;padding:1px 7px;border-radius:5px;background:var(--acc-soft);color:var(--acc)}
   :root[data-design="b"] .publine span{background:var(--tc);color:#1F2A44;border-radius:6px}
 }
+.exmark{flex:none;font-size:11px;font-weight:800;border-radius:4px;padding:1px 6px;border:1.5px solid var(--acc);color:var(--acc)}
+@media (max-width:640px){.xrow{grid-template-columns:44px 64px minmax(0,1fr)}.xrow .p{display:block}.xrow .cv{grid-column:3}}
 </style>
 </head>
 <body>
@@ -361,6 +363,12 @@ dialog::backdrop{background:rgba(15,18,25,.45)}
         <h2 class="sec" id="issuesTitle">주요 이슈</h2>
         <p class="secnote" id="issuesNote"></p>
         <div id="issues"></div>
+      </section>
+
+      <section id="exclSec" aria-labelledby="exclTitle" hidden>
+        <h2 class="sec" id="exclTitle">오늘의 단독</h2>
+        <p class="secnote">한 매체가 먼저 보도한 [단독] 기사입니다. 다른 매체가 뒤따라 보도하면 오른쪽에 매체 수가 표시됩니다.</p>
+        <ul class="rows" id="excl"></ul>
       </section>
 
       <section aria-labelledby="allTitle" style="margin-top:42px">
@@ -509,7 +517,7 @@ function renderMap(){
   rows.forEach(i=>{
     const set=new Set(i.publishers||[i.publisher]),cov=set.size;
     const label=`${i.is_new?'새 이슈, ':''}${i.title}, ${cov}개 매체: ${[...set].join(', ')}`;
-    h+=`<div class="mrow irow" role="button" tabindex="0" data-idx="${(d.news||[]).indexOf(i)}" aria-label="${esc(label)}" style="--tc:${tcolor(i.topic)};--sh:${shade(cov)}"><div class="it">`+(i.is_new?'<span class="newmark" title="최근 7일 브리핑에 없던 새 이슈">새</span>':'')+`<span class="ititle" title="${esc(i.title)}">${esc(i.title)}</span></div><div class="cells">`+cols.map(p=>`<span class="cell${set.has(p)?' on':''}" title="${esc(p)}"></span>`).join('')+`</div><div class="publine" aria-hidden="true">${cols.filter(p=>set.has(p)).map(p=>`<span>${esc(SHORT[p]||p)}</span>`).join('')}</div><div class="cnt"><i style="--w:${(cov/maxCov).toFixed(3)}"></i><b>${cov}</b></div></div>`;
+    h+=`<div class="mrow irow" role="button" tabindex="0" data-idx="${(d.news||[]).indexOf(i)}" aria-label="${esc(label)}" style="--tc:${tcolor(i.topic)};--sh:${shade(cov)}"><div class="it">`+(i.is_new?'<span class="newmark" title="최근 7일 브리핑에 없던 새 이슈">새</span>':'')+(exclSource(i)?'<span class="exmark" title="한 매체의 단독 보도에서 시작된 이슈">단독 출발</span>':'')+`<span class="ititle" title="${esc(i.title)}">${esc(i.title)}</span></div><div class="cells">`+cols.map(p=>`<span class="cell${set.has(p)?' on':''}" title="${esc(p)}"></span>`).join('')+`</div><div class="publine" aria-hidden="true">${cols.filter(p=>set.has(p)).map(p=>`<span>${esc(SHORT[p]||p)}</span>`).join('')}</div><div class="cnt"><i style="--w:${(cov/maxCov).toFixed(3)}"></i><b>${cov}</b></div></div>`;
   });
   box.innerHTML=h+'</div>';
   box.querySelectorAll('.irow').forEach(tr=>{const go=()=>jumpTo(+tr.dataset.idx);tr.onclick=go;tr.onkeydown=e=>{if(e.key==='Enter'){e.preventDefault();go()}}});
@@ -565,6 +573,7 @@ function filtered(){
   if(state.topic)list=list.filter(i=>i.topic===state.topic);
   if(state.pub)list=list.filter(i=>(i.publishers||[i.publisher]).includes(state.pub));
   if(state.kw)list=list.filter(i=>matchKw(i,state.kw));
+  if(state.excl)list=list.filter(i=>exclSource(i));
   if(state.q){const q=state.q.toLowerCase();list=list.filter(i=>((i.title||'')+' '+(i.summary||'')+' '+(i.publishers||[]).join(' ')).toLowerCase().includes(q))}
   if(state.sort==='time')list=[...list].sort((a,b)=>Date.parse(b.published)-Date.parse(a.published));
   else if(state.sort==='cov')list=[...list].sort((a,b)=>(b.coverage_count||1)-(a.coverage_count||1)||b.score-a.score);
@@ -573,8 +582,9 @@ function filtered(){
 function renderChips(){
   const all=allItems(),cnt={};all.forEach(i=>cnt[i.topic]=(cnt[i.topic]||0)+1);
   const chips=[['','전체',all.length]].concat(TOPICS.filter(t=>cnt[t]).map(t=>[t,t,cnt[t]]));
-  $('#topicChips').innerHTML=chips.map(([v,l,c])=>`<button type="button" class="chip" data-t="${esc(v)}" aria-pressed="${state.topic===v}">${esc(l)}<span class="c">${c}</span></button>`).join('')+(state.kw?`<button type="button" class="chip" data-kwclear aria-pressed="true">키워드: ${esc(state.kw)} ✕</button>`:'');
+  $('#topicChips').innerHTML=chips.map(([v,l,c])=>`<button type="button" class="chip" data-t="${esc(v)}" aria-pressed="${state.topic===v}">${esc(l)}<span class="c">${c}</span></button>`).join('')+(all.some(i=>exclSource(i))?`<button type="button" class="chip" data-excl aria-pressed="${!!state.excl}">단독<span class="c">${all.filter(i=>exclSource(i)).length}</span></button>`:'')+(state.kw?`<button type="button" class="chip" data-kwclear aria-pressed="true">키워드: ${esc(state.kw)} ✕</button>`:'');
   $('#topicChips').querySelectorAll('[data-t]').forEach(b=>b.onclick=()=>{state.topic=b.dataset.t;state.limit=40;renderChips();renderRows()});
+  const xc=$('#topicChips').querySelector('[data-excl]');if(xc)xc.onclick=()=>{state.excl=!state.excl;state.limit=40;renderChips();renderRows()};
   const kc=$('#topicChips').querySelector('[data-kwclear]');if(kc)kc.onclick=()=>{state.kw='';renderAll()};
   const pubs=new Set();all.forEach(i=>(i.publishers||[i.publisher]).forEach(p=>pubs.add(p)));
   const cur=state.pub;$('#pubSel').innerHTML='<option value="">모든 매체</option>'+[...pubs].sort().map(p=>`<option${p===cur?' selected':''}>${esc(p)}</option>`).join('');
@@ -676,7 +686,20 @@ document.addEventListener('keydown',e=>{
 });
 
 /* ---------- data ---------- */
-function renderAll(){renderHeader();renderMap();renderIssues();renderChips();renderRows();renderKws();renderColumns();renderSaved();renderSources();updateBriefBtn()}
+/* ---------- 단독 ---------- */
+const EXCL=/^\s*(?:[\[【<(〈《][^\]】>)〉》]{0,10}[\]】>)〉》]\s*)*[\[【<(〈《]\s*단독[^\]】>)〉》]{0,8}[\]】>)〉》]/;
+const isExcl=t=>EXCL.test(String(t||''));
+function exclSource(i){if(isExcl(i.title))return{title:i.title,url:i.url,publisher:i.publisher,published:i.published};return (i.related_articles||[]).find(r=>isExcl(r.title))||null}
+function renderExclusive(){
+  const d=state.data,sec=$('#exclSec'),box=$('#excl');
+  if(!d||d.loading){sec.hidden=true;return}
+  const list=(d.news||[]).map(i=>({i,s:exclSource(i)})).filter(x=>x.s).sort((a,b)=>Date.parse(b.s.published)-Date.parse(a.s.published)).slice(0,8);
+  if(!list.length){sec.hidden=true;return}
+  sec.hidden=false;
+  box.innerHTML=list.map(({i,s},k)=>{const cov=i.coverage_count||1;return `<li class="row xrow${state.read.has(keyOf(s))?' read':''}"><span class="t">${esc(hhmm(s.published))}</span><span class="p">${esc(s.publisher)}</span><a class="rowtitle" href="${esc(s.url)}" target="_blank" rel="noopener noreferrer" data-xopen="${k}">${hl(s.title)}</a><span class="cv${cov>1?' hot':''}">${cov>1?`이후 ${cov}곳 보도`:''}</span></li>`}).join('');
+  box.querySelectorAll('[data-xopen]').forEach(a=>a.addEventListener('click',()=>{markRead(list[+a.dataset.xopen].s);setTimeout(renderExclusive,50)}));
+}
+function renderAll(){renderHeader();renderMap();renderIssues();renderExclusive();renderChips();renderRows();renderKws();renderColumns();renderSaved();renderSources();updateBriefBtn()}
 async function load(manual){
   try{
     const r=await fetch('data/brief.json?t='+Date.now(),{cache:'no-store'});
