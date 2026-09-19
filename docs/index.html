@@ -319,6 +319,8 @@ dialog::backdrop{background:rgba(15,18,25,.45)}
 }
 .exmark{flex:none;font-size:11px;font-weight:800;border-radius:4px;padding:1px 6px;border:1.5px solid var(--acc);color:var(--acc)}
 @media (max-width:640px){.xrow{grid-template-columns:44px 64px minmax(0,1fr)}.xrow .p{display:block}.xrow .cv{grid-column:3}}
+html,body{max-width:100%;overflow-x:hidden}
+.row a,.ititle,.issue h3,.issue h4,.col h3,.others li a,.savedlist a{overflow-wrap:anywhere;min-width:0}
 </style>
 </head>
 <body>
@@ -696,7 +698,7 @@ function renderExclusive(){
   const list=(d.news||[]).map(i=>({i,s:exclSource(i)})).filter(x=>x.s).sort((a,b)=>Date.parse(b.s.published)-Date.parse(a.s.published)).slice(0,8);
   if(!list.length){sec.hidden=true;return}
   sec.hidden=false;
-  box.innerHTML=list.map(({i,s},k)=>{const cov=i.coverage_count||1;return `<li class="row xrow${state.read.has(keyOf(s))?' read':''}"><span class="t">${esc(hhmm(s.published))}</span><span class="p">${esc(s.publisher)}</span><a class="rowtitle" href="${esc(s.url)}" target="_blank" rel="noopener noreferrer" data-xopen="${k}">${hl(s.title)}</a><span class="cv${cov>1?' hot':''}">${cov>1?`이후 ${cov}곳 보도`:''}</span></li>`}).join('');
+  box.innerHTML=list.map(({i,s},k)=>{const cov=i.coverage_count||1;return `<li class="row xrow${state.read.has(keyOf(s))?' read':''}"><span class="t">${esc(hhmm(s.published))}</span><span class="p" title="${esc(s.publisher)}">${esc(SHORT[s.publisher]||s.publisher)}</span><a class="rowtitle" href="${esc(s.url)}" target="_blank" rel="noopener noreferrer" data-xopen="${k}">${hl(s.title)}</a><span class="cv${cov>1?' hot':''}">${cov>1?`이후 ${cov}곳 보도`:''}</span></li>`}).join('');
   box.querySelectorAll('[data-xopen]').forEach(a=>a.addEventListener('click',()=>{markRead(list[+a.dataset.xopen].s);setTimeout(renderExclusive,50)}));
 }
 function renderAll(){renderHeader();renderMap();renderIssues();renderExclusive();renderChips();renderRows();renderKws();renderColumns();renderSaved();renderSources();updateBriefBtn()}
