@@ -1,0 +1,7 @@
+collector/cache.json
+collector/history.json
+collector/progress.json
+collector/server.log
+collector/server.pid
+collector/collector.pid
+docs/data/
