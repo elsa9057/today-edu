@@ -1,7 +1,7 @@
 {
   "date": "2026-09-19",
-  "generated_at": "2026-09-19T23:18:21.1280779+09:00",
-  "total": 165,
+  "generated_at": "2026-09-19T23:43:33.6045322+09:00",
+  "total": 166,
   "items": [
     {
       "title": "전기충격기로 등교생 위협한 교사…교육청, 즉각 직무 배제",
@@ -28,20 +28,20 @@
       "url": "https://news.kbs.co.kr/news/view.do?ncd=8667282"
     },
     {
-      "title": "거리 나온 수험생·학부모…\"6시 이후 접수 수시원서 취소하라\"",
-      "publisher": "연합뉴스",
-      "topic": "입시",
-      "type": "news",
-      "coverage": 5,
-      "url": "https://www.yna.co.kr/view/AKR20260919044200530"
-    },
-    {
       "title": "‘교권보호전담관 조례’ 경기도의회 통과…전국 최초",
       "publisher": "한겨레",
       "topic": "교사",
       "type": "news",
       "coverage": 5,
       "url": "https://www.hani.co.kr/arti/area/capital/1278503.html"
+    },
+    {
+      "title": "거리 나온 수험생·학부모…\"6시 이후 접수 수시원서 취소하라\"",
+      "publisher": "연합뉴스",
+      "topic": "입시",
+      "type": "news",
+      "coverage": 4,
+      "url": "https://www.yna.co.kr/view/AKR20260919044200530"
     },
     {
       "title": "삼성전자, 교사 500명 노하우 반영한 ‘갤럭시 클래스룸’ 출시",
@@ -140,20 +140,12 @@
       "url": "https://news.unn.net/news/articleView.html?idxno=597573"
     },
     {
-      "title": "동아사이언스 ‘과학동아AiR edu’ 교육부 장관상",
-      "publisher": "동아일보",
-      "topic": "AI교육",
+      "title": "\"시간 지킨 사람만 바보\"…수험생·학부모 거리로 나왔다",
+      "publisher": "SBS",
+      "topic": "입시",
       "type": "news",
       "coverage": 1,
-      "url": "https://news.google.com/rss/articles/CBMiZkFVX3lxTE9IQm0zUFJBU09mUnRKbUJRc0FFd0lNUGUxelNjTUh5NEZTS3ZCTXVUTjZvcG5CX29IVVREY1J6NVNmSno1cXEtMUJRUy05V1FiY1B3T2NoZlhqSG0tZVlNNVJvbGtBUdIBZkFVX3lxTE9IQm0zUFJBU09mUnRKbUJRc0FFd0lNUGUxelNjTUh5NEZTS3ZCTXVUTjZvcG5CX29IVVREY1J6NVNmSno1cXEtMUJRUy05V1FiY1B3T2NoZlhqSG0tZVlNNVJvbGtBUQ?oc=5"
-    },
-    {
-      "title": "’정치자금 필요 녹취’…전북교육감 “법 위반 없어“",
-      "publisher": "연합뉴스",
-      "topic": "정책",
-      "type": "news",
-      "coverage": 1,
-      "url": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTE9SSnRPSmtTclZiMWZBOXAwZEw0ZExkVldwZ2k4TVliVWhncEVUWGFfSDYxYXlsUTJvajRTclV3SHhNejBRalVCV3B0Y0t2V1ZoVGY5RnZ6MHpReVIxaDVSeUV4b01ScEk?oc=5"
+      "url": "https://news.sbs.co.kr/news/endPage.do?news_id=N1008761545"
     },
     {
       "title": "‘사랑이 온다’ 제비 배윤규-교사 정보민, 8년 만에 재회…삼각관계 시작",
@@ -210,6 +202,14 @@
       "type": "news",
       "coverage": 1,
       "url": "https://www.donga.com/news/Society/article/all/20260919/134700388/1"
+    },
+    {
+      "title": "’정치자금 필요 녹취’…전북교육감 “법 위반 없어“",
+      "publisher": "연합뉴스",
+      "topic": "정책",
+      "type": "news",
+      "coverage": 1,
+      "url": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTE9SSnRPSmtTclZiMWZBOXAwZEw0ZExkVldwZ2k4TVliVWhncEVUWGFfSDYxYXlsUTJvajRTclV3SHhNejBRalVCV3B0Y0t2V1ZoVGY5RnZ6MHpReVIxaDVSeUV4b01ScEk?oc=5"
     },
     {
       "title": "중미·카리브 한글학교, AI 시대 한글교육 방안 모색",
