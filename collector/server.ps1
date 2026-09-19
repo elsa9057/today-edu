@@ -1110,6 +1110,9 @@ if ($CollectOnly) {
     Log-Line ("Collector mode PID={0}" -f $PID)
     $b = Build-Briefing
     if ($env:GITHUB_ACTIONS -eq 'true' -and @($b.news).Count -eq 0) { Write-Host 'No news collected - keep previous page.'; exit 1 }
+    # 절반 넘는 소스가 실패한 수집(일시 차단 등)은 게시하지 않고 이전 페이지를 그대로 둡니다.
+    $st = @($b.status); $okN = @($st | Where-Object { $_.ok }).Count
+    if ($env:GITHUB_ACTIONS -eq 'true' -and $st.Count -gt 0 -and $okN -lt [Math]::Ceiling($st.Count * 0.5)) { Write-Host ('Too many sources failed ({0}/{1}) - keep previous page.' -f $okN, $st.Count); exit 1 }
     # 정적 페이지(GitHub Pages)에서 쓰도록 최근 기록도 파일로 남깁니다.
     [IO.File]::WriteAllText((Join-Path $BaseDir 'history.json'), ((Get-History) | ConvertTo-Json -Depth 6), (New-Object System.Text.UTF8Encoding($false)))
   } catch {
