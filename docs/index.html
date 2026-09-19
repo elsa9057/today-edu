@@ -325,6 +325,14 @@ dialog::backdrop{background:rgba(15,18,25,.45)}
 @media (max-width:640px){.xrow{grid-template-columns:44px 64px minmax(0,1fr)}.xrow .p{display:block}.xrow .cv{grid-column:3}}
 html,body{max-width:100%;overflow-x:hidden}
 .row a,.ititle,.issue h3,.issue h4,.col h3,.others li a,.savedlist a{overflow-wrap:anywhere;min-width:0}
+.list .issue{display:block}
+.list .issue .pubs{margin:0 0 10px}
+.list .issue .pubs span{font-size:12px;padding:1px 9px}
+#colSec .note{color:var(--ink2);font-size:14px;margin:0}
+#colSec .col{padding:14px 0}
+#colSec .col h3{font-size:17px;line-height:1.45}
+#colSec .col .by{font-size:13px}
+#colSec .col p{font-size:14.5px;color:var(--ink2)}
 </style>
 </head>
 <body>
@@ -377,6 +385,12 @@ html,body{max-width:100%;overflow-x:hidden}
         <ul class="rows" id="excl"></ul>
       </section>
 
+      <section id="colSec" aria-labelledby="colTitle">
+        <h2 class="sec" id="colTitle">오늘 읽을 칼럼</h2>
+        <p class="secnote">최근 7일 칼럼 중 아직 추천하지 않은 글을 먼저 보여줍니다.</p>
+        <div id="cols"></div>
+      </section>
+
       <section aria-labelledby="allTitle" style="margin-top:42px">
         <h2 class="sec" id="allTitle">전체 기사</h2>
         <p class="secnote">같은 사안은 하나로 묶여 있습니다. <kbd>/</kbd> 키로 바로 검색할 수 있습니다.</p>
@@ -400,10 +414,6 @@ html,body{max-width:100%;overflow-x:hidden}
         <p class="note">제목과 요약에 나오면 형광펜으로 표시합니다. 이름을 누르면 해당 기사만 봅니다. 그래프는 최근 7일 추이입니다.</p>
         <ul class="kws" id="kws"></ul>
         <form class="kwadd" id="kwForm"><label class="sr" for="kwIn">키워드 추가</label><input id="kwIn" placeholder="키워드 추가" maxlength="20"><button class="btn" type="submit">추가</button></form>
-      </div>
-      <div class="box">
-        <h2>오늘 읽을 칼럼</h2>
-        <div id="cols"></div>
       </div>
       <div class="box">
         <h2>저장한 기사 <span id="savedCount" style="color:var(--ink3);font-size:14px;font-weight:600"></span></h2>
@@ -546,7 +556,7 @@ function issueBody(i,idx,lead){
     +(lead?`<h3><a ${link}>${hl(i.title)}</a></h3>`:`<h4><a ${link}>${hl(i.title)}</a></h4>`)
     +sum
     +(basis.length?`<ul class="basis" aria-label="선정 근거">${basis.map(b=>`<li>${esc(b)}</li>`).join('')}</ul>`:'')
-    +(lead&&(i.publishers||[]).length>1?`<div class="pubs" aria-label="보도 매체">${i.publishers.map(p=>`<span>${esc(p)}</span>`).join('')}</div>`:'')
+    +((i.publishers||[]).length>1?`<div class="pubs" aria-label="보도 매체">${i.publishers.map(p=>`<span>${esc(p)}</span>`).join('')}</div>`:'')
     +`<div class="acts"><a class="link" ${link}>원문 열기</a><button class="link${isSaved(i)?' on':''}" type="button" data-save="${idx}">${isSaved(i)?'저장됨':'저장'}</button><label class="pick"><input type="checkbox" data-pick="${idx}"${picked?' checked':''}> 브리핑에 담기</label></div>`
     +(others.length?`<details class="others"><summary>같은 이슈를 다룬 기사 ${others.length}건</summary><ul>${others.map(r=>`<li><span class="p">${esc(r.publisher)}</span><a href="${esc(r.url)}" target="_blank" rel="noopener noreferrer">${hl(r.title)}</a></li>`).join('')}</ul></details>`:'');
 }
@@ -560,7 +570,7 @@ function renderIssues(){
   const L=list[0];
   let h=`<article class="issue lead${cls(L,0)}" id="issue-0" style="--tc:${tcolor(L.topic)}">${issueBody(L,0,true)}</article>`;
   if(list.length>1){
-    h+='<div class="list">'+list.slice(1).map((i,k)=>{const idx=k+1;return `<article class="issue${cls(i,idx)}" id="issue-${idx}" style="--tc:${tcolor(i.topic)}"><div class="gut"><span class="n">${i.coverage_count||1}</span><span class="nl">개 매체</span></div><div>${issueBody(i,idx,false)}</div></article>`}).join('')+'</div>';
+    h+='<div class="list">'+list.slice(1).map((i,k)=>{const idx=k+1;return `<article class="issue${cls(i,idx)}" id="issue-${idx}" style="--tc:${tcolor(i.topic)}">${issueBody(i,idx,false)}</article>`}).join('')+'</div>';
   }
   box.innerHTML=h;
   box.querySelectorAll('[data-open]').forEach(a=>a.addEventListener('click',()=>{markRead(list[+a.dataset.open]);setTimeout(renderAll,50)}));
@@ -635,7 +645,7 @@ function renderColumns(){
   const cols=(d.columns||[]).slice(0,3);
   if(!cols.length){box.innerHTML='<p class="note">오늘은 교육 칼럼으로 확인된 글이 없습니다. 억지로 채우지 않습니다.</p>';return}
   const ageTxt=c=>{const d=c.age_days;if(d==null)return ago(c.published);return d===0?'오늘':d===1?'어제':d+'일 전'};
-  box.innerHTML=cols.map(c=>`<div class="col"><h3><a href="${esc(c.url)}" target="_blank" rel="noopener noreferrer">${hl(c.title)}</a></h3><div class="by">${esc(c.reason||c.publisher)}<span style="margin-left:10px">${esc(ageTxt(c))}</span>${c.shown_before?'<span style="margin-left:10px" title="이전 브리핑에서 추천한 글입니다">지난번 추천</span>':''}</div>${c.summary?`<p>${hl(c.summary)}</p>`:''}</div>`).join('')+'<p class="note" style="margin-top:8px">최근 7일 칼럼 중 아직 추천하지 않은 글을 먼저 보여줍니다.</p>';
+  box.innerHTML=cols.map(c=>`<div class="col"><h3><a href="${esc(c.url)}" target="_blank" rel="noopener noreferrer">${hl(c.title)}</a></h3><div class="by">${esc(c.reason||c.publisher)}<span style="margin-left:10px">${esc(ageTxt(c))}</span>${c.shown_before?'<span style="margin-left:10px" title="이전 브리핑에서 추천한 글입니다">지난번 추천</span>':''}</div>${c.summary?`<p>${hl(c.summary)}</p>`:''}</div>`).join('');
 }
 function renderSaved(){
   $('#savedCount').textContent=state.saved.length?state.saved.length+'건':'';
