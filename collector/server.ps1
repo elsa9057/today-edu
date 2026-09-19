@@ -407,6 +407,9 @@ function Reason-For($item, $relatedItems) {
   return ($parts -join ' · ')
 }
 
+$EduOutlets = @('한국교육신문','에듀프레스','한국대학신문','대학저널','베리타스알파')
+function Is-EduOutlet([string]$p) { return ($EduOutlets -contains (Normalize-Publisher $p)) }
+
 function Convert-FeedItem($node, $feed) {
   $title = HtmlDecode (Get-XmlText $node 'title')
   if ([string]::IsNullOrWhiteSpace($title)) { return $null }
@@ -420,7 +423,20 @@ function Convert-FeedItem($node, $feed) {
   if ([string]::IsNullOrWhiteSpace($dateText)) { $dateText = Get-XmlText $node 'published' }
   $date = Parse-DateSafe $dateText
   $text = "$title $summary"
+  # 사회 섹션 안에서 언론사가 '교육' 분류나 교육 코너 주소로 표시한 기사는 교육 기사로 바로 인정합니다.
+  $cats = @($node.SelectNodes('*[local-name()="category"]') | ForEach-Object { $_.InnerText }) -join ' '
+  $eduMarked = ($cats -match '(교육|학교|입시|대학|Education)') -or ([string]$link -match '(/education/|/edu/|/schooling/|/edu_|section=edu|sid2=250|/교육/)')
+  if ($eduMarked -and ($title -notmatch $EntertainRegex)) {
+    # 통과
+  } else {
   if (-not (Test-Education $text)) { return $null }
+  # 종합지 사회·오피니언 RSS는 교육과 상관없는 기사도 본문에 '학교', '교육' 같은 말이 스치듯 나옵니다.
+  # 교육 전문 매체가 아니면 제목에 교육 단어가 있거나, 요약에 교육 단어가 두 가지 이상 있어야 교육 기사로 봅니다.
+  if (-not (Is-EduOutlet ([string]$feed.publisher)) -and -not (Test-Education $title)) {
+    $hits = @([regex]::Matches((Clean-EduNoise $summary), $EducationRegex) | ForEach-Object { $_.Value } | Select-Object -Unique)
+    if ($hits.Count -lt 2) { return $null }
+  }
+  }
   $declaredType = [string]$feed.type
   $type = 'news'
   if ($declaredType -eq 'column') {
@@ -492,7 +508,12 @@ function Parse-GoogleNewsContent([string]$content,[string]$kind,[string]$expecte
     $desc = Truncate (HtmlDecode (Get-XmlText $n 'description')) 650
     $date = Parse-DateSafe (Get-XmlText $n 'pubDate')
     $text = "$title $desc"
-    if (-not (Test-Education $text)) { continue }
+    $pendingItem = $false
+    if (-not (Test-Education $text)) {
+      # 교육 검색에 걸렸지만 제목에 교육 단어가 없는 기사는 '확인 대기'로 두고, 나중에 언론사 요약을 열어 다시 판단합니다.
+      if ($kind -ne 'news' -or ($title -match $EntertainRegex)) { continue }
+      $pendingItem = $true
+    }
     $type = 'news'
     if ($kind -eq 'column') {
       if (-not (Is-GenuineColumn $title $desc 'column' 'Google News 검색')) { continue }
@@ -504,7 +525,7 @@ function Parse-GoogleNewsContent([string]$content,[string]$kind,[string]$expecte
       title=$title; publisher=$pub; url=(Get-Link $n); raw_summary=''; summary=''
       topic=(Classify-Topic $text); type=$type; published=$date.ToString('o')
       score=(Importance-Score $title $desc $date $type $pub); source='Google News 검색'
-      coverage_count=1; publishers=@($pub)
+      coverage_count=1; publishers=@($pub); pending=$pendingItem
     }
   }
   return $items
@@ -599,25 +620,98 @@ $EnrichScript = {
 }
 
 # 상위 뉴스와 칼럼에 실제 요약과 원문 주소를 채웁니다.
-function Enrich-TopItems($items) {
-  $targets = @($items | Where-Object { $null -ne $_ -and -not [string]::IsNullOrWhiteSpace([string]$_.url) -and ([string]$_.summary_source -ne 'rss' -or (Is-GoogleNewsUrl ([string]$_.url))) })
-  if ($targets.Count -eq 0) { return }
-  $reqs = @()
-  for($i=0; $i -lt $targets.Count; $i++) { $reqs += [pscustomobject]@{ name=("enrich{0}" -f $i); url=[string]$targets[$i].url; idx=$i } }
-  $res = @(Invoke-FetchPool $reqs 4 8 '상위 기사 원문 요약을 가져오는 중입니다.' $EnrichScript)
-  $okDesc = 0; $okUrl = 0
-  foreach($r in $res) {
-    $it = $targets[[int]$r.request.idx]
-    if (-not [string]::IsNullOrWhiteSpace($r.final_url) -and -not (Is-GoogleNewsUrl $r.final_url) -and (Is-GoogleNewsUrl ([string]$it.url))) {
-      $it.url = $r.final_url; $okUrl++
+# ---------- 언론사 요약(og:description) 가져오기: 같은 기사는 다시 요청하지 않도록 기록해 둡니다.
+$EnrichCachePath = Join-Path $ArchiveDir 'enrich-cache.dat'
+$script:EnrichCache = @{}
+function Load-EnrichCache {
+  $script:EnrichCache = @{}
+  try {
+    if (Test-Path $EnrichCachePath) {
+      $o = Get-Content -Raw -Encoding UTF8 $EnrichCachePath | ConvertFrom-Json
+      foreach($p in $o.PSObject.Properties) { $script:EnrichCache[$p.Name] = $p.Value }
     }
-    if ($r.ok -and [string]$it.summary_source -ne 'rss') {
-      $sum = Get-RealSummary ([string]$r.content) ([string]$it.title) ([string]$it.publisher)
-      if ($sum) { $it.summary = $sum; $it.summary_source = 'article'; $okDesc++ }
+  } catch { $script:EnrichCache = @{} }
+}
+function Save-EnrichCache {
+  try {
+    if (-not (Test-Path $ArchiveDir)) { New-Item -ItemType Directory -Path $ArchiveDir -Force | Out-Null }
+    $cut = [DateTimeOffset]::Now.AddDays(-3)
+    $keep = @{}
+    foreach($k in @($script:EnrichCache.Keys)) {
+      $v = $script:EnrichCache[$k]
+      try { if ([DateTimeOffset]::Parse([string]$v.t) -ge $cut) { $keep[$k] = $v } } catch {}
+    }
+    [IO.File]::WriteAllText($EnrichCachePath, ($keep | ConvertTo-Json -Depth 3 -Compress), (New-Object System.Text.UTF8Encoding($false)))
+  } catch { Log-Line ("EnrichCache save fail: {0}" -f $_.Exception.Message) }
+}
+# items의 url마다 {ok, content, final_url}을 돌려줍니다. 기록에 있으면 요청하지 않습니다.
+function Get-Enrichment($items, [string]$label) {
+  $list = @($items)
+  $out = @{}
+  $reqs = @()
+  $now = [DateTimeOffset]::Now
+  for($i=0; $i -lt $list.Count; $i++) {
+    $u = [string]$list[$i].url
+    if ([string]::IsNullOrWhiteSpace($u)) { continue }
+    if ($script:EnrichCache.ContainsKey($u)) {
+      $c = $script:EnrichCache[$u]
+      $fresh = $false
+      try { $fresh = ([bool]$c.ok) -or (($now - [DateTimeOffset]::Parse([string]$c.t)).TotalHours -lt 6) } catch {}
+      if ($fresh) { $out[$i] = [pscustomobject]@{ ok=[bool]$c.ok; content=[string]$c.d; final_url=[string]$c.f; error='cache' }; continue }
+    }
+    $reqs += [pscustomobject]@{ name=("enrich{0}" -f $i); url=$u; idx=$i }
+  }
+  if ($reqs.Count -gt 0) {
+    $res = @(Invoke-FetchPool $reqs 4 8 $label $EnrichScript)
+    foreach($r in $res) {
+      $out[[int]$r.request.idx] = $r
+      $script:EnrichCache[[string]$r.request.url] = [pscustomobject]@{ ok=[bool]$r.ok; d=[string]$r.content; f=[string]$r.final_url; t=$now.ToString('o') }
     }
   }
-  $errs = @($res | Where-Object { -not $_.ok } | Group-Object -Property error | ForEach-Object { "{0}x{1}" -f $_.Count, $_.Name })
-  Log-Line ("Enrich: targets={0}, summaries={1}, resolvedUrls={2}, errors=[{3}]" -f $targets.Count, $okDesc, $okUrl, ($errs -join '; '))
+  Log-Line ("Enrich[{0}]: items={1}, requested={2}, cached={3}" -f $label, $list.Count, $reqs.Count, ($list.Count - $reqs.Count))
+  return $out
+}
+
+function Set-Prop($obj, [string]$name, $value) { $obj | Add-Member -NotePropertyName $name -NotePropertyValue $value -Force }
+
+# 상위 기사에 실제 요약과 원문 주소를 채웁니다.
+function Enrich-TopItems($items, [string]$label = '상위 기사 원문 요약을 가져오는 중입니다.') {
+  $targets = @($items | Where-Object { $null -ne $_ -and -not [string]::IsNullOrWhiteSpace([string]$_.url) -and ([string]$_.summary_source -ne 'rss' -or (Is-GoogleNewsUrl ([string]$_.url))) })
+  if ($targets.Count -eq 0) { return }
+  $res = Get-Enrichment $targets $label
+  foreach($k in @($res.Keys)) {
+    $r = $res[$k]; $it = $targets[[int]$k]
+    if (-not [string]::IsNullOrWhiteSpace([string]$r.final_url) -and -not (Is-GoogleNewsUrl ([string]$r.final_url)) -and (Is-GoogleNewsUrl ([string]$it.url))) { $it.url = [string]$r.final_url }
+    if ($r.ok -and [string]$it.summary_source -ne 'rss') {
+      $sum = Get-RealSummary ([string]$r.content) ([string]$it.title) ([string]$it.publisher)
+      if ($sum) { Set-Prop $it 'summary' $sum; Set-Prop $it 'summary_source' 'article' }
+    }
+  }
+}
+
+# '확인 대기' 기사(교육 검색에 걸렸지만 제목에 교육 단어가 없는 기사)의 언론사 요약을 열어 교육 기사인지 다시 판단합니다.
+function Verify-Pending($pending) {
+  $cand = @($pending | Sort-Object -Property @{Expression='score';Descending=$true} | Select-Object -First 12)
+  $accepted = @()
+  if ($cand.Count -eq 0) { return $accepted }
+  $res = Get-Enrichment $cand '제목만으로 애매한 기사를 확인하는 중입니다.'
+  foreach($k in @($res.Keys)) {
+    $r = $res[$k]; $it = $cand[[int]$k]
+    if (-not $r.ok) { continue }
+    $desc = Get-RealSummary ([string]$r.content) ([string]$it.title) ([string]$it.publisher)
+    if ([string]::IsNullOrWhiteSpace($desc) -or $desc -match $EntertainRegex) { continue }
+    $hits = @([regex]::Matches((Clean-EduNoise $desc), $EducationRegex) | ForEach-Object { $_.Value } | Select-Object -Unique)
+    $need = if (Is-EduOutlet ([string]$it.publisher)) { 1 } else { 2 }
+    if ($hits.Count -lt $need) { continue }
+    $it.pending = $false
+    if (-not [string]::IsNullOrWhiteSpace([string]$r.final_url) -and -not (Is-GoogleNewsUrl ([string]$r.final_url))) { $it.url = [string]$r.final_url }
+    $it.raw_summary = $desc
+    $it.topic = Classify-Topic ("{0} {1}" -f $it.title, $desc)
+    try { $it.score = Importance-Score ([string]$it.title) $desc ([DateTimeOffset]::Parse([string]$it.published)) 'news' ([string]$it.publisher) } catch {}
+    $accepted += $it
+  }
+  Log-Line ("Verify-Pending: candidates={0}, checked={1}, accepted={2}" -f @($pending).Count, $cand.Count, $accepted.Count)
+  return $accepted
 }
 
 # ---------- 날짜별 기록: 어제와 비교해 '새 이슈'를 표시하고, 최근 흐름을 보여주기 위해 저장합니다.
@@ -699,6 +793,94 @@ function Rank-Columns($cols) {
     $c | Add-Member -NotePropertyName rank_score -NotePropertyValue ([Math]::Round(([double]$c.score - 0.4 * $days), 2)) -Force
   }
   return @($cols | Sort-Object -Property @{Expression={ if ($_.shown_before) {1} else {0} }}, @{Expression='rank_score';Descending=$true}, @{Expression='published';Descending=$true})
+}
+
+# ---------- 기사 가치 판단 ----------
+# 행사·수상·협약·출시·기부 같은 동정/보도자료 기사는 주요 이슈에서 뺍니다.
+$RoutineRegex = '(개최|열어|연다|성료|개강|개막|발대식|출범식|기념식|시상식|수료식|입학식|졸업식|설명회|워크숍|세미나|포럼|학술대회|심포지엄|협약|MOU|맞손|손잡|수상|선정|우수기관|최우수|장관상|표창|인증\s?획득|기탁|기부|후원|장학금|성금|출시|선보|론칭|런칭|취임|선임|임명|위촉|모집|공모전|캠페인|봉사활동|체험\s?행사|행사|탐방|방문|도약|수주|고객사|산학협력|체결|교류|견학|초청|특강|발간|출간|펴내)'
+# 사건·갈등·정책 결정처럼 기사 가치가 분명한 표현이 있으면 동정으로 보지 않습니다.
+$HardNewsRegex = '(논란|반발|비판|의혹|사고|사망|숨져|폭행|폭력|고소|고발|소송|위반|수사|조사|감사원|감사\s?결과|특별감사|종합감사|징계|반대|철회|중단|파문|갈등|피해|먹통|혼란|규탄|촉구|사퇴|부실|비리|적발|구속|체포|위협|아동학대|학대\s?(혐의|의혹|신고|사건)|위기|급감|폐교|파업|시위|집회|확정|개편|폐지|도입|시행(?!기관)|발표|개정|법안|예산|삭감|인상|인하|동결|감축|증원|정원|축소|전형|등록금|유출|해킹|침해)'
+
+# 같은 이슈 기사들의 제목이 서로 얼마나 비슷한지(0~1). 보도자료를 그대로 받아쓰면 제목이 거의 같습니다.
+# '○○대, …'처럼 기관·기업 이름으로 시작하는 제목은 대부분 홍보성 기사입니다(정부·국회·단체 발표는 제외).
+$SubjectRegex = '^\s*(?:[\[【][^\]】]*[\]】]\s*)?([^,…"“”''‘’]{2,24}),\s'
+$PublicActorRegex = '(교육부|교육청|교육감|교육위|국교위|국가교육위원회|국회|정부|대통령|총리|장관|차관|의원|의회|위원회|법원|검찰|경찰|감사원|교총|전교조|노조|학부모|시민단체|헌재|헌법재판소|국힘|국민의힘|민주당|정당|교사들|학생들|교원단체|지자체|시장|도지사|군수|구청장|(시|군|도)$)'
+function Test-InstitutionalPR([string]$title) {
+  $m = [regex]::Match($title, $SubjectRegex)
+  if (-not $m.Success) { return $false }
+  return ($m.Groups[1].Value -notmatch $PublicActorRegex)
+}
+
+function Get-TitleUniformity($item) {
+  $titles = @($item.related_articles | Where-Object { $_ } | ForEach-Object { [string]$_.title } | Select-Object -Unique)
+  if ($titles.Count -lt 2) { return 0.0 }
+  $sets = @(); foreach($t in $titles) { $sets += ,(Get-Bigrams (Normalize-Title $t)) }
+  $sum = 0.0; $n = 0
+  for($i=0; $i -lt $sets.Count; $i++) { for($j=$i+1; $j -lt $sets.Count; $j++) {
+    $a = $sets[$i]; $b = $sets[$j]
+    if ($a.Count -eq 0 -or $b.Count -eq 0) { continue }
+    $tmp = New-Object 'System.Collections.Generic.HashSet[string]' -ArgumentList (,$a); $tmp.IntersectWith($b)
+    $u = $a.Count + $b.Count - $tmp.Count
+    if ($u -gt 0) { $sum += $tmp.Count / [double]$u; $n++ }
+  } }
+  if ($n -eq 0) { return 0.0 }
+  return ($sum / $n)
+}
+
+# ---------- 교육적 중요도: 교육 현장 전체에 미치는 의미를 규칙으로 가늠합니다.
+$PolicyActorRegex = '(교육부|교육청|교육감|국회|교육위|국교위|국가교육위원회|정부|대통령실|총리)'
+$PolicyActionRegex = '(확정|도입|폐지|개편|시행|개정|법안|예산|정원|추진|의결|통과|입법|지침|가이드라인|종합계획|대책|방안|로드맵)'
+$LawRegex = '(법안|개정안|시행령|조례|의결|국회 통과|본회의|특별법|입법)'
+$NationalRegex = '(전국|모든 학교|전체 학교|전면|초중고|초·중·고|전국 단위|모든 학생|전 학년)'
+$AdmissionRegex = '(수능|대입|입시|전형|수시|정시|모집요강|학생부|내신|고교학점제|논술|면접)'
+$AdmissionChangeRegex = '(변경|개편|도입|폐지|확대|축소|확정|구제|취소|발표|달라|바뀐|신설|연기|오류|먹통|장애)'
+$IncidentRegex = '(폭행|사망|숨져|숨진|사고|난동|체포|구속|성범죄|불법촬영|흉기|위협|추락|화재|극단적 선택|실종|괴롭힘|고소|총기|폭력|추행|몰래)'
+$FollowupRegex = '(대책|제도|재발\s?방지|교권\s?보호|법\s?개정|개정안|매뉴얼|지침|전수\s?조사|특별법|정책|방안|의무화|강화)'
+$ForeignRegex = '(미국|중국|일본|필리핀|영국|프랑스|독일|호주|캐나다|인도|베트남|태국|러시아|이란|이스라엘|대만|홍콩|멕시코|브라질|美|中|日)'
+
+function Add-Importance($it, [string]$text, [string]$title) {
+  $labels = @(); $delta = 0.0
+  $policy = ($text -match $PolicyActorRegex) -and ($text -match $PolicyActionRegex)
+  $law = ($text -match $LawRegex)
+  if ($policy -or $law) { $delta += 2.0; $labels += '정책·제도 변화' }
+  if ($text -match $NationalRegex) { $delta += 1.0; $labels += '전국 적용' }
+  if (($text -match $AdmissionRegex) -and ($text -match $AdmissionChangeRegex)) { $delta += 1.0; $labels += '입시 영향' }
+  $incident = ($title -match $IncidentRegex)
+  $followup = ($text -match $FollowupRegex)
+  $foreign = ($title -match $ForeignRegex)
+  if ($incident -and $foreign -and -not $followup) { $delta -= 2.5; $labels += '해외 사건' }
+  elseif ($incident -and -not $followup -and -not $policy -and [int]$it.days_seen -eq 0) { $delta -= 1.5; $labels += '단발성 사건' }
+  if ($delta -ne 0) { $it.score = [Math]::Round([double]$it.score + $delta, 2) }
+  # 새 근거와 겹치는 기존 표시는 정리합니다.
+  $old = @(([string]$it.reason) -split ' · ' | Where-Object { $_ })
+  if ($labels -contains '정책·제도 변화') { $old = @($old | Where-Object { $_ -notin @('교육당국 발표·조치 관련','법·제도 변경 관련') }) }
+  if ($labels -contains '입시 영향') { $old = @($old | Where-Object { $_ -ne '입시 일정 관련' }) }
+  Set-Prop $it 'importance' $labels
+  Set-Prop $it 'reason' ((@($labels) + @($old)) -join ' · ')
+}
+
+function Classify-NewsValue($items) {
+  foreach($it in @($items)) {
+    if ($it.type -ne 'news') { continue }
+    $titles = (@($it.title) + @($it.related_articles | ForEach-Object { $_.title }) + @([string]$it.summary) + @([string]$it.raw_summary)) -join ' '
+    $hard = ($titles -match $HardNewsRegex)
+    $routineWord = ([string]$it.title -match $RoutineRegex)
+    $cov = [int]$it.coverage_count
+    $uni = Get-TitleUniformity $it
+    $copy = (($cov -ge 3 -and $uni -ge 0.5) -or ($cov -eq 2 -and $uni -ge 0.7))
+    $routine = ((-not $hard) -and ($routineWord -or (Test-InstitutionalPR ([string]$it.title))))
+    $it | Add-Member -NotePropertyName is_routine -NotePropertyValue $routine -Force
+    $it | Add-Member -NotePropertyName is_copy -NotePropertyValue ($copy -and -not $hard) -Force
+    $it | Add-Member -NotePropertyName uniformity -NotePropertyValue ([Math]::Round($uni,2)) -Force
+    if ($routine) {
+      $it.score = [Math]::Round([double]$it.score - 6.0, 2)
+      $it.reason = (@('동정·보도자료성 기사') + @(([string]$it.reason) -split ' · ' | Where-Object { $_ })) -join ' · '
+    } elseif ($copy -and -not $hard) {
+      $it.score = [Math]::Round([double]$it.score - 2.5, 2)
+      $it.reason = (@(([string]$it.reason) -split ' · ' | Where-Object { $_ }) + @('매체별 제목이 거의 같음')) -join ' · '
+    }
+    if (-not $routine) { Add-Importance $it (Clean-EduNoise $titles) ([string]$it.title) }
+  }
 }
 
 function Get-History {
@@ -975,7 +1157,11 @@ function Build-Briefing {
 
   # 달력 날짜 기준으로 정확히 필터링합니다.
   $window = Get-DateWindowInfo
-  $newsPool = @($all | Where-Object { $_.type -eq 'news' -and (Is-InDateWindow ([string]$_.published) $window.NewsStart $window.End) })
+  Load-EnrichCache
+  $newsPoolAll = @($all | Where-Object { $_.type -eq 'news' -and (Is-InDateWindow ([string]$_.published) $window.NewsStart $window.End) })
+  $newsPool = @($newsPoolAll | Where-Object { -not $_.pending })
+  $pendingPool = @($newsPoolAll | Where-Object { $_.pending })
+  try { $newsPool += @(Verify-Pending $pendingPool) } catch { Log-Line ("Verify FAIL: {0}" -f $_.Exception.Message) }
   # 칼럼은 뉴스보다 수명이 길어 최근 7일(오늘 포함)을 모두 후보로 봅니다.
   $columnStart = ([DateTimeOffset]::Now).Date.AddDays(-6)
   $columnPool = @($all | Where-Object { $_.type -eq 'column' -and (Is-InDateWindow ([string]$_.published) $columnStart $window.End) })
@@ -991,6 +1177,14 @@ function Build-Briefing {
     }
   }
   $clustered=@(); if($dedup.Count -gt 0){$clustered=@(Cluster-Items $dedup)}
+  # 순위를 매기기 전에 상위 후보 20건의 언론사 요약을 먼저 확인해 판단에 씁니다.
+  try { Enrich-TopItems (@($clustered | Where-Object {$_.type -eq 'news'} | Sort-Object -Property @{Expression='score';Descending=$true} | Select-Object -First 20)) '상위 후보 기사를 확인하는 중입니다.' } catch { Log-Line ("PreEnrich FAIL: {0}" -f $_.Exception.Message) }
+  # 며칠째 이어지는 이슈인지 먼저 확인합니다(단발성 사건 판단과 가산점에 씀).
+  $hasHistory = $false
+  $preTop = @($clustered | Where-Object {$_.type -eq 'news'} | Sort-Object -Property @{Expression='score';Descending=$true} | Select-Object -First 60)
+  try { $hasHistory = Mark-Continuity (@($preTop) + @($clustered | Where-Object {$_.type -eq 'column'})) } catch { Log-Line ("Continuity FAIL: {0}" -f $_.Exception.Message) }
+  try { Classify-NewsValue $clustered } catch { Log-Line ("Classify FAIL: {0}" -f $_.Exception.Message) }
+  foreach($it in $preTop) { if ([int]$it.days_seen -gt 0 -and -not $it.is_routine) { $it.score = [Math]::Round([double]$it.score + [Math]::Min(2.4, 0.8 * [int]$it.days_seen), 2) } }
   $newsSorted=@($clustered | Where-Object {$_.type -eq 'news'} | Sort-Object -Property @{Expression='score';Descending=$true}, @{Expression='published';Descending=$true})
   $pubCount=@{}
   $news=@()
@@ -1006,9 +1200,8 @@ function Build-Briefing {
     Log-Line ("Rank-Columns FAIL: {0}" -f $_.Exception.Message)
     $columns=@($columnsRaw | Sort-Object -Property @{Expression='score';Descending=$true}, @{Expression='published';Descending=$true})
   }
-  try { Enrich-TopItems (@($news | Select-Object -First 12) + @($columns | Select-Object -First 5)) } catch { Log-Line ("Enrich FAIL: {0}" -f $_.Exception.Message) }
-  $hasHistory = $false
-  try { $hasHistory = Mark-Continuity (@($news | Select-Object -First 40) + @($columns)) } catch { Log-Line ("Continuity FAIL: {0}" -f $_.Exception.Message) }
+  try { Enrich-TopItems (@($news | Where-Object { -not $_.is_routine } | Select-Object -First 12) + @($columns | Select-Object -First 5)) } catch { Log-Line ("Enrich FAIL: {0}" -f $_.Exception.Message) }
+  Save-EnrichCache
   if (@($news).Count -gt 0) { Save-Archive $news $columns } else { Log-Line 'Archive skipped: no news collected' }
   $columnStartUsed = $columnStart
   $brief=[pscustomobject]@{
