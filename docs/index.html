@@ -173,7 +173,11 @@ mark{background:var(--marker);color:inherit;padding:0 2px;border-radius:3px}
 
 /* ---------- layout ---------- */
 .cols{display:grid;grid-template-columns:minmax(0,1fr) 320px;gap:30px;margin-top:30px;align-items:start}
-@media (max-width:1000px){.cols{grid-template-columns:1fr}}
+@media (max-width:1000px){.cols{grid-template-columns:minmax(0,1fr)}}
+.cols>*,main>section,#issues,.list,.list .issue>div,.issue.lead{min-width:0;max-width:100%}
+svg,img{max-width:100%}
+.wrap{width:100%}
+.acts,.kicker,.basis,.pubs,.chips,.filters{min-width:0;max-width:100%}
 .secnote{color:var(--ink2);font-size:13.5px;margin:4px 0 14px}
 
 /* ---------- issues ---------- */
