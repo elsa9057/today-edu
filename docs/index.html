@@ -333,6 +333,7 @@ html,body{max-width:100%;overflow-x:hidden}
 #colSec .col h3{font-size:17px;line-height:1.45}
 #colSec .col .by{font-size:13px}
 #colSec .col p{font-size:14.5px;color:var(--ink2)}
+.rtag{display:inline-block;font-size:11px;font-weight:700;color:var(--ink3);border:1px solid var(--line);border-radius:4px;padding:0 5px;margin-right:6px;vertical-align:1px}
 </style>
 </head>
 <body>
@@ -521,8 +522,8 @@ function renderMap(){
   const p=(d&&d.progress)||{};
   if(d&&(d.loading||d.refreshing)&&p.total){prog.hidden=false;prog.firstElementChild.style.width=Math.round((p.done||0)/p.total*100)+'%'}else prog.hidden=true;
   if(!d||d.loading){box.innerHTML=`<p style="margin:6px 0 4px">${esc(p.message||'22개 매체를 확인하고 있습니다.')} ${p.total?`(${p.done||0}/${p.total})`:''}</p>`;foot.textContent='처음 실행하면 1~2분 걸립니다.';$('#legend').innerHTML='';return}
-  const top=(d.news||[]).filter(i=>(i.coverage_count||1)>=2).slice(0,8).sort((a,b)=>(b.coverage_count||1)-(a.coverage_count||1));
-  const rows=top.length?top:(d.news||[]).slice(0,6);
+  const top=(d.news||[]).filter(i=>!i.is_routine&&(i.coverage_count||1)>=2).slice(0,8).sort((a,b)=>(b.coverage_count||1)-(a.coverage_count||1));
+  const rows=top.length?top:(d.news||[]).filter(i=>!i.is_routine).slice(0,6);
   if(!rows.length){box.innerHTML='<p>해당 기간에 조건에 맞는 교육 기사가 없습니다. 잠시 뒤 다시 확인해 보세요.</p>';foot.textContent='';$('#legend').innerHTML='';return}
   const pubsIn=new Set();rows.forEach(i=>(i.publishers||[i.publisher]).forEach(p=>pubsIn.add(p)));
   const order=(d.preferred_publishers||Object.keys(SHORT));
@@ -542,7 +543,7 @@ function renderMap(){
 }
 
 /* ---------- issues ---------- */
-function issueList(){return (state.data&&state.data.news||[]).slice(0,10)}
+function issueList(){return (state.data&&state.data.news||[]).filter(i=>!i.is_routine).slice(0,10)}
 function issueBody(i,idx,lead){
   const d=state.data,cov=i.coverage_count||1,picked=state.picked.has(keyOf(i));
   let flag='';
@@ -564,14 +565,10 @@ function renderIssues(){
   const d=state.data,box=$('#issues');
   if(!d||d.loading){box.innerHTML='<div class="empty">수집이 끝나면 주요 이슈가 여기에 정리됩니다.</div>';$('#issuesNote').textContent='';return}
   const list=issueList();
-  $('#issuesNote').textContent=d.public?'보도 매체 수, 교육당국 관련성, 보도 시각을 기준으로 골랐습니다. 내용은 원문에서 확인하세요.':'보도 매체 수, 교육당국 관련성, 보도 시각을 기준으로 골랐습니다. 요약은 언론사가 제공한 문장입니다.';
+  $('#issuesNote').textContent=d.public?'정책·제도 변화, 전국 적용, 입시 영향이 큰 이슈와 여러 매체가 각자 다룬 이슈를 우선했습니다. 단발성 사건은 낮추고, 동정·보도자료 기사는 뺐습니다.':'정책·제도 변화, 전국 적용, 입시 영향이 큰 이슈와 여러 매체가 각자 다룬 이슈를 우선했습니다. 단발성 사건은 낮추고, 동정·보도자료 기사는 뺐습니다. 요약은 언론사가 제공한 문장입니다.';
   if(!list.length){box.innerHTML='<div class="empty">오늘+어제 범위에서 주요 교육뉴스를 찾지 못했습니다.</div>';return}
   const cls=(i,idx)=>`${state.read.has(keyOf(i))?' read':''}${state.cur===idx?' cur':''}`;
-  const L=list[0];
-  let h=`<article class="issue lead${cls(L,0)}" id="issue-0" style="--tc:${tcolor(L.topic)}">${issueBody(L,0,true)}</article>`;
-  if(list.length>1){
-    h+='<div class="list">'+list.slice(1).map((i,k)=>{const idx=k+1;return `<article class="issue${cls(i,idx)}" id="issue-${idx}" style="--tc:${tcolor(i.topic)}">${issueBody(i,idx,false)}</article>`}).join('')+'</div>';
-  }
+  const h='<div class="list">'+list.map((i,idx)=>`<article class="issue${cls(i,idx)}" id="issue-${idx}" style="--tc:${tcolor(i.topic)}">${issueBody(i,idx,false)}</article>`).join('')+'</div>';
   box.innerHTML=h;
   box.querySelectorAll('[data-open]').forEach(a=>a.addEventListener('click',()=>{markRead(list[+a.dataset.open]);setTimeout(renderAll,50)}));
   box.querySelectorAll('[data-save]').forEach(b=>b.onclick=()=>toggleSave(list[+b.dataset.save]));
@@ -590,6 +587,7 @@ function filtered(){
   if(state.pub)list=list.filter(i=>(i.publishers||[i.publisher]).includes(state.pub));
   if(state.kw)list=list.filter(i=>matchKw(i,state.kw));
   if(state.excl)list=list.filter(i=>exclSource(i));
+  if(state.routine)list=list.filter(i=>i.is_routine);
   if(state.q){const q=state.q.toLowerCase();list=list.filter(i=>((i.title||'')+' '+(i.summary||'')+' '+(i.publishers||[]).join(' ')).toLowerCase().includes(q))}
   if(state.sort==='time')list=[...list].sort((a,b)=>Date.parse(b.published)-Date.parse(a.published));
   else if(state.sort==='cov')list=[...list].sort((a,b)=>(b.coverage_count||1)-(a.coverage_count||1)||b.score-a.score);
@@ -598,9 +596,10 @@ function filtered(){
 function renderChips(){
   const all=allItems(),cnt={};all.forEach(i=>cnt[i.topic]=(cnt[i.topic]||0)+1);
   const chips=[['','전체',all.length]].concat(TOPICS.filter(t=>cnt[t]).map(t=>[t,t,cnt[t]]));
-  $('#topicChips').innerHTML=chips.map(([v,l,c])=>`<button type="button" class="chip" data-t="${esc(v)}" aria-pressed="${state.topic===v}">${esc(l)}<span class="c">${c}</span></button>`).join('')+(all.some(i=>exclSource(i))?`<button type="button" class="chip" data-excl aria-pressed="${!!state.excl}">단독<span class="c">${all.filter(i=>exclSource(i)).length}</span></button>`:'')+(state.kw?`<button type="button" class="chip" data-kwclear aria-pressed="true">키워드: ${esc(state.kw)} ✕</button>`:'');
+  $('#topicChips').innerHTML=chips.map(([v,l,c])=>`<button type="button" class="chip" data-t="${esc(v)}" aria-pressed="${state.topic===v}">${esc(l)}<span class="c">${c}</span></button>`).join('')+(all.some(i=>exclSource(i))?`<button type="button" class="chip" data-excl aria-pressed="${!!state.excl}">단독<span class="c">${all.filter(i=>exclSource(i)).length}</span></button>`:'')+(all.some(i=>i.is_routine)?`<button type="button" class="chip" data-routine aria-pressed="${!!state.routine}">동정·보도자료<span class="c">${all.filter(i=>i.is_routine).length}</span></button>`:'')+(state.kw?`<button type="button" class="chip" data-kwclear aria-pressed="true">키워드: ${esc(state.kw)} ✕</button>`:'');
   $('#topicChips').querySelectorAll('[data-t]').forEach(b=>b.onclick=()=>{state.topic=b.dataset.t;state.limit=40;renderChips();renderRows()});
   const xc=$('#topicChips').querySelector('[data-excl]');if(xc)xc.onclick=()=>{state.excl=!state.excl;state.limit=40;renderChips();renderRows()};
+  const rc=$('#topicChips').querySelector('[data-routine]');if(rc)rc.onclick=()=>{state.routine=!state.routine;state.limit=40;renderChips();renderRows()};
   const kc=$('#topicChips').querySelector('[data-kwclear]');if(kc)kc.onclick=()=>{state.kw='';renderAll()};
   const pubs=new Set();all.forEach(i=>(i.publishers||[i.publisher]).forEach(p=>pubs.add(p)));
   const cur=state.pub;$('#pubSel').innerHTML='<option value="">모든 매체</option>'+[...pubs].sort().map(p=>`<option${p===cur?' selected':''}>${esc(p)}</option>`).join('');
@@ -611,7 +610,7 @@ function renderRows(){
   const list=filtered(),show=list.slice(0,state.limit);
   if(!list.length){ul.innerHTML=`<li class="empty">조건에 맞는 기사가 없습니다. ${state.q||state.topic||state.pub||state.kw?'필터를 줄여 보세요.':''}</li>`;$('#moreBtn').hidden=true;return}
   ul.innerHTML=show.map((i,idx)=>{const cov=i.coverage_count||1,read=state.read.has(keyOf(i));
-    return `<li class="row${read?' read':''}"><span class="t">${esc(hhmm(i.published))}</span><span class="p" title="${esc((i.publishers||[]).join(', '))}">${esc(i.publisher)}</span><a class="rowtitle" href="${esc(i.url)}" target="_blank" rel="noopener noreferrer" data-ropen="${idx}" title="${esc(i.summary||'')}">${i.is_new?'<span class="flag-new" style="margin-right:6px">새</span>':''}${hl(i.title)}</a><span><span class="cv${cov>=3?' hot':''}">${cov>1?cov+'곳':''}</span> <button class="star${isSaved(i)?' on':''}" type="button" data-rsave="${idx}" aria-label="${isSaved(i)?'저장 취소':'저장'}">${isSaved(i)?'★':'☆'}</button></span></li>`}).join('');
+    return `<li class="row${read?' read':''}"><span class="t">${esc(hhmm(i.published))}</span><span class="p" title="${esc((i.publishers||[]).join(', '))}">${esc(i.publisher)}</span><a class="rowtitle" href="${esc(i.url)}" target="_blank" rel="noopener noreferrer" data-ropen="${idx}" title="${esc(i.summary||'')}">${i.is_new&&!i.is_routine?'<span class="flag-new" style="margin-right:6px">새</span>':''}${i.is_routine?'<span class="rtag">동정</span>':''}${hl(i.title)}</a><span><span class="cv${cov>=3?' hot':''}">${cov>1?cov+'곳':''}</span> <button class="star${isSaved(i)?' on':''}" type="button" data-rsave="${idx}" aria-label="${isSaved(i)?'저장 취소':'저장'}">${isSaved(i)?'★':'☆'}</button></span></li>`}).join('');
   ul.querySelectorAll('[data-ropen]').forEach(a=>a.addEventListener('click',()=>{markRead(show[+a.dataset.ropen]);setTimeout(renderRows,50)}));
   ul.querySelectorAll('[data-rsave]').forEach(b=>b.onclick=()=>toggleSave(show[+b.dataset.rsave]));
   const mb=$('#moreBtn');mb.hidden=list.length<=state.limit;mb.textContent=`더 보기 (${list.length-state.limit}건 남음)`;
