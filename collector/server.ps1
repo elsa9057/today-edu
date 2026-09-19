@@ -656,7 +656,7 @@ function Get-Enrichment($items, [string]$label) {
     if ($script:EnrichCache.ContainsKey($u)) {
       $c = $script:EnrichCache[$u]
       $fresh = $false
-      try { $fresh = ([bool]$c.ok) -or (($now - [DateTimeOffset]::Parse([string]$c.t)).TotalHours -lt 6) } catch {}
+      try { $fresh = ([bool]$c.ok) -or (($now - [DateTimeOffset]::Parse([string]$c.t)).TotalHours -lt 2) } catch {}
       if ($fresh) { $out[$i] = [pscustomobject]@{ ok=[bool]$c.ok; content=[string]$c.d; final_url=[string]$c.f; error='cache' }; continue }
     }
     $reqs += [pscustomobject]@{ name=("enrich{0}" -f $i); url=$u; idx=$i }
@@ -811,6 +811,8 @@ function Test-InstitutionalPR([string]$title) {
   return ($m.Groups[1].Value -notmatch $PublicActorRegex)
 }
 
+$ConflictRegex = '(논란|반발|비판|의혹|사고|사망|숨져|폭행|폭력|고소|고발|소송|위반|수사|감사원|징계|반대|철회|중단|파문|갈등|피해|먹통|혼란|규탄|촉구|사퇴|부실|비리|적발|구속|체포|위기|폐교|파업|시위|집회|삭감|폐지)'
+
 function Get-TitleUniformity($item) {
   $titles = @($item.related_articles | Where-Object { $_ } | ForEach-Object { [string]$_.title } | Select-Object -Unique)
   if ($titles.Count -lt 2) { return 0.0 }
@@ -862,8 +864,11 @@ function Add-Importance($it, [string]$text, [string]$title) {
 function Classify-NewsValue($items) {
   foreach($it in @($items)) {
     if ($it.type -ne 'news') { continue }
-    $titles = (@($it.title) + @($it.related_articles | ForEach-Object { $_.title }) + @([string]$it.summary) + @([string]$it.raw_summary)) -join ' '
-    $hard = ($titles -match $HardNewsRegex)
+    $titleOnly = (@($it.title) + @($it.related_articles | ForEach-Object { $_.title })) -join ' '
+    $sumText = (@([string]$it.summary) + @([string]$it.raw_summary)) -join ' '
+    $titles = "$titleOnly $sumText"
+    # 요약문은 홍보 기사도 '발표했다', '도입한다'처럼 쓰므로, 요약에서는 갈등·사건 표현만 뉴스 신호로 봅니다.
+    $hard = ($titleOnly -match $HardNewsRegex) -or ($sumText -match $ConflictRegex)
     $routineWord = ([string]$it.title -match $RoutineRegex)
     $cov = [int]$it.coverage_count
     $uni = Get-TitleUniformity $it
