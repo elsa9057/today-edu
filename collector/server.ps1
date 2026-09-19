@@ -92,7 +92,7 @@ function Clean-EduNoise([string]$text) {
   return ($text -replace $EduNoiseRegex, ' ')
 }
 # 드라마·예능 등 연예 기사는 '교사', '학교'가 나와도 교육 뉴스에서 뺍니다.
-$EntertainRegex = '(드라마|로맨스|시청률|주연|예능|캐스팅|OST|웹툰|뮤지컬|아이돌|팬미팅|컴백|첫\s?방송|방송\s?예정|극본|열연|안방극장)'
+$EntertainRegex = '(드라마|로맨스|시청률|주연|예능|캐스팅|OST|웹툰|뮤지컬|아이돌|팬미팅|컴백|첫\s?방송|방송\s?예정|극본|열연|안방극장|재회|삼각관계|러브라인|케미|종영|방영|첫방|본방|회차|월화극|수목극|주말극|금토극|넷플릭스|OTT)'
 function Test-Education([string]$text) {
   if ($text -match $EntertainRegex) { return $false }
   return ((Clean-EduNoise $text) -match $EducationRegex)
