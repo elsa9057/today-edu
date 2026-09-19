@@ -505,7 +505,6 @@ function renderHeader(){
   const news=d.news||[],ok=(d.status||[]).filter(s=>s.ok).length,tot=(d.status||[]).length;
   const nw=news.slice(0,40).filter(i=>i.is_new).length;
   const rows=[['이슈',String(news.length),'']];
-  if(d.has_history)rows.push(['새 이슈',String(nw),nw?'hot':'']);
   if(tot)rows.push(['정상 소스',ok+'/'+tot,'']);
   if(d.generated_at)rows.push(['업데이트',ago(d.generated_at),'']);
   st.innerHTML=rows.map(([k,v,c])=>`<div><dt>${esc(k)}</dt><dd class="${c}">${esc(v)}</dd></div>`).join('');
@@ -533,13 +532,13 @@ function renderMap(){
   let h=`<div class="map" style="--n:${cols.length};--mapmin:${250+cols.length*(B?29:32)+(B?52:144)}px"><div class="mrow head" aria-hidden="true"><span class="h1">이슈</span>`+cols.map(p=>`<span title="${esc(p)}">${esc(SHORT[p]||p)}</span>`).join('')+`<span class="h2">${B?'매체':'보도 매체 수'}</span></div>`;
   rows.forEach(i=>{
     const set=new Set(i.publishers||[i.publisher]),cov=set.size;
-    const label=`${i.is_new?'새 이슈, ':''}${i.title}, ${cov}개 매체: ${[...set].join(', ')}`;
-    h+=`<div class="mrow irow" role="button" tabindex="0" data-idx="${(d.news||[]).indexOf(i)}" aria-label="${esc(label)}" style="--tc:${tcolor(i.topic)};--sh:${shade(cov)}"><div class="it">`+(i.is_new?'<span class="newmark" title="최근 7일 브리핑에 없던 새 이슈">새</span>':'')+(exclSource(i)?'<span class="exmark" title="한 매체의 단독 보도에서 시작된 이슈">단독 출발</span>':'')+`<span class="ititle" title="${esc(i.title)}">${esc(i.title)}</span></div><div class="cells">`+cols.map(p=>`<span class="cell${set.has(p)?' on':''}" title="${esc(p)}"></span>`).join('')+`</div><div class="publine" aria-hidden="true">${cols.filter(p=>set.has(p)).map(p=>`<span>${esc(SHORT[p]||p)}</span>`).join('')}</div><div class="cnt"><i style="--w:${(cov/maxCov).toFixed(3)}"></i><b>${cov}</b></div></div>`;
+    const label=`${i.title}, ${cov}개 매체: ${[...set].join(', ')}`;
+    h+=`<div class="mrow irow" role="button" tabindex="0" data-idx="${(d.news||[]).indexOf(i)}" aria-label="${esc(label)}" style="--tc:${tcolor(i.topic)};--sh:${shade(cov)}"><div class="it">`+(exclSource(i)?'<span class="exmark" title="한 매체의 단독 보도에서 시작된 이슈">단독 출발</span>':'')+`<span class="ititle" title="${esc(i.title)}">${esc(i.title)}</span></div><div class="cells">`+cols.map(p=>`<span class="cell${set.has(p)?' on':''}" title="${esc(p)}"></span>`).join('')+`</div><div class="publine" aria-hidden="true">${cols.filter(p=>set.has(p)).map(p=>`<span>${esc(SHORT[p]||p)}</span>`).join('')}</div><div class="cnt"><i style="--w:${(cov/maxCov).toFixed(3)}"></i><b>${cov}</b></div></div>`;
   });
   box.innerHTML=h+'</div>';
   box.querySelectorAll('.irow').forEach(tr=>{const go=()=>jumpTo(+tr.dataset.idx);tr.onclick=go;tr.onkeydown=e=>{if(e.key==='Enter'){e.preventDefault();go()}}});
   const newCount=(d.news||[]).slice(0,40).filter(i=>i.is_new).length;
-  foot.innerHTML=`<span>${d.has_history?`${B?'제목 앞 빨간 점':'빨간 ‘새’ 표시'}은 최근 7일 브리핑에 없던 이슈입니다. 상위 40개 중 ${newCount}건.`:'내일부터는 전날과 비교해 새로 등장한 이슈를 표시합니다.'}</span><span>${esc(d.news_window_start||'')} ~ ${esc(d.news_window_end||'')}</span>`;
+  foot.innerHTML=`<span></span><span>${esc(d.news_window_start||'')} ~ ${esc(d.news_window_end||'')}</span>`;
 }
 
 /* ---------- issues ---------- */
@@ -547,8 +546,7 @@ function issueList(){return (state.data&&state.data.news||[]).filter(i=>!i.is_ro
 function issueBody(i,idx,lead){
   const d=state.data,cov=i.coverage_count||1,picked=state.picked.has(keyOf(i));
   let flag='';
-  if(i.is_new)flag='<span class="flag-new">새 이슈</span>';
-  else if(i.days_seen>0)flag=`<span>최근 7일 중 ${i.days_seen+1}일째</span>`;
+  if(i.days_seen>0)flag=`<span>최근 7일 중 ${i.days_seen+1}일째</span>`;
   const others=(i.related_articles||[]).filter(r=>r.title!==i.title);
   const basis=basisParts(i).filter(b=>!/개 매체 보도|시간 전 보도/.test(b));
   const link=`href="${esc(i.url)}" target="_blank" rel="noopener noreferrer" data-open="${idx}"`;
@@ -610,7 +608,7 @@ function renderRows(){
   const list=filtered(),show=list.slice(0,state.limit);
   if(!list.length){ul.innerHTML=`<li class="empty">조건에 맞는 기사가 없습니다. ${state.q||state.topic||state.pub||state.kw?'필터를 줄여 보세요.':''}</li>`;$('#moreBtn').hidden=true;return}
   ul.innerHTML=show.map((i,idx)=>{const cov=i.coverage_count||1,read=state.read.has(keyOf(i));
-    return `<li class="row${read?' read':''}"><span class="t">${esc(hhmm(i.published))}</span><span class="p" title="${esc((i.publishers||[]).join(', '))}">${esc(i.publisher)}</span><a class="rowtitle" href="${esc(i.url)}" target="_blank" rel="noopener noreferrer" data-ropen="${idx}" title="${esc(i.summary||'')}">${i.is_new&&!i.is_routine?'<span class="flag-new" style="margin-right:6px">새</span>':''}${i.is_routine?'<span class="rtag">동정</span>':''}${hl(i.title)}</a><span><span class="cv${cov>=3?' hot':''}">${cov>1?cov+'곳':''}</span> <button class="star${isSaved(i)?' on':''}" type="button" data-rsave="${idx}" aria-label="${isSaved(i)?'저장 취소':'저장'}">${isSaved(i)?'★':'☆'}</button></span></li>`}).join('');
+    return `<li class="row${read?' read':''}"><span class="t">${esc(hhmm(i.published))}</span><span class="p" title="${esc((i.publishers||[]).join(', '))}">${esc(i.publisher)}</span><a class="rowtitle" href="${esc(i.url)}" target="_blank" rel="noopener noreferrer" data-ropen="${idx}" title="${esc(i.summary||'')}">${i.is_routine?'<span class="rtag">동정</span>':''}${hl(i.title)}</a><span><span class="cv${cov>=3?' hot':''}">${cov>1?cov+'곳':''}</span> <button class="star${isSaved(i)?' on':''}" type="button" data-rsave="${idx}" aria-label="${isSaved(i)?'저장 취소':'저장'}">${isSaved(i)?'★':'☆'}</button></span></li>`}).join('');
   ul.querySelectorAll('[data-ropen]').forEach(a=>a.addEventListener('click',()=>{markRead(show[+a.dataset.ropen]);setTimeout(renderRows,50)}));
   ul.querySelectorAll('[data-rsave]').forEach(b=>b.onclick=()=>toggleSave(show[+b.dataset.rsave]));
   const mb=$('#moreBtn');mb.hidden=list.length<=state.limit;mb.textContent=`더 보기 (${list.length-state.limit}건 남음)`;
@@ -669,7 +667,7 @@ function buildBrief(){
   let t=`[오늘교육 브리핑] ${now.getMonth()+1}월 ${now.getDate()}일(${days[now.getDay()]})\n`;
   items.forEach((i,n)=>{
     const others=(i.publishers||[]).filter(p=>p!==i.publisher);
-    t+=`\n${n+1}. ${i.title}\n   ${i.publisher}${others.length?` 외 ${others.length}곳 보도`:''}${i.is_new?', 새 이슈':''}\n`;
+    t+=`\n${n+1}. ${i.title}\n   ${i.publisher}${others.length?` 외 ${others.length}곳 보도`:''}\n`;
     if(withSum&&i.summary)t+=`   ${i.summary}\n`;
     if(withLink&&i.url)t+=`   ${i.url}\n`;
   });
