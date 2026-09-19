@@ -1,0 +1,75 @@
+name: collect
+
+on:
+  schedule:
+    # 한국 시각 06:07 ~ 23:37, 30분마다 (GitHub 시각은 UTC라 9시간을 뺍니다)
+    - cron: '7,37 21-23 * * *'
+    - cron: '7,37 0-14 * * *'
+  workflow_dispatch:          # Actions 탭에서 직접 실행
+
+permissions:
+  contents: write             # 하루 한 번 기록 백업
+  pages: write                # 페이지 게시
+  id-token: write
+
+concurrency:
+  group: collect
+  cancel-in-progress: false
+
+jobs:
+  collect:
+    runs-on: ubuntu-latest
+    timeout-minutes: 20
+    environment:
+      name: github-pages
+      url: ${{ steps.deploy.outputs.page_url }}
+    env:
+      TZ: Asia/Seoul
+      TODAYEDU_PUBLIC: '1'
+    steps:
+      - uses: actions/checkout@v4
+
+      - name: 지난 기록 불러오기
+        uses: actions/cache/restore@v4
+        with:
+          path: collector/archive
+          key: archive-${{ github.run_id }}
+          restore-keys: archive-
+
+      - name: 교육뉴스 수집
+        shell: pwsh
+        run: ./collector/server.ps1 -CollectOnly
+
+      - name: 기록 저장
+        uses: actions/cache/save@v4
+        with:
+          path: collector/archive
+          key: archive-${{ github.run_id }}
+
+      - name: 페이지 준비
+        run: |
+          mkdir -p docs/data
+          cp collector/cache.json docs/data/brief.json
+          cp collector/history.json docs/data/history.json
+          tail -n 5 collector/server.log || true
+
+      - uses: actions/configure-pages@v5
+
+      - uses: actions/upload-pages-artifact@v3
+        with:
+          path: docs
+
+      - name: 페이지 게시
+        id: deploy
+        uses: actions/deploy-pages@v4
+
+      - name: 하루 한 번 기록 백업 (23시대 실행 때만)
+        run: |
+          if [ "$(date +%H)" != "23" ]; then echo "백업 시간 아님"; exit 0; fi
+          git config user.name "github-actions[bot]"
+          git config user.email "41898699+github-actions[bot]@users.noreply.github.com"
+          git add -f collector/archive
+          if git diff --cached --quiet; then echo "변경 없음"; exit 0; fi
+          git commit -m "archive $(date +%F)"
+          git pull --rebase
+          git push
