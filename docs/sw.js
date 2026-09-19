@@ -1,5 +1,5 @@
 // 오늘교육: 새 결과를 먼저 받고, 인터넷이 끊기면 마지막으로 받은 결과를 보여줍니다.
-const CACHE = 'todayedu-v8';
+const CACHE = 'todayedu-v10';
 const SHELL = ['./', './index.html', './manifest.webmanifest', './icon-192.png', './icon-512.png'];
 self.addEventListener('install', e => {
   e.waitUntil(caches.open(CACHE).then(c => c.addAll(SHELL)).catch(() => {}));
