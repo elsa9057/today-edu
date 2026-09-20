@@ -1,7 +1,7 @@
 {
   "date": "2026-09-20",
-  "generated_at": "2026-09-20T23:17:59.8583969+09:00",
-  "total": 93,
+  "generated_at": "2026-09-20T23:43:29.8185285+09:00",
+  "total": 94,
   "items": [
     {
       "title": "서울 의대 지원자 10년새 최저…지역의사제·반도체 계약학과 영향",
@@ -65,7 +65,7 @@
       "topic": "정책",
       "type": "news",
       "coverage": 1,
-      "url": "https://www.khan.co.kr/article/202609202000005/amp"
+      "url": "https://www.khan.co.kr/article/202609202000005"
     },
     {
       "title": "멜로니 \"이탈리아 학교서 부르카·니캅 착용 금지 추진\"",
@@ -73,7 +73,7 @@
       "topic": "학교",
       "type": "news",
       "coverage": 3,
-      "url": "https://news.sbs.co.kr/news/endPage.do?news_id=N1008762570&plink=RSSLINK&cooper=GSTAND"
+      "url": "https://news.sbs.co.kr/news/endPage.do?news_id=N1008762570"
     },
     {
       "title": "국회입법조사처 “교육부 가이드북, ‘성소수자’ 삭제 내용 복원 검토해야”",
@@ -82,14 +82,6 @@
       "type": "news",
       "coverage": 1,
       "url": "https://www.hani.co.kr/arti/society/schooling/1278658.html"
-    },
-    {
-      "title": "충남 학교 밖 청소년 41.5% \"자살 생각 경험\"… 전국의 2배",
-      "publisher": "한국일보",
-      "topic": "학교",
-      "type": "news",
-      "coverage": 2,
-      "url": "https://www.hankookilbo.com/news/article/A2026092013230002070"
     },
     {
       "title": "거리 나온 수험생들 “수시 불공정 3명뿐? 교육부가 불신 키워”",
@@ -116,20 +108,12 @@
       "url": "https://www.yna.co.kr/view/AKR20260918178000530"
     },
     {
-      "title": "[자막뉴스] 만 7세 행동, 어디까지가 '학폭'?..'친구 민 초등생' 대법원 판단은",
-      "publisher": "SBS",
+      "title": "충남 학교 밖 청소년 41.5% \"자살 생각 경험\"… 전국의 2배",
+      "publisher": "한국일보",
       "topic": "학교",
       "type": "news",
       "coverage": 1,
-      "url": "https://news.sbs.co.kr/news/endPage.do?news_id=N1008762238"
-    },
-    {
-      "title": "\"90년 난제 푼 AI도 비전 못 세워…대학서 인간지성 가르쳐야\"",
-      "publisher": "한국경제",
-      "topic": "AI교육",
-      "type": "news",
-      "coverage": 1,
-      "url": "https://www.hankyung.com/article/2026092062811"
+      "url": "https://news.google.com/rss/articles/CBMibkFVX3lxTE9RaGFJZU5id3RITzZNZDJWUW9hMldNQVlZeFpWRXFrZHRmUkJmWTJXaWJuenM2UlFtQzg1U2JzSW40eXZma1VFNFdwX01ON3hxUzhuZDAtSGlEd1N4YzNqUmt0blRZNmZKWHdOa0JR0gFzQVVfeXFMUHVBdHlwYXYtaXdqUUhLRXRiSWFVRVAwVG1YaEJfd2x1YXdWYmdxV0VRZXk2TDFrSWpQa1IwM2tJZU9ZSjMzUGdXc29NMnBKRGxaZmdad0ROb2ROVEJMUmdpd0N4YlhyQTh0MTBlcVcyQUtEOA?oc=5"
     },
     {
       "title": "이란 ‘초등학교 오폭’ 참사 뒤엔 미군의 과도한 AI 의존 있었다",
@@ -137,7 +121,7 @@
       "topic": "AI교육",
       "type": "news",
       "coverage": 1,
-      "url": "https://www.khan.co.kr/article/202609202118005"
+      "url": "https://www.khan.co.kr/article/202609202118005/amp"
     },
     {
       "title": "이영자 “대학 등록금 50만원, 자반고등어 팔아 마련했다”",
@@ -172,6 +156,30 @@
       "url": "https://www.yna.co.kr/view/AKR20260918180000530"
     },
     {
+      "title": "[자막뉴스] 만 7세 행동, 어디까지가 '학폭'?..'친구 민 초등생' 대법원 판단은",
+      "publisher": "SBS",
+      "topic": "학교",
+      "type": "news",
+      "coverage": 1,
+      "url": "https://news.sbs.co.kr/news/endPage.do?news_id=N1008762238"
+    },
+    {
+      "title": "\"90년 난제 푼 AI도 비전 못 세워…대학서 인간지성 가르쳐야\"",
+      "publisher": "한국경제",
+      "topic": "AI교육",
+      "type": "news",
+      "coverage": 1,
+      "url": "https://www.hankyung.com/article/2026092062811"
+    },
+    {
+      "title": "미 교사양성기관 IT교육 강화",
+      "publisher": "한국교육신문",
+      "topic": "교사",
+      "type": "news",
+      "coverage": 1,
+      "url": "https://news.google.com/rss/articles/CBMifkFVX3lxTE9WRDVvRmVveTVqTUQ0alNpMXdMSVRtWktuaFFwUThjaERYWldXZjBaRXNyb3BzSG1yM0JlRnF0V0VSWTRvaWhtUERpN0E3SVRjZkxnNkZwMDk4RHRqSzl1MWNDTDZfVkRQV3FjX3FzdUxwRjRJaF9UZXpaRWp1UQ?oc=5"
+    },
+    {
       "title": "’정치자금 필요 녹취’…전북교육감 “법 위반 없어“",
       "publisher": "연합뉴스",
       "topic": "정책",
@@ -181,11 +189,19 @@
     },
     {
       "title": "\"스승의날 함께 사진도 찍었는데\"…제자 딥페이크에 무너진 교권",
-      "publisher": "매일경제",
+      "publisher": "연합뉴스",
       "topic": "교사",
       "type": "news",
       "coverage": 2,
-      "url": "https://news.google.com/rss/articles/CBMiUkFVX3lxTFB4dl80OWFZbDc1WXBsWHIyQXNSXzF4Wk9rdnR3YVRyRjFIcFpaSzlicmFLcXRSZkU4cnp3dmlPaEJPdFNnNW83NXBpbF9pckVmR3c?oc=5"
+      "url": "https://news.google.com/rss/articles/CBMiYEFVX3lxTFBGT0V3el9vNEdTR1hRdUZyT0twVHF2VE1EUVJTZmN1bURRU1lrMHFsVXBoUjRaMF9QSFROUHpFSlE4VTdlUzVmWUxYUGRiVnZkTmJ2eTVxb1UxX2ZYa2hxetIBYEFVX3lxTFBGT0V3el9vNEdTR1hRdUZyT0twVHF2VE1EUVJTZmN1bURRU1lrMHFsVXBoUjRaMF9QSFROUHpFSlE4VTdlUzVmWUxYUGRiVnZkTmJ2eTVxb1UxX2ZYa2hxeg?oc=5"
+    },
+    {
+      "title": "충남 중·고생 17.5% “자살 생각한 적 있어”…학교 밖 더 심각",
+      "publisher": "KBS",
+      "topic": "학교",
+      "type": "news",
+      "coverage": 2,
+      "url": "https://news.google.com/rss/articles/CBMiZkFVX3lxTFBBLTU2aUpkdHpNVjdJMGRRQ0NXUTRXT01EU2ZNRDlMeUFKZUVHOThaWWtsaVByZE54clJUY1R3YTkwcjZQc3pTUXl0MURsWjZJZG5yeklyS1FiaGt0YlNNMFg2VEtlZw?oc=5"
     },
     {
       "title": "대치동 25년 차 입시 컨설턴트의 조언… “수능 서·논술형에 흔들리지 마라”",
@@ -372,14 +388,6 @@
       "url": "https://news.google.com/rss/articles/CBMigAFBVV95cUxNUGhKYmVnTTgzV1VZTGozcW96S0poenpDc0FNZThoRmY4TjJIaGI1SmFVYlhFUDNublJtYkxxYXVCMjJNZVRpLVlTdkpLVGVNQXdlRkZYV0ExcnpZeFA2YkQ3U1dkSEY4blV3Sjc1YUhOcWxxdkNQR3hHWHVQSzd5RA?oc=5"
     },
     {
-      "title": "411개 대학을 연결하는 '힘'",
-      "publisher": "한국대학신문",
-      "topic": "대학",
-      "type": "news",
-      "coverage": 1,
-      "url": "https://news.google.com/rss/articles/CBMipwNBVV95cUxNcnh6eTdOeDMwSnRFMU80VUllRnNlNVFQWVE3M3Z2aENCaVY4NTIyR3dfN3ltYlRTbmNSbjNZOWpDa0taQTF4bW0xS19wWWdKUlZicFlBdVN0bzhLUlFTYndzZy16R0I1cmhET0VrVmtVNUJJTE5ZV01lbThIMmd1RUcxY0VuMHJYMjFCRjhUX0xsNWNQOVVPVVJuNjIxTjhXcHlac3hjRllqSFJiU1dKYkhWb24tSGlDSGsxQ3VLYU5SMnNmVlVONi1YVHBBZXFfX1ZoTElIcldrSkVKYzdiZUpzTnpKVHR6YTJMdU5neVhQZF9yUm43bjdfZkE4aHFZWTBiOWp4RjVPVjNvRFdPVFAtRDZNejdjb3JWT1N0bHJRcDZ3eEoyNTBvQTZvTUhlSEs2N1BBalQ3WDZnVmFDU0ZwNjVZdXllRDFta0xMRnkyaVl3YUR5cmxvOUV2dFlCTUoxeE1RTG5fTm5vZFdFb0l1ay02d0Z5V25IWWxqb2lUMW83WGVqTThPaXh4ZUlTWU53clVHRXZkR1M4Zmo4eUJLQzE0a2M?oc=5"
-    },
-    {
       "title": "대학풋볼/가장 멍청한 플레이 ㅎㅎ",
       "publisher": "동아일보",
       "topic": "대학",
@@ -476,14 +484,6 @@
       "url": "https://news.google.com/rss/articles/CBMiakFVX3lxTFB0UG1Qdy0yR1ZweWhlV1VvY0JaS1Rzb0loZEtNbkdTYmFwVjlQQkQ2b0dKZWtYdnFXeGlOWld5Um1zUmFHS0N6OV94NVEyQzJ3c0VNNUVPX09YRVZaZ1U1VzYyMzNIa2NtNGc?oc=5"
     },
     {
-      "title": "고우림 “손태진은 쳐다볼 수 없던 선배, 학교의 자랑” (불후의 명곡)",
-      "publisher": "경향신문",
-      "topic": "학교",
-      "type": "news",
-      "coverage": 1,
-      "url": "https://news.google.com/rss/articles/CBMiXkFVX3lxTFBWS1ljak5CTll6VFg1YUVZQzJLb0lCNEZGOFlZemZ2RUw1Qi1rSC1QQ2RKVUNrWDctZGpESEdJcHRkUmZOM19wanJBZ2wzdkxidWpSMmtYWWVMU1lvaGfSAWNBVV95cUxPb3Nrd0JOVkprVUdUWFRtaS1YZHNuS3lsM3ZLSURjanpOYXQyYmhDVjJKcE5mWGpYMlBnUmJPODVXaW9OTmRLSmhtU05oWFkyVE9UenhsUms4SF83anVZdUdkWms?oc=5"
-    },
-    {
       "title": "[기고] 산학연 협력 EXPO가 여는 지역의 미래",
       "publisher": "한국경제",
       "topic": "학교",
@@ -506,14 +506,6 @@
       "type": "column",
       "coverage": 1,
       "url": "https://imnews.imbc.com/replay/2026/nwdesk/article/6853036_37004.html"
-    },
-    {
-      "title": "[MBC 뉴스데스크 주요뉴스] 김승원 법무장관 후보 20일 만에 사퇴 \"국민 눈높이 못 미쳐\"‥'추가 의혹' 보도는 부인",
-      "publisher": "MBC",
-      "topic": "학교",
-      "type": "column",
-      "coverage": 1,
-      "url": "https://imnews.imbc.com/news/2026/society/article/6853017_36918.html"
     },
     {
       "title": "일본은 왜 ‘북조선’이라고 부를까 [특파원 칼럼]",
@@ -562,6 +554,14 @@
       "type": "column",
       "coverage": 1,
       "url": "https://news.google.com/rss/articles/CBMiVkFVX3lxTE1HOXBfXzBGZXM3UGQyT19HS0p2MGhBMWw5NG5kOVhVRGxlQzN3QW1rQVhzSmJzdzk4MEp3b2I1TlJyLWk4anhqUlJ3b1JIWEYwbm5Jc1ZR?oc=5"
+    },
+    {
+      "title": "[사설] 피해자 보호 안중에 없는 여당의 ‘검수완박 원리주의’",
+      "publisher": "중앙일보",
+      "topic": "학교",
+      "type": "column",
+      "coverage": 1,
+      "url": "https://news.google.com/rss/articles/CBMiVkFVX3lxTE1yMGJtUXhuUmJaTVlDeUFiNG91ajVueUtheC1jQ1Vqd0k0MVZJSGJYRGJ3UXh3UGN6T3l3cmQ2VGpyRFFJVWVYdnh0YUpUUjdqRWo4TDVR?oc=5"
     }
   ]
 }
