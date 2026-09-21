@@ -1,6 +1,6 @@
 {
   "date": "2026-09-21",
-  "generated_at": "2026-09-21T23:22:55.0781517+09:00",
+  "generated_at": "2026-09-21T23:48:51.4759653+09:00",
   "total": 252,
   "items": [
     {
@@ -52,14 +52,6 @@
       "url": "https://primary.ebs.co.kr/educerti/contents/ebsnews/view?encodingSeq=60770958"
     },
     {
-      "title": "김영희 경기도의원, 경기도교육청 ‘명예교권보호전담관’ 위촉",
-      "publisher": "서울신문",
-      "topic": "교사",
-      "type": "news",
-      "coverage": 4,
-      "url": "https://go.seoul.co.kr/news/newsView.php?id=20260921500271"
-    },
-    {
       "title": "필리핀 또 학교 총기 난사 3명 사망·8명 부상...\"살인 사건 동아리 회원\"",
       "publisher": "YTN",
       "topic": "학교",
@@ -100,14 +92,6 @@
       "url": "https://www.edupress.kr/news/articleView.html?idxno=30479"
     },
     {
-      "title": "충북교육청, 교육행정업무에 인공지능 도입 추진",
-      "publisher": "KBS",
-      "topic": "AI교육",
-      "type": "news",
-      "coverage": 1,
-      "url": "https://news.kbs.co.kr/news/pc/view/view.do?ncd=8668589"
-    },
-    {
       "title": "전교조 부산지부 \"통학차량 업무 교육청으로 이관해야\"",
       "publisher": "연합뉴스",
       "topic": "교사",
@@ -121,7 +105,7 @@
       "topic": "입시",
       "type": "news",
       "coverage": 3,
-      "url": "https://news.google.com/rss/articles/CBMidkFVX3lxTFBMRVd6LUJhbnZJVnRybGxlb1RIdXFYVTRZUFRocnpBQmhhNUc3dXFEQ3JVbVplNXFIaUpXREpYRmhva0doM3d3Mkl1UTNkVldpY3l0d3EySXlLZVltc0FyWGtVSDZudTlEZ2tpS3phbEF1WWlDSlE?oc=5"
+      "url": "https://m.ytn.co.kr/news_view.amp.php?param=0101_202609211827274600"
     },
     {
       "title": "복지부, 연내 복지·돌봄 AI 대전환 로드맵 발표",
@@ -172,14 +156,6 @@
       "url": "https://www.yna.co.kr/view/AKR20260921115851052"
     },
     {
-      "title": "정현미 의원 대표발의 「경기도교육청 교육기부 활성화에 관한 조례 전부개정조례안, 본회의 통과",
-      "publisher": "서울신문",
-      "topic": "정책",
-      "type": "news",
-      "coverage": 1,
-      "url": "https://news.google.com/rss/articles/CBMiakFVX3lxTE1ubGd1Q0VyYk1PSXlxZnRMQTBhOERZaVZLa3V4ckpkODFuVUhwYm5iNGcwN05VMXRDYTNwZDJlQms0eURQTHBBMnp0M1hDSVJTQlRzVnM0cUc1ZUpEbkx5c0s5Ym1Eek84MGc?oc=5"
-    },
-    {
       "title": "메가프로젝트 연계 교육과정 논의… 산업계 대학교육 혁신포럼",
       "publisher": "한국대학신문",
       "topic": "AI교육",
@@ -197,11 +173,19 @@
     },
     {
       "title": "충북교육청, AI 기술 활용 등 학교 업무경감 사례 공모",
-      "publisher": "매일경제",
+      "publisher": "연합뉴스",
       "topic": "AI교육",
       "type": "news",
       "coverage": 2,
-      "url": "https://stock.mk.co.kr/news/view/1162602"
+      "url": "https://www.yna.co.kr/view/AKR20260921024900064"
+    },
+    {
+      "title": "정현미 의원 대표발의 「경기도교육청 교육기부 활성화에 관한 조례 전부개정조례안, 본회의 통과",
+      "publisher": "서울신문",
+      "topic": "정책",
+      "type": "news",
+      "coverage": 1,
+      "url": "https://news.google.com/rss/articles/CBMiakFVX3lxTE1ubGd1Q0VyYk1PSXlxZnRMQTBhOERZaVZLa3V4ckpkODFuVUhwYm5iNGcwN05VMXRDYTNwZDJlQms0eURQTHBBMnp0M1hDSVJTQlRzVnM0cUc1ZUpEbkx5c0s5Ym1Eek84MGc?oc=5"
     },
     {
       "title": "'울산여상·미용예술고 통합 추진' 울산교육청, 의견 수렴",
@@ -249,7 +233,7 @@
       "topic": "AI교육",
       "type": "news",
       "coverage": 1,
-      "url": "https://news.google.com/rss/articles/CBMiX0FVX3lxTFBuS3lJQ3hBZlcwYlBUU0stNG1CNk50ZFU5MkxSdFRjZDFrUm1BWDFiMnlSal80VVFjcEhqUkVLdWxLUUdOMTdQem4wNE03RGJOaDJMYjhDaVZHbEJUempj?oc=5"
+      "url": "https://news.google.com/rss/articles/CBMiWkFVX3lxTFBKa2V4MnFnQ0xBUnl0ZTlKNlJwTTZTZ2ZMblQtaE11dTdraWFQbkFTck8tb0xKcG1ReTczMHlrOG1lQjlRVXdTZVVoVTFIVlN0eElNN2lwTGsxd9IBX0FVX3lxTFBuS3lJQ3hBZlcwYlBUU0stNG1CNk50ZFU5MkxSdFRjZDFrUm1BWDFiMnlSal80VVFjcEhqUkVLdWxLUUdOMTdQem4wNE03RGJOaDJMYjhDaVZHbEJUempj?oc=5"
     },
     {
       "title": "한·홍콩 학생 200여명, AI 주제로 영어 발표 대회 성료",
@@ -268,14 +252,6 @@
       "url": "https://news.google.com/rss/articles/CBMijwFBVV95cUxQVExWNm9pcnlBNEs0TmFSUFJMQUJoRWhyRTJJbEd0WDY0MW9GelNGcHJadDFqMEZ1dXNWM3ZZVUNNRFZkVUhuMHpXbG5oZGJxZFUxRFAyQnBkT2wza0xUbzVOWnR1RTJFQlVLck9QT0NaSDlRN1F4ckg3M3dhSEszb2YwMkc4NWFsSkxBTWZPNA?oc=5"
     },
     {
-      "title": "유아 무상교육, 서울시교육청 - 사립유치원 갈등 왜?",
-      "publisher": "에듀프레스",
-      "topic": "정책",
-      "type": "news",
-      "coverage": 1,
-      "url": "https://www.edupress.kr/news/articleView.html?idxno=30478"
-    },
-    {
       "title": "이소희 ‘1호 법안’은 1형 당뇨 학생 치료권…“수업 중 혈당 확인 보장”",
       "publisher": "조선일보",
       "topic": "정책",
@@ -290,14 +266,6 @@
       "type": "news",
       "coverage": 1,
       "url": "https://news.unn.net/news/articleView.html?idxno=597640"
-    },
-    {
-      "title": "중학생이 SNS에 교사 신상·욕설…부모는 '아동학대' 신고",
-      "publisher": "연합뉴스",
-      "topic": "교사",
-      "type": "news",
-      "coverage": 2,
-      "url": "https://www.yna.co.kr/view/AKR20260921159300061"
     },
     {
       "title": "“방송인 조나단과 문화 경험 소통”… 서울시교육청, 교직원 대상 교육공동체 문화다양성 콘서트",
@@ -316,12 +284,36 @@
       "url": "https://news.google.com/rss/articles/CBMia0FVX3lxTE5iV2F4SDBWQ0VJSDMzeUV5blNJcXk0VHd3MkxBenQ0NW9uNldrM3g5RjdCblRqRFBRRlpqWXJoaDBNRGJfRHNmTXFXUGo1SlZKeEM1QlNndmR5WlV1LU5KQ2R4dDNIazd6RXdJ?oc=5"
     },
     {
+      "title": "유아 무상교육, 서울시교육청 - 사립유치원 갈등 왜?",
+      "publisher": "에듀프레스",
+      "topic": "정책",
+      "type": "news",
+      "coverage": 1,
+      "url": "https://www.edupress.kr/news/articleView.html?idxno=30478"
+    },
+    {
+      "title": "중학생이 SNS에 교사 신상·욕설…부모는 '아동학대' 신고",
+      "publisher": "연합뉴스",
+      "topic": "교사",
+      "type": "news",
+      "coverage": 2,
+      "url": "https://www.yna.co.kr/view/AKR20260921159300061"
+    },
+    {
       "title": "국립공주대 앵커사업단 논산여고에서 'AI 교육' 첫 현장 수업",
       "publisher": "베리타스알파",
       "topic": "AI교육",
       "type": "news",
       "coverage": 2,
       "url": "https://news.google.com/rss/articles/CBMibEFVX3lxTE5TUVRaSFVRUVN2azFEa0cwdFNyUDBnQTUwdHd6VGdXaHJRaFRNVG5QUWt3bl9kcGZERG9YbWhUQnVIZ1RoblVzWDdXX29Rei1BMDRwZ1o0Y0lMbGpEQ0JlMkJjcUkxdG16OF9PNw?oc=5"
+    },
+    {
+      "title": "’생활 지도’에 불만…SNS에 교사 개인 정보·욕설 올린 여중생",
+      "publisher": "연합뉴스",
+      "topic": "교사",
+      "type": "news",
+      "coverage": 1,
+      "url": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTFBlY1FsakJxVkJKS0xqTjVWdXVzc2tCV2c1S0stNXF2eTRCanZoMVFhMXkyT1pTa25JSkxia0VlMmstT1JGYkNOMWtRZlVhNHV2ZWV1WU9TWXFPcGFuZW5TbnQyUVJTRlU?oc=5"
     },
     {
       "title": "서울과기대 전임교원 1인당 SCI급/SCOPUS 논문 실적 '전국 국공립대학 1위'",
@@ -420,12 +412,12 @@
       "url": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTE9kTC1VWjFPZlhHVGZLT2ZaQnNELThocGRQSjNORksxcTlUYlFFSldwOTJpMnB5SGw5Y0ZxSXQ5X1RTQjdaYUw1cldrREVidHZEanVpVFdRWmhoQ3RjS010b1BOcXE3OE0?oc=5"
     },
     {
-      "title": "AI·반도체 뜨자 '공대 교수' 사외이사 증가",
-      "publisher": "한국경제",
-      "topic": "AI교육",
+      "title": "경복대학교, 대학생 노리는 불법 다단계·피싱 특수판매분야 차단… 피해 예방교육 성료",
+      "publisher": "조선일보",
+      "topic": "대학",
       "type": "news",
-      "coverage": 1,
-      "url": "https://www.hankyung.com/article/2026092189711"
+      "coverage": 3,
+      "url": "https://news.google.com/rss/articles/CBMijAFBVV95cUxQazRNMTBFVV9odHdoemxsX01YSldzS1pfNlhtZzB3SVdFYy1yQzNtM041OEc0OVNhUUF0VDRTcEZtU05EelNnOU5pNVR6dUhOVjFXYjMzQnd5MnNSSjJNalJDOVdhQXJia01aZmpScmR2UlRlMnctdlRRZzBHQVVCY0l6UjdPV2IzWFNqMQ?oc=5"
     },
     {
       "title": "“어린이집 또 학대”…동료 교사들 묵인 말아야",
@@ -433,7 +425,7 @@
       "topic": "교사",
       "type": "news",
       "coverage": 1,
-      "url": "https://news.google.com/rss/articles/CBMiZkFVX3lxTE9zWGkzcTR3aVpmci1KRjNJY0dfVXJNRHBXclE2Q0l6U3ZHZzh6VUxHNWt6d0lqTHdzSy1BbThnemVuYlYyM183QWVtSVRpOUNCTmVFRWlmaG5ZLWk3VDZlUUllOWJTdw?oc=5"
+      "url": "https://news.google.com/rss/articles/CBMiW0FVX3lxTE5lLTRkX1E1OFl4MWFhN2NnZDJBdlI1YnZUSmJSZl9xZWc3RzkwSW1CaWlEUzUyVU01VzAwNnVRUzZzMWFxemxyOWlLNlNYaHNaQ0VpMEI3X1J5ZWs?oc=5"
     },
     {
       "title": "수도권 국립대도 등록금 없애라 [왜냐면]",
@@ -452,20 +444,20 @@
       "url": "https://news.google.com/rss/articles/CBMilgFBVV95cUxPNHRwNkhKdW5qelJCZFlUdHpnYmZrOUZKN01xNzFrbGJVRDVDWlNXZ2FDSTdvTXhHWlpSUWVWb1lqQ2E3MjVfRUNQaWZYRTd3WnNkOFhRRWgyNlBPNEVzSlJWZ3RvV0E2UE1UdUdGOVlqQ1g4SXBUWGZDZU53ald5OHBTUjR3V1VVZEJvUjMxU0JQbGMtYVE?oc=5"
     },
     {
-      "title": "’생활 지도’에 불만…SNS에 교사 개인 정보·욕설 올린 여중생",
-      "publisher": "연합뉴스",
-      "topic": "교사",
-      "type": "news",
-      "coverage": 1,
-      "url": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTFBlY1FsakJxVkJKS0xqTjVWdXVzc2tCV2c1S0stNXF2eTRCanZoMVFhMXkyT1pTa25JSkxia0VlMmstT1JGYkNOMWtRZlVhNHV2ZWV1WU9TWXFPcGFuZW5TbnQyUVJTRlU?oc=5"
-    },
-    {
       "title": "장동혁 “수시 먹통은 예견된 사고…교육부 장관 책임 물을 것”",
       "publisher": "매일경제",
       "topic": "입시",
       "type": "news",
       "coverage": 1,
       "url": "https://news.google.com/rss/articles/CBMiRkFVX3lxTFAyOGxiTmo3S2RtTk5pTUZZUHBVOFpja29XSDRzZzJSUHlKeWV3Y0dWcUx1RjhxR0NuUjBOWmI5anFMdlBxZnc?oc=5"
+    },
+    {
+      "title": "김영희 경기도의원, 경기도교육청 ‘명예교권보호전담관’ 위촉",
+      "publisher": "서울신문",
+      "topic": "교사",
+      "type": "news",
+      "coverage": 3,
+      "url": "https://go.seoul.co.kr/news/newsView.php?id=20260921500271"
     },
     {
       "title": "[재수 반수 대신 편입 100] 개편앞둔 2027수시 마감에 '편입학의 역설'",
@@ -482,6 +474,14 @@
       "type": "news",
       "coverage": 1,
       "url": "https://www.veritas-a.com/news/articleView.html?idxno=629040"
+    },
+    {
+      "title": "\"입학 준비 이렇게\"…전북교육청, 예비 초등생 학부모학교 운영",
+      "publisher": "연합뉴스",
+      "topic": "정책",
+      "type": "news",
+      "coverage": 1,
+      "url": "https://news.google.com/rss/articles/CBMiW0FVX3lxTE45SXZ0WkJiZFZfel9xelNPUmtPLVo3QjRzX1ZkTlFKeG9NeDRBS0tJdjljcy12WHEyNEFvQUxGRHh1MDMxd0tmUlN4RjlfdUZPME5mXzVWRUdwMUHSAWBBVV95cUxQazBQN3FXak9kcENnRW1fRjRDd0VNa2JtSWRKclg2YTJaTm1Ndm43SVd3NHpOMWlGb1M0dHcwR0RiZUlOdHh3d0FmbS1BN29QYkFSOTJrY0M5WUhuU1JKUkk?oc=5"
     },
     {
       "title": "[사설] 대입 원서접수의 ‘주인’이 없다",
