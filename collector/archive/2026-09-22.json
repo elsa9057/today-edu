@@ -1,6 +1,6 @@
 {
   "date": "2026-09-22",
-  "generated_at": "2026-09-22T23:21:02.1683639+09:00",
+  "generated_at": "2026-09-22T23:49:45.8980829+09:00",
   "total": 216,
   "items": [
     {
@@ -20,12 +20,28 @@
       "url": "https://www.donga.com/news/Society/article/all/20260922/134719555/1"
     },
     {
+      "title": "국립공주대 앵커사업단 논산여고에서 'AI 교육' 첫 현장 수업 - veritas-a.com",
+      "publisher": "베리타스알파",
+      "topic": "AI교육",
+      "type": "news",
+      "coverage": 5,
+      "url": "https://www.veritas-a.com/news/articleView.html?idxno=628926"
+    },
+    {
       "title": "중국인 유학생 살해 뒤 전국 곳곳에 시신 유기···정창성 구속기소",
       "publisher": "경향신문",
       "topic": "해외교육",
       "type": "news",
       "coverage": 8,
       "url": "https://www.khan.co.kr/article/202609211647001/amp"
+    },
+    {
+      "title": "순천대 국립의대 후보 추천 법정공방… 목포대 집행정지 신청 첫 심문",
+      "publisher": "한국일보",
+      "topic": "학교",
+      "type": "news",
+      "coverage": 5,
+      "url": "https://www.hankookilbo.com/news/article/A2026092216060002057"
     },
     {
       "title": "美조지아에 아틀라스 '로봇학교' 가동",
@@ -124,22 +140,6 @@
       "url": "https://news.unn.net/news/articleView.html?idxno=597876"
     },
     {
-      "title": "[단독][2027정시] 39개 의대 984명 모집 '7명 감소'.. 역대 최대 N수생, 개편전 마지막수능 ‘안정지원 촉각’",
-      "publisher": "베리타스알파",
-      "topic": "입시",
-      "type": "news",
-      "coverage": 1,
-      "url": "https://www.veritas-a.com/news/articleView.html?idxno=629284"
-    },
-    {
-      "title": "순천대 국립의대 후보 추천 법정공방… 목포대 집행정지 신청 첫 심문",
-      "publisher": "한국일보",
-      "topic": "학교",
-      "type": "news",
-      "coverage": 5,
-      "url": "https://www.hankookilbo.com/news/article/A2026092216060002057"
-    },
-    {
       "title": "전북대 교수회 “서울대 10개 만들기, 평가 기준·결과 투명하게 공개해야”",
       "publisher": "한국대학신문",
       "topic": "대학",
@@ -197,11 +197,11 @@
     },
     {
       "title": "충북교육청, AI 기술 활용 등 학교 업무경감 사례 공모",
-      "publisher": "매일경제",
+      "publisher": "연합뉴스",
       "topic": "AI교육",
       "type": "news",
       "coverage": 2,
-      "url": "https://news.google.com/rss/articles/CBMiUkFVX3lxTE1lSC1HelEyNmxESUNJTXpKa0pZQVFhRDBnYksxWFktdWkxeC0xWHZUMHFXTWJCOE4wdC1yWURxZDlnZnN1dVpZZF9HT25hU1RZOUE?oc=5"
+      "url": "https://news.google.com/rss/articles/CBMiW0FVX3lxTE1pOHVrckVmcHQwdHdscHZiWExweVY3U3kza2RNazlHQ1pSOHM2N3FNd3RQeGphLVc2X0Y4c1VJSDhOSVFMN0N6LXhqdUxFSG04ckVFN2xLZFA5Q0nSAWBBVV95cUxNT0Z5RDMwdWRYOTExY3hrRDV5SlpiNk9XZ2QtQ1lPSVlPSWNWNWNFOG1nbEtfcmN1MXpHUmpieWR1TGdWUC03RXhNRTc4bXUtRVFudVlnMnRQSWpVY2s2MzM?oc=5"
     },
     {
       "title": "대법관 재제청 요구-거부, 헌정사상 처음",
@@ -244,7 +244,7 @@
       "url": "https://news.google.com/rss/articles/CBMiUkFVX3lxTE1PLU5idm5pYzh4SUV6WjdQZTN3MU5WUTdVUGdOLXdvcEdiLWUxYjg2UnlxTzg5alcwYmlOZVFNUExIM1lXSk8zWl8xWU5QanF3VlE?oc=5"
     },
     {
-      "title": "전북대 보육교직원 200여명 전문성 강화.. '전국 첫 B형 자율교육과정 도입'",
+      "title": "전북대 보육교직원 200여명 전문성 강화.. '전국 첫 B형 자율교육과정 도입' - veritas-a.com",
       "publisher": "베리타스알파",
       "topic": "교사",
       "type": "news",
@@ -268,14 +268,6 @@
       "url": "https://news.google.com/rss/articles/CBMiW0FVX3lxTFBlYjlNbEZOTzhMSHlHQnBKOHMzUHZ0QnhqVXdqcTBIelhnR3R0NV9OQlkwTm1yZGoyQTB6WW9IcWdhOHdCdkhWMlVMTzFQMzZ0SDdXSFFhWnBDV1HSAWBBVV95cUxPU09LT0pLUmFOTHNhWWFiZlhfNlJQM012Qm5NbzJWNUhMRWxGSVpXcHdrUUVGQk9TLTFRQ01RMk1qbDA2eHZQZFl0cUhFdERLQVhtZzRkdHF3Q1NWNXRJNjk?oc=5"
     },
     {
-      "title": "한세대 2027수시경쟁률 9.18대1 '상승'.. 공연예술전공 23.44대1 '최고'",
-      "publisher": "베리타스알파",
-      "topic": "입시",
-      "type": "news",
-      "coverage": 2,
-      "url": "https://www.veritas-a.com/news/articleView.html?idxno=629286"
-    },
-    {
       "title": "교과서 ‘동학 지우기’에 뿔난 전북교육청",
       "publisher": "경향신문",
       "topic": "정책",
@@ -292,12 +284,12 @@
       "url": "https://news.google.com/rss/articles/CBMickFVX3lxTFBOdUdMX0NRRjE1bGhYZUFQNkc0WXFtNnNMMF9TMG1oS3hDd1JYNDZ3eHlUUTRSUk95a0xhQTRjc2twYnkzcmNWcjRXS2lBMGpsc2d2SFB6ZzBvYkRYTXA0QTlLMHY3WGEwaXlncDlwTnA2Zw?oc=5"
     },
     {
-      "title": "경북교육청·경북경찰청, 학교폭력 예방 ‘두드림팀’ 운영",
-      "publisher": "동아일보",
-      "topic": "정책",
+      "title": "예산 줄고 활용도 낮고…AI교과서 85% ↓",
+      "publisher": "경향신문",
+      "topic": "AI교육",
       "type": "news",
       "coverage": 1,
-      "url": "https://news.google.com/rss/articles/CBMickFVX3lxTE1OT0xHQ3RGbXlWUy1KdXJLR00zSzJsTnNiR3F6eUJDaGE2Rjc2N3d5VUZpanpxMzZVaG1HOE4zOThjMkdydmRtLU9iYm85cjZweHllZW5RcS1wVV9qdmxMQzZzcHZ3MDRYTE1KZEV2a2RWdw?oc=5"
+      "url": "https://news.google.com/rss/articles/CBMiX0FVX3lxTFBuS3lJQ3hBZlcwYlBUU0stNG1CNk50ZFU5MkxSdFRjZDFrUm1BWDFiMnlSal80VVFjcEhqUkVLdWxLUUdOMTdQem4wNE03RGJOaDJMYjhDaVZHbEJUempj?oc=5"
     },
     {
       "title": "한·홍콩 학생 200여명, AI 주제로 영어 발표 대회 성료",
@@ -364,20 +356,12 @@
       "url": "https://news.google.com/rss/articles/CBMiakFVX3lxTE1QVVk4TktwZHVjSjQxTlkxOElJNmt0YzVONUVId1oxVi1WWTJ5eWlYRWdRb203S2RtYjFNT1pqb1lYNkJJT0NjR19sMjNMdmNDN2NrMlRRMDdpRFZrSko1aU1naGNidXpQUUE?oc=5"
     },
     {
-      "title": "경성대 대학일자리플러스센터 지역 청년 대상 'AI 활용 실무마스터 양성교육' 무료 실시",
-      "publisher": "베리타스알파",
-      "topic": "AI교육",
-      "type": "news",
-      "coverage": 2,
-      "url": "https://news.google.com/rss/articles/CBMibEFVX3lxTE5CRHVVUGFBTkRoTy1lVk1yRnowa19ScGxCNF9NQXVkV3RZQTh0X05DcFVPRnhoOFc5bXV1cnQ3YmJERmlwUzk0NHJueGkwb0tZblEwZlNraWp2OFJPSzZVWTlwc2VKN1lZcWY4Yw?oc=5"
-    },
-    {
-      "title": "[단독] '자사고부터 외고 국제고 일반고까지' 2027하반기 고입 설명회 총정리..'막판 고입 점검'",
-      "publisher": "베리타스알파",
-      "topic": "학교",
+      "title": "경북교육청·경북경찰청, 학교폭력 예방 ‘두드림팀’ 운영",
+      "publisher": "동아일보",
+      "topic": "정책",
       "type": "news",
       "coverage": 1,
-      "url": "https://www.veritas-a.com/news/articleView.html?idxno=629283"
+      "url": "https://news.google.com/rss/articles/CBMickFVX3lxTE1OT0xHQ3RGbXlWUy1KdXJLR00zSzJsTnNiR3F6eUJDaGE2Rjc2N3d5VUZpanpxMzZVaG1HOE4zOThjMkdydmRtLU9iYm85cjZweHllZW5RcS1wVV9qdmxMQzZzcHZ3MDRYTE1KZEV2a2RWdw?oc=5"
     },
     {
       "title": "[입시의 정석] 합격 가르는 수시 면접…준비 전략은?",
@@ -394,14 +378,6 @@
       "type": "news",
       "coverage": 1,
       "url": "https://news.unn.net/news/articleView.html?idxno=597819"
-    },
-    {
-      "title": "예산 줄고 활용도 낮고…AI교과서 85% ↓",
-      "publisher": "경향신문",
-      "topic": "AI교육",
-      "type": "news",
-      "coverage": 1,
-      "url": "https://news.google.com/rss/articles/CBMiX0FVX3lxTFBuS3lJQ3hBZlcwYlBUU0stNG1CNk50ZFU5MkxSdFRjZDFrUm1BWDFiMnlSal80VVFjcEhqUkVLdWxLUUdOMTdQem4wNE03RGJOaDJMYjhDaVZHbEJUempj?oc=5"
     },
     {
       "title": "이소희 ‘1호 법안’은 1형 당뇨 학생 치료권…“수업 중 혈당 확인 보장”",
@@ -484,6 +460,30 @@
       "url": "https://www.veritas-a.com/news/articleView.html?idxno=629277"
     },
     {
+      "title": "호서대 'AI반디차기술투자협회' 출범…기술창업과 투자 연결",
+      "publisher": "베리타스알파",
+      "topic": "AI교육",
+      "type": "news",
+      "coverage": 1,
+      "url": "https://www.veritas-a.com/news/articleView.html?idxno=629259"
+    },
+    {
+      "title": "\"분위기 망치지 말자\"… 딥페이크 피해 교사에 '졸업앨범 촬영' 요구한 학교",
+      "publisher": "한국일보",
+      "topic": "교사",
+      "type": "news",
+      "coverage": 1,
+      "url": "https://news.google.com/rss/articles/CBMibkFVX3lxTE5rYjVzcUctOUkyMHBHdWRTalM2LTVIVUpxZG9xSTlPZjd2djhReTVoVkRjb0Ffc3paN0E2RUhzSkt2eVY0SDdZUWNEcW9oWGdvZG1LMF9uWFVrSEswZ3V1dXF1WUN6RC00STh1aUJn0gFzQVVfeXFMT2FSLTV3WF8xZFRSUU1iZUNlNWVNVHRla2NTR1NZTDZ3RGoxYXhKSUNQWUhteTV5RG5seS0zekN0Mnp0OUFQM0N4NUliajlYUkd5NThQV3c4QVc4U3hPdS1kUVU5MWp3Rlkzckhza3FHaXJ4aw?oc=5"
+    },
+    {
+      "title": "“어린이집 또 학대”…동료 교사들 묵인 말아야",
+      "publisher": "KBS",
+      "topic": "교사",
+      "type": "news",
+      "coverage": 1,
+      "url": "https://news.google.com/rss/articles/CBMiZkFVX3lxTFAxUjMxbjJkalBtdmdZVXdBTnA4QzBOX2pYRjExdENDSmoxMi02LTVoRXBFZFNIYkdPZnItcHpIc1dxdVo1by16eFQ0aUdvekgxZTlBX18yc1NVTkJrNldueG5jVjlpdw?oc=5"
+    },
+    {
       "title": "[월요논단] AI 시대 교육 ‘답’보다 ‘생각’ 물어야",
       "publisher": "한국교육신문",
       "topic": "AI교육",
@@ -508,7 +508,7 @@
       "url": "https://www.hangyo.com/news/article.html?no=109335"
     },
     {
-      "title": "[입시용어 따라잡기] 후기고 지원방법",
+      "title": "[입시용어 따라잡기] 후기고 지원방법 - veritas-a.com",
       "publisher": "베리타스알파",
       "topic": "입시",
       "type": "column",
@@ -522,6 +522,14 @@
       "type": "column",
       "coverage": 1,
       "url": "https://www.joongang.co.kr/article/25463842"
+    },
+    {
+      "title": "[김형구의 시시각각] 법무장관, 대통령 충복 아니다",
+      "publisher": "중앙일보",
+      "topic": "학교",
+      "type": "column",
+      "coverage": 1,
+      "url": "https://news.google.com/rss/articles/CBMiVkFVX3lxTE94emZUYTlzOHVyVjhmUENwbjFFOHZZaUZKWEM0eTBvbkRQOXhLdl95WVJhSjFHRi0wY3V5cDJ0ODNfV3RmZVBZbmdTT1czRmhOZ29WWndn?oc=5"
     },
     {
       "title": "[특별기고] 희귀질환 치료 걱정 없는 나라, 정부가 답할때",
@@ -546,14 +554,6 @@
       "type": "column",
       "coverage": 1,
       "url": "https://news.google.com/rss/articles/CBMibkFVX3lxTE4tYkNVNHNQQUNzdHlZNWpDdkRDc2xoSXJ1U240amRoeWZ6LXljVFFweXRvc3RNT0xCX09abXhuUW5GWXQ5Vm9jaW9mbnp4bTdEZEl0THZ4RjBVZHJQTkgxdUZsV1dRNW96bEpkN3pn0gFzQVVfeXFMTUM2VUpYNGNnZ2hjMHhZeWVKcTlDYlJ0R25ZS21USUZhY1ZydjNBWDhjMUt0SU00UndFTTR1cFZ0NXVXaUhxTFc5RmExU0RZYjRkcGg2anBDVzlwdDdhMlpXY0FmbUpXTEthYkxkR0hiWFFvRQ?oc=5"
-    },
-    {
-      "title": "[사설]홀몸 치매 노인 20만… 국가책임제 10년에 여전한 돌봄 공백",
-      "publisher": "동아일보",
-      "topic": "학교",
-      "type": "column",
-      "coverage": 1,
-      "url": "https://news.google.com/rss/articles/CBMidkFVX3lxTE1PNEw0eWhhaWYzZzNQRFI4YkRwc01KbXRiamV1bEdEWFRVSUpNUklMWFdIeWlyQ0ZsQWVtT0ItVEVpZGhRWkhncWplRTZiaXZmSHBLSnpFQVhjMFMyTmtZV0JRMlFKTE10UVFOamZnNXBDemt3UlHSAWZBVV95cUxNdWlJSmJzbFhPLTJwQVd4aDl5SGZUYmJ3RXE0U0NpWWNXWVZwVVZnSmI2S3BkM0txcmdvc21Kb2RzaVRLYmxTQUQyOGV1Z2dSakR3c1FfVjFiTjI0OGRWTWw2NzdsU2c?oc=5"
     },
     {
       "title": "“1년 단위 계약하고, 중개료 떠넘기고”… 서울시, 불공정 부동산 중개 행위 단속",
