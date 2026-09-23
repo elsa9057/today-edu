@@ -1,7 +1,7 @@
 {
   "date": "2026-09-23",
-  "generated_at": "2026-09-23T23:21:56.0853564+09:00",
-  "total": 206,
+  "generated_at": "2026-09-23T23:48:11.3603559+09:00",
+  "total": 207,
   "items": [
     {
       "title": "[와글와글 플러스] 콩주머니 던지다 '꽈당'‥2년 뒤 교사 고소",
@@ -124,14 +124,6 @@
       "url": "https://www.yna.co.kr/view/RPR20260923007400353"
     },
     {
-      "title": "[인사 교육부] 전남광주부교육감 심민철 .. 세종부교육감 이윤홍",
-      "publisher": "에듀프레스",
-      "topic": "AI교육",
-      "type": "news",
-      "coverage": 3,
-      "url": "https://www.edupress.kr/news/articleView.html?idxno=30480"
-    },
-    {
       "title": "세종교육청, '교육활동 보호 책임지원제' 도입…법률 지원 강화",
       "publisher": "연합뉴스",
       "topic": "정책",
@@ -148,12 +140,28 @@
       "url": "https://www.veritas-a.com/news/articleView.html?idxno=629481"
     },
     {
+      "title": "[인사 교육부] 전남광주부교육감 심민철 .. 세종부교육감 이윤홍",
+      "publisher": "에듀프레스",
+      "topic": "AI교육",
+      "type": "news",
+      "coverage": 3,
+      "url": "https://www.edupress.kr/news/articleView.html?idxno=30480"
+    },
+    {
       "title": "정근식 서울시교육감, 싱가포르 교육부 장관과 교육 협력 방안 논의",
       "publisher": "연합뉴스",
       "topic": "정책",
       "type": "news",
       "coverage": 2,
       "url": "https://news.google.com/rss/articles/CBMiW0FVX3lxTE5pTWoxV0JQYWdSR011OERNY0pkaFV6VUJ6akNqS18tbFFMUmFmdU0wd180Y3NmeFpMSEw1MXJ5YTR4azJ0aENCZGYwaDF4Z3RhdXp3X1J1bTR1THM?oc=5"
+    },
+    {
+      "title": "“교육교부금 개편 종합적 영향 투명 공개해야”",
+      "publisher": "한국교육신문",
+      "topic": "정책",
+      "type": "news",
+      "coverage": 1,
+      "url": "https://www.hangyo.com/news/article.html?no=109412"
     },
     {
       "title": "천 전북교육감 \"일부 초등 교과서, 동학혁명 누락 적극 대응\"",
@@ -300,14 +308,6 @@
       "url": "https://news.google.com/rss/articles/CBMiW0FVX3lxTE1hdjFlT3FzUUh0MFpSOGhvVlpmZXZPOU9zYkNjb0Y1NzVzUy1OYmY4X0hwcVhPR3ZCbWF3aU1vX29QUWVfSDk5WEFmazhsNHAwWjFOLUpyWjZ6aHc?oc=5"
     },
     {
-      "title": "부산 외국인 유학생 급증…7년 만에 2배 증가",
-      "publisher": "한겨레",
-      "topic": "학교",
-      "type": "news",
-      "coverage": 4,
-      "url": "https://news.google.com/rss/articles/CBMiZEFVX3lxTE9EQkdiZjNrM1I1Vk9xaHRNNnZ1TnZPOFEzemNxLUh6TzFRc0VoRnd5Q2IzclFiSmE0SkhJTlE0Tko2SEg2YjNRcUdBbFhkM2pxd2J5UlV0cXpsN0tXZ2kyc2FRcUw?oc=5"
-    },
-    {
       "title": "여고생 앞에서 음란행위…대전 도솔산 ‘바바리맨’ 검거",
       "publisher": "동아일보",
       "topic": "학교",
@@ -322,6 +322,14 @@
       "type": "news",
       "coverage": 1,
       "url": "https://news.google.com/rss/articles/CBMibEFVX3lxTE1OOTU3VXhJZk9tYUVGLTVOX3ViUkNudHUwc3lLa3RzNW12NVJjSkRSQ0t5NHh5VXVuaENDRWQ0RHZOcmttdmcxT3RJbURyckh1NTFsUXdWdktJejhZYzJFa0c3dTNISzJIdkU1WA?oc=5"
+    },
+    {
+      "title": "부산 외국인 유학생 급증…7년 만에 2배 증가",
+      "publisher": "한겨레",
+      "topic": "학교",
+      "type": "news",
+      "coverage": 4,
+      "url": "https://news.google.com/rss/articles/CBMiZEFVX3lxTE9EQkdiZjNrM1I1Vk9xaHRNNnZ1TnZPOFEzemNxLUh6TzFRc0VoRnd5Q2IzclFiSmE0SkhJTlE0Tko2SEg2YjNRcUdBbFhkM2pxd2J5UlV0cXpsN0tXZ2kyc2FRcUw?oc=5"
     },
     {
       "title": "대학 등록금 감면 조건 충족했어도…흡연 학생 자격 박탈 '논란'",
@@ -354,6 +362,14 @@
       "type": "news",
       "coverage": 1,
       "url": "https://news.unn.net/news/articleView.html?idxno=597912"
+    },
+    {
+      "title": "김현우 서울시의원, 성동구 학교 교육환경 개선 예산 219억원 확정",
+      "publisher": "서울신문",
+      "topic": "정책",
+      "type": "news",
+      "coverage": 1,
+      "url": "https://news.google.com/rss/articles/CBMiU0FVX3lxTE11eHREaExjTjJFNk4yb0VER1pxZUtnNDBxWWE5YTc3RjdrNjFiTmNuUWJRTzJiT3J5bG9fcW9QM3JKdy1QYUlJNGFnMDR2a01TWG04?oc=5"
     },
     {
       "title": "저출산·높은 집값에...영국 런던 초등학교 폐교 속출",
@@ -428,14 +444,6 @@
       "url": "https://www.veritas-a.com/news/articleView.html?idxno=629469"
     },
     {
-      "title": "김현우 서울시의원, 성동구 학교 교육환경 개선 예산 219억원 확정",
-      "publisher": "서울신문",
-      "topic": "정책",
-      "type": "news",
-      "coverage": 1,
-      "url": "https://news.google.com/rss/articles/CBMiU0FVX3lxTE11eHREaExjTjJFNk4yb0VER1pxZUtnNDBxWWE5YTc3RjdrNjFiTmNuUWJRTzJiT3J5bG9fcW9QM3JKdy1QYUlJNGFnMDR2a01TWG04?oc=5"
-    },
-    {
       "title": "서울교육청 신청사, 학생 아이디어로 꾸민다…프로젝트 시작",
       "publisher": "연합뉴스",
       "topic": "정책",
@@ -460,14 +468,6 @@
       "url": "https://news.google.com/rss/articles/CBMiWkFVX3lxTE5GcVItZUhBODBYQ3hVLTJnNlBrSU4wRDdmLWFsUng1Tm1wZ1N5cW5WOWNCNkhSaUJacmFlaTFJMWNpb2E4ZXdLQWlKeVgtVXVtM1RHcHg4cXZlZw?oc=5"
     },
     {
-      "title": "‘휴원 학원 빌려주고 수익 챙겨’…경찰, 입시학원 대표 송치",
-      "publisher": "KBS",
-      "topic": "입시",
-      "type": "news",
-      "coverage": 1,
-      "url": "https://news.google.com/rss/articles/CBMiZkFVX3lxTFBpckpPU0ZkTjc1REZMUnZ6Wmc3b3BfWXFXM1Jxa2VCZXNXS2RaYTRQYkFybUNIWnZRWDRlRjVaUThvTlVHdDVtbkt0TlJndU4yU0g0aHlsU1lRdmJPaWYwbGNzdmJ1Zw?oc=5"
-    },
-    {
       "title": "“한복 입고 투호 던져요”… 동의과학대 유학생들, 풍성한 ‘추석 전통문화 체험’",
       "publisher": "동아일보",
       "topic": "학교",
@@ -490,6 +490,14 @@
       "type": "column",
       "coverage": 1,
       "url": "https://www.hani.co.kr/arti/opinion/column/1279168.html"
+    },
+    {
+      "title": "[사설] 청소년 자살률 급증 ‘사회적 재난’으로 대응해야",
+      "publisher": "한겨레",
+      "topic": "학교",
+      "type": "column",
+      "coverage": 1,
+      "url": "https://www.hani.co.kr/arti/opinion/editorial/1279315.html"
     },
     {
       "title": "[여적]여명학교",
@@ -521,7 +529,7 @@
       "topic": "학교",
       "type": "column",
       "coverage": 1,
-      "url": "https://www.hankookilbo.com/news/article/A2026092209440005811"
+      "url": "https://news.google.com/rss/articles/CBMibkFVX3lxTFBpczdZWjlOeXY4MDJEODdkbXdsa2FPQ2N2dDBTSk5XRmZDZzVfLWFvYTQyRjVmblBIR1gwbzFPX0Z2aGNIX1d3eS16N3NRd2tpdzhzd1AzRXBVRWpfSll4bzQzR09kT0VaaHVybXhn0gFzQVVfeXFMTUZWZlVDRHdFUDhFNmt6NjJzcHVkdjFCbEUzTUtXVnBLRHpTakNpbGYtNWRKTkkwLUtpNVdXODVDUlF0STM1RGxuT2ZIMUthOTdvcXRQc28wUFd5NXpXYzNqak1laDgzQXNTa25NR2l2eWlkTQ?oc=5"
     },
     {
       "title": "[입시용어 따라잡기] 후기고 지원방법",
@@ -554,14 +562,6 @@
       "type": "column",
       "coverage": 1,
       "url": "https://news.google.com/rss/articles/CBMiZkFVX3lxTE5nb3NCdVhUa3dyOERaWGVVcDhILVBTN1NXeUJjWUJoOXdWdDlCcWZXVTRVbl92MUlnTHVqNzExbk54YnBKSUFWV1JEbC1qNTJ3SGdERUt3ZEszZWtGMVFwYXMtZWc2UQ?oc=5"
-    },
-    {
-      "title": "[기고]‘서울대 10개’ 만들기, 헌법적으로 정당한가",
-      "publisher": "경향신문",
-      "topic": "학교",
-      "type": "column",
-      "coverage": 1,
-      "url": "https://news.google.com/rss/articles/CBMiX0FVX3lxTFBydHEyRkNTcU5rNGNwdEFheXdJcjRKSnA5MHVNNUU1azB5R3ZQZFFkeXBweXZoYTlKNUZ4VzhWY2hZZ1M0NUcxVEZYOU9ScnBNQW0zbEhqOENROWZKdy0w0gFfQVVfeXFMUHJ0cTJGQ1NxTms0Y3B0QWF5d0lyNEpKcDkwdU01RTVrMHlHdlBkUWR5cHB5dmhhOUo1RnhXOFZjaFlnUzQ1RzFURlg5T1JycE1BbTNsSGo4Q1E5Zkp3LTA?oc=5"
     }
   ]
 }
