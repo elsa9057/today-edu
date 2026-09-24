@@ -1,7 +1,7 @@
 {
   "date": "2026-09-24",
-  "generated_at": "2026-09-24T23:21:13.2171976+09:00",
-  "total": 160,
+  "generated_at": "2026-09-24T23:49:01.8364031+09:00",
+  "total": 161,
   "items": [
     {
       "title": "경기교육청, 추석 연휴 교육기관·학교 등 주차장 1500여 곳 개방",
@@ -396,6 +396,14 @@
       "url": "https://www.hankyung.com/article/2026092451807"
     },
     {
+      "title": "'딥페이크 주의보'에 졸업 촬영도 위축",
+      "publisher": "EBS",
+      "topic": "학교",
+      "type": "news",
+      "coverage": 1,
+      "url": "https://news.google.com/rss/articles/CBMimwFBVV95cUxOSkRaclI3ZzlzR3FFaUlFdjZnOGlWa2kxU21lUEFGcEptOTAySGFyMHdVc3M0LVRqNThJN1BWZDdJTWl0R2JzalhXTGdUN1pOS3FMMHFFNXRYUFVuSkVndERGVzF4dkRrbHZkaUVrRzBwd3loQ3RLUkl0X2RMNkRxejU2VzF6QWU1NHREc2YyUTk1TnFzSjd4UWxDWQ?oc=5"
+    },
+    {
       "title": "세종대, 내달 1일 커리어 페어·국제포럼… 외국인 유학생 취업·교육 해법 모색",
       "publisher": "서울신문",
       "topic": "학교",
@@ -476,12 +484,12 @@
       "url": "https://news.google.com/rss/articles/CBMiWkFVX3lxTE5GcVItZUhBODBYQ3hVLTJnNlBrSU4wRDdmLWFsUng1Tm1wZ1N5cW5WOWNCNkhSaUJacmFlaTFJMWNpb2E4ZXdLQWlKeVgtVXVtM1RHcHg4cXZlZw?oc=5"
     },
     {
-      "title": "[에디터픽] '나만의 기술'로 승부…교사 포기하고 목수 선택한 이유",
-      "publisher": "SBS",
-      "topic": "교사",
-      "type": "news",
+      "title": "\"추석이 무서워요, 00 때문에\" 웃기고 짠한 정치인들의 명절24시 (20260924 목요일 추석특집1) 김영호 김준혁 조계원",
+      "publisher": "경향신문",
+      "topic": "학교",
+      "type": "column",
       "coverage": 1,
-      "url": "https://news.google.com/rss/articles/CBMiakFVX3lxTE16Vm5mUHN1MlplME4zeW13MlhLcDNVanVhWmlUQkdqUEltbFFrcHdaNHZ0UkxYNWMyT05sU1ZCenlGd0RqdGczWERKSlg1d3g1RTEwV0wtVnRhMlUzV0lBTHZrN1VIUHRFcHfSAWZBVV95cUxNTlBOVE42bFJWSlczcFF1S3E1dWJ4Vnd0bVBQa05aOTFaU05OQTBpOXpZSGVpQkk4SUdmdkd0cnhOMWZuSjdWRkN0VEV0UEJ2VzgxcmpIWWpqdUZvOU01OEE4Mm5EdkE?oc=5"
+      "url": "https://www.khan.co.kr/video/article/202609241600001"
     },
     {
       "title": "잘했다 박위…이제 일어나 KTX 코레일과 싸우길 [세상읽기]",
@@ -492,20 +500,20 @@
       "url": "https://www.hani.co.kr/arti/opinion/column/1279352.html"
     },
     {
-      "title": "진보로 향하는 길 [기고]",
-      "publisher": "한국일보",
-      "topic": "학교",
-      "type": "column",
-      "coverage": 1,
-      "url": "https://www.hankookilbo.com/news/article/A2026092215470001355"
-    },
-    {
       "title": "반도체 호황의 결실과 청년 창의력 [기고]",
       "publisher": "한국일보",
       "topic": "학교",
       "type": "column",
       "coverage": 1,
       "url": "https://www.hankookilbo.com/news/article/amp/A2026092214570000881"
+    },
+    {
+      "title": "진보로 향하는 길 [기고]",
+      "publisher": "한국일보",
+      "topic": "학교",
+      "type": "column",
+      "coverage": 1,
+      "url": "https://www.hankookilbo.com/news/article/A2026092215470001355"
     },
     {
       "title": "[중앙시평] 여의도의 깨진 유리창",
@@ -521,7 +529,7 @@
       "topic": "학교",
       "type": "column",
       "coverage": 1,
-      "url": "https://www.joongang.co.kr/article/25464583"
+      "url": "https://news.google.com/rss/articles/CBMiVkFVX3lxTE9sMkpmRjdpc182V0N6SWNSYzVKMU1SUzVxQV83dzZtZGdxRWZvN05mdVgyQno5Z1hfdEcyZUROR2E4LXAyUDNyYXNKVHRtQi1PbXJqX3BR?oc=5"
     },
     {
       "title": "[사설] 대법관 제청 파문, 특정인 고집 벗어나야 문제 풀린다",
@@ -532,12 +540,12 @@
       "url": "https://news.google.com/rss/articles/CBMiVkFVX3lxTFAxWGl1dHVoQTVsZEdaOHdUNlZsQlNIdWk1U1NQbVAzRFBRLTNyS0dSUnh0cmFYazdoVGFvWHAtNjdaTEFac0d1NF9qNllodTJtRkczMWNn?oc=5"
     },
     {
-      "title": "‘혐오’라는 괴물을 만난 여명학교 교장께 드리는 글 [논설실 Pick]",
+      "title": "다시 ‘혐오’라는 괴물을 만난 여명학교 조명숙 교장께 [논설실 Pick]",
       "publisher": "매일경제",
       "topic": "학교",
       "type": "column",
       "coverage": 1,
-      "url": "https://news.google.com/rss/articles/CBMiUkFVX3lxTE9Kb2s5UkI5U1I1amtkeVRCMExPUW0yWXY4Wnk3TkNXRjhsM2xNOTFuc3JnQ09GTkx1MlVuRkFBakRIOUQxRTRVMnpKMzl3YW83UXc?oc=5"
+      "url": "https://news.google.com/rss/articles/CBMiRkFVX3lxTFBoZGJoNzY1cHlQR09sS1NUN1VsOExYTVhFODc5LVFtZUgwYi1YZkR6U2VHX0NvdDdhUDNpdHVzZTFNMUVET0E?oc=5"
     },
     {
       "title": "에너지 대전환, '사람' 인프라를 준비하자 [기고]",
@@ -554,14 +562,6 @@
       "type": "column",
       "coverage": 1,
       "url": "https://news.google.com/rss/articles/CBMibEFVX3lxTFBSazA3aHg5MVRMU0lZTk1hYzZNV0dTZ29ldjJ6WFhnMEFhdUUycXRJYS00cUQtczl0emRWZ1JDMUpaN19yMVhXdE9BSlRMUEZPcUxWcnBFNEZ2M0JrOUgtVzRZSkU3aFlUNnNrTA?oc=5"
-    },
-    {
-      "title": "미국 민주주의는 왜 흔들리나…후쿠야마 ‘역사의 종말’ 37년[김학준 칼럼]",
-      "publisher": "한국대학신문",
-      "topic": "대학",
-      "type": "column",
-      "coverage": 1,
-      "url": "https://news.google.com/rss/articles/CBMiZkFVX3lxTE5nb3NCdVhUa3dyOERaWGVVcDhILVBTN1NXeUJjWUJoOXdWdDlCcWZXVTRVbl92MUlnTHVqNzExbk54YnBKSUFWV1JEbC1qNTJ3SGdERUt3ZEszZWtGMVFwYXMtZWc2UQ?oc=5"
     }
   ]
 }
