@@ -1,16 +1,8 @@
 {
   "date": "2026-09-27",
-  "generated_at": "2026-09-27T23:18:44.6570905+09:00",
-  "total": 84,
+  "generated_at": "2026-09-27T23:44:59.2321852+09:00",
+  "total": 85,
   "items": [
-    {
-      "title": "수능 서·논술형 평가 도입 어떻게?.. 국회 토론회 연다",
-      "publisher": "에듀프레스",
-      "topic": "입시",
-      "type": "news",
-      "coverage": 2,
-      "url": "https://www.edupress.kr/news/articleView.html?idxno=30482"
-    },
     {
       "title": "특수교육 대상 학생 느는데…가르칠 교사는 4600명 부족",
       "publisher": "매일경제",
@@ -18,6 +10,14 @@
       "type": "news",
       "coverage": 4,
       "url": "https://m.mk.co.kr/amp/12162035"
+    },
+    {
+      "title": "수능 서·논술형 평가 도입 어떻게?.. 국회 토론회 연다",
+      "publisher": "에듀프레스",
+      "topic": "입시",
+      "type": "news",
+      "coverage": 2,
+      "url": "https://www.edupress.kr/news/articleView.html?idxno=30482"
     },
     {
       "title": "걱정 쏟아진 수능 서·논술 도입...학생만 '환영'",
@@ -60,14 +60,6 @@
       "url": "https://www.yna.co.kr/view/MYH20260926013700038"
     },
     {
-      "title": "기금으로 주식·채권투자…등록금 면제한 美하버드",
-      "publisher": "한국경제",
-      "topic": "대학",
-      "type": "news",
-      "coverage": 1,
-      "url": "https://www.hankyung.com/article/2026092776421"
-    },
-    {
       "title": "후티 공격 이어지는 사우디…\"리야드 내 학교, 원격수업 전환\"",
       "publisher": "연합뉴스",
       "topic": "학교",
@@ -76,12 +68,12 @@
       "url": "https://www.yonhapnewstv.co.kr/news/AKR20260927171655qvW"
     },
     {
-      "title": "얼큰하게 속 달래는 서울대입구역국밥. 보승회관 | 톡톡밍차",
-      "publisher": "매일경제",
-      "topic": "입시",
+      "title": "기금으로 주식·채권투자…등록금 면제한 美하버드",
+      "publisher": "한국경제",
+      "topic": "대학",
       "type": "news",
       "coverage": 1,
-      "url": "https://view.mk.co.kr/trip-food/article/277919/"
+      "url": "https://www.hankyung.com/article/2026092776421"
     },
     {
       "title": "대구 최초 공립단설유치원 IB 월드스쿨 탄생 가시화",
@@ -100,12 +92,20 @@
       "url": "https://www.yna.co.kr/view/AKR20260923129800052"
     },
     {
+      "title": "얼큰하게 속 달래는 서울대입구역국밥. 보승회관 | 톡톡밍차",
+      "publisher": "매일경제",
+      "topic": "입시",
+      "type": "news",
+      "coverage": 1,
+      "url": "https://view.mk.co.kr/trip-food/article/277919/"
+    },
+    {
       "title": "AI 에이전트의 잇단 ‘돌발 행동’…오픈AI·메타 보안 경고등",
       "publisher": "국민일보",
       "topic": "AI교육",
       "type": "news",
       "coverage": 1,
-      "url": "https://www.kmib.co.kr/article/view.asp?arcid=9000017501&code=61141411&sid1=eco"
+      "url": "https://www.kmib.co.kr/article/view.asp?arcid=9000017501"
     },
     {
       "title": "‘질문하는 인간’이 귀해진다···AI 시대, 다시 떠오르는 철학과",
@@ -122,14 +122,6 @@
       "type": "news",
       "coverage": 1,
       "url": "https://www.kmib.co.kr/article/view_amp.asp?arcid=9000017459"
-    },
-    {
-      "title": "최재천 교수가 바라본 ‘AI 시대 공존’… 29일 호남대서 강연",
-      "publisher": "국민일보",
-      "topic": "AI교육",
-      "type": "news",
-      "coverage": 1,
-      "url": "https://www.kmib.co.kr/article/view_amp.asp?arcid=9000017422"
     },
     {
       "title": "교육부-KBS, 초등 국어 교과서 낭독 자료 제작",
@@ -164,20 +156,20 @@
       "url": "https://news.google.com/rss/articles/CBMiZkFVX3lxTE1maWxvZWxzS1pUdUJJakZiUjFSbDRFdkhKNmg4bjBMeTd1bFdEaDZPaVROemtUUTJsVFZyYVF6enBnamVzbWVtV29STFJyUzJXOWxwTUc1TnMwQjRadmR5VEo1VmN3Z9IBZkFVX3lxTE1maWxvZWxzS1pUdUJJakZiUjFSbDRFdkhKNmg4bjBMeTd1bFdEaDZPaVROemtUUTJsVFZyYVF6enBnamVzbWVtV29STFJyUzJXOWxwTUc1TnMwQjRadmR5VEo1VmN3Zw?oc=5"
     },
     {
-      "title": "[단독] \"의대 말고 공대 갈래요\"…반도체 호황에 '반전'",
-      "publisher": "한국경제",
-      "topic": "학교",
-      "type": "news",
-      "coverage": 1,
-      "url": "https://www.hankyung.com/article/2026092776031"
-    },
-    {
       "title": "대학생·초보 감독 뭉쳐 첫 금메달…‘3 대 3 농구’ 불모지의 기적",
       "publisher": "경향신문",
       "topic": "대학",
       "type": "news",
       "coverage": 1,
       "url": "https://news.google.com/rss/articles/CBMiX0FVX3lxTE9HQ2Y1UHdNYkpMalJuTlpkdE5OaWVBZUZDZXdsMVBBUlhncC1SdWpkMHlKTW1DR1p3Nk16bTkwYl9mQXZVMlR5dWpSUnAzSU5yQ2paZm1lSTYxdnNzQlU00gFfQVVfeXFMT0dDZjVQd01iSkxqUm5OWmR0Tk5pZUFlRkNld2wxUEFSWGdwLVJ1amQweUpNbUNHWnc2TXptOTBiX2ZBdlUyVHl1alJScDNJTnJDalpmbWVJNjF2c3NCVTQ?oc=5"
+    },
+    {
+      "title": "최재천 교수가 바라본 ‘AI 시대 공존’… 29일 호남대서 강연",
+      "publisher": "국민일보",
+      "topic": "AI교육",
+      "type": "news",
+      "coverage": 1,
+      "url": "https://news.google.com/rss/articles/CBMibEFVX3lxTFBCWWMyVkFQVzdETTI2d2FZU0wyYVctblBXeE92dW1lNW9GVU5fZ0NsdEl0TUlFdXZHYkhaVGdOVkxEeFl3OEtZenVaQmNZcWsxQTAyM1dOeHNYZWFFQ05ER0I1aFNBTUZ6bFEtWdIBbEFVX3lxTFBCWWMyVkFQVzdETTI2d2FZU0wyYVctblBXeE92dW1lNW9GVU5fZ0NsdEl0TUlFdXZHYkhaVGdOVkxEeFl3OEtZenVaQmNZcWsxQTAyM1dOeHNYZWFFQ05ER0I1aFNBTUZ6bFEtWQ?oc=5"
     },
     {
       "title": "“한국 학생들은 어떻게 공부도, 놀기도 열심히 하나”···베트남 천재 KAIST에서 놀란 이유",
@@ -242,6 +234,14 @@
       "type": "news",
       "coverage": 2,
       "url": "https://news.google.com/rss/articles/CBMiRkFVX3lxTE85SHhXUWt3Q3hJS2VfQjIwVUo5a1N2MWRTVGFyalJnck40a3NHbkVZWF9zMl90STJVX0FSM0g2eUtCd3dSc0E?oc=5"
+    },
+    {
+      "title": "[단독] \"의대 말고 공대 갈래요\"…반도체 호황에 '반전'",
+      "publisher": "한국경제",
+      "topic": "학교",
+      "type": "news",
+      "coverage": 1,
+      "url": "https://www.hankyung.com/article/2026092776031"
     },
     {
       "title": "폐과 이유로 전임교원 ‘면직’…‘재임용 심사’ 안 거치면 위법",
@@ -529,7 +529,7 @@
       "topic": "학교",
       "type": "column",
       "coverage": 1,
-      "url": "https://news.google.com/rss/articles/CBMihgFBVV95cUxNT1Z6MFFnQkEwSmYxYVBYaWJRbVA5Tno5M0paekdNOElqaEx5NnZyNGpJZmNLRHhFUmljX0xld0F1X0FydTBFcVd0TjNtLWZvWTVVZzI2dGJLTXhZTGNUZlVWM1cwY1MtUTNBX3BCei1XbHJ1ck1NRzJoWmNxY3JDY0R5R3ZDZ9IBbEFVX3lxTE05TEdDNDZMenRvcC1CUHdVV2IwMHNYX19fcEd0UGluT19BbFhQWkJvQUU3QzJ2a0VibHBJeVZjM0pOVWpLVS1qZVQzV0d4OFRfN1phSFQtcGdOYzcyaGRmbURFSzRJeFFVa2x1Vw?oc=5"
+      "url": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTE9QTDRIWjhVWWZUU285Nmh1eVdlRVJlX2JBR0JOYVZfcURHUmlWYkhqa2d5LWNkSzdCVmE0MU4tUGRveU1tWElqQ1p1MlZCc2gxd3RfY0tnalRsQ3dURVJYQzlfNGVWeVHSAWxBVV95cUxNOUxHQzQ2THp0b3AtQlB3VVdiMDBzWF9fX3BHdFBpbk9fQWxYUFpCb0FFN0MydmtFYmxwSXlWYzNKTlVqS1UtamVUM1dHeDhUXzdaYUhULXBnTmM3MmhkZm1ERUs0SXhRVWtsdVc?oc=5"
     },
     {
       "title": "미국 민주주의는 왜 흔들리나…후쿠야마 ‘역사의 종말’ 37년[김학준 칼럼]",
