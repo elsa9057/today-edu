@@ -1,8 +1,16 @@
 {
   "date": "2026-09-28",
-  "generated_at": "2026-09-28T23:25:01.4498639+09:00",
-  "total": 196,
+  "generated_at": "2026-09-28T23:52:23.3912182+09:00",
+  "total": 198,
   "items": [
+    {
+      "title": "'박명수 딸' 민서, 예원중·선화예고 거쳐 한예종 입학 \"노력했던 결실 맺어져\"",
+      "publisher": "조선비즈",
+      "topic": "학교",
+      "type": "news",
+      "coverage": 5,
+      "url": "https://biz.chosun.com/entertainment/tv/2026/09/28/GNTGCNLCMJSTMNLFHFTGINBUMY/"
+    },
     {
       "title": "‘1980년생 이하·특정 대학 출신’ 채용…한화에어로 “명백한 과오”",
       "publisher": "한겨레",
@@ -92,22 +100,6 @@
       "url": "https://news.unn.net/news/articleView.html?idxno=597960"
     },
     {
-      "title": "박명수 딸, 한예종 합격 \"예원중·선화예고 내내 장학금 놓친 적 없어\"",
-      "publisher": "한국일보",
-      "topic": "학교",
-      "type": "news",
-      "coverage": 5,
-      "url": "https://www.hankookilbo.com/news/article/A2026092713110000653"
-    },
-    {
-      "title": "전남대 '서남권 반도체/에너지/AI 메가프로젝트'를 선도할 인재 2만 3천 명 양성한다 - veritas-a.com",
-      "publisher": "베리타스알파",
-      "topic": "AI교육",
-      "type": "news",
-      "coverage": 1,
-      "url": "https://www.veritas-a.com/news/articleView.html?idxno=629725"
-    },
-    {
       "title": "9월 모평 영어 1등급 15.54%에 달해… ‘사탐런’ 급증에 과탐 응시↓",
       "publisher": "한국대학신문",
       "topic": "입시",
@@ -148,14 +140,6 @@
       "url": "https://news.unn.net/news/articleView.html?idxno=597964"
     },
     {
-      "title": "김영편입 9월 '19세 이하' 신규 회원가입 비중 22.9% 급증..'2028개편 앞둔 대안입시 우회 신호' - veritas-a.com",
-      "publisher": "베리타스알파",
-      "topic": "입시",
-      "type": "news",
-      "coverage": 1,
-      "url": "https://news.google.com/rss/articles/CBMibEFVX3lxTE1raWlMMVJrSGJPX2lqaUFKb2ZmTlctcHRJZVo1SjBvR1hSMWNGV3ZDazVwLWR1ZElJSmUtZWk0Y200WGlCVThMUVd3X1ZubVF4eUxBX3BlU3lRejdnQ18wM3k5aXFhazA5eFk1QQ?oc=5"
-    },
-    {
       "title": "울산교육감, 학교응급심리지원단과 간담회…지원방안 강화 모색",
       "publisher": "연합뉴스",
       "topic": "정책",
@@ -188,6 +172,14 @@
       "url": "https://news.google.com/rss/articles/CBMidkFVX3lxTE9BdGhhODB1UUtfM1cxRkFLaVhoZmpPRURES1d1Q2FhZEl2SHdza1V4dDh3cjR3WHVrTURvR0JvOERuaW5jMm95V1lCOUh2NUcycnV4MlJFUF9xQ2NmaVFOa1RiNkpkWUlHSHI3NVRndVBXYWF5Snc?oc=5"
     },
     {
+      "title": "김영편입 9월 '19세 이하' 신규 회원가입 비중 22.9% 급증..'2028개편 앞둔 대안입시 우회 신호'",
+      "publisher": "베리타스알파",
+      "topic": "입시",
+      "type": "news",
+      "coverage": 1,
+      "url": "https://news.google.com/rss/articles/CBMibEFVX3lxTE1raWlMMVJrSGJPX2lqaUFKb2ZmTlctcHRJZVo1SjBvR1hSMWNGV3ZDazVwLWR1ZElJSmUtZWk0Y200WGlCVThMUVd3X1ZubVF4eUxBX3BlU3lRejdnQ18wM3k5aXFhazA5eFk1QQ?oc=5"
+    },
+    {
       "title": "제5회 HTHT 마스터클래스 경진대회 성료… 대학 AX·교수학습 혁신 우수사례 수상",
       "publisher": "한국대학신문",
       "topic": "AI교육",
@@ -212,20 +204,12 @@
       "url": "https://news.google.com/rss/articles/CBMibkFVX3lxTE40SE53SXlBb3JpdlZsOHpvd3F1NEh0OC1NWEs3VFhnTzFMeHNCbTRXWVhic1doa1owb1RWUWw1V1E2MGloYUlUaTFwTG9oX3Mxekg3RVJZTmNCOHFhX09QM3o5WkhzQnFUUHBMMTVn0gFzQVVfeXFMUDBzOUFFRExoR1pfcm01bXhrUl9kQTlHQUpsV3BKYzNlLS14RkhBamgwZVJYcWJZX1JQaHkxSzhkSHVseUotT3JHS3ZvN0JwaVh1MXhFbDhoeEdQQjZ5aHFrNTF4ZzNhRWVpVUlLUnBpVTIwOA?oc=5"
     },
     {
-      "title": "부모 모교서 2대째 이어진 명지대 인연… 산업경영공학과 최재원 신임 교수 부임",
-      "publisher": "한겨레",
-      "topic": "대학",
-      "type": "news",
-      "coverage": 3,
-      "url": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTE91clpTSVhrZEZNY1NmZ3pxTlZ3WFpjUDAzSFlQQ1c2REpRSDlXWHJJSTgyVTFpaFRMN1hJYXN5VkdBZzRCTDhvczRIM3FmU0MyOWlwQ1FWdUZZUGpzZGVURF9leHdlUEE?oc=5"
-    },
-    {
-      "title": "‘1인2기 교육의 힘’ 하나고 남자농구 서울시교육감배 2연패.. 선수 출신 없이 이룬 우승 - veritas-a.com",
-      "publisher": "베리타스알파",
+      "title": "경북교육청, 교과서 속 한자로 중학생 문해력 키운다",
+      "publisher": "한국일보",
       "topic": "정책",
       "type": "news",
-      "coverage": 1,
-      "url": "https://news.google.com/rss/articles/CBMibEFVX3lxTFBXVEtScFpoVllsNUYxV01WaTJ6T1o2Zl9LUVZVYWY5MUxqZEdnRTBxa0E0MHNjelJSM2dYdWJoVWZYUmlNZldRZzVjWFNnODNLTUFvQ21QTFE0TllnaW91R0lpVTlpWXRDRXROYw?oc=5"
+      "coverage": 2,
+      "url": "https://news.google.com/rss/articles/CBMibkFVX3lxTE9wNGxBdFJzWDNBeTNDTlVTSXdleDFXTEViV093dEZmRjh4cy1XYWl4RUVPdVZBbTFRbWlkYWNqSHBlQmprN244WGN3eE13by1oS20zbXBPbG12M0tBSW9yU0FRUm1Vc01DTGpncFB30gFzQVVfeXFMTXZPd0Z6UmNHUlFFcVJWbFdNLTE1U2UwdUp1ckUxbGxoQTNBdy1VeWVscS05NGZhQXhKMW9hR2Z3b2VJMlQxUDZNbm9pQ0FBcDJrWDgtaHlTYU0xRC1zTl8ydEhoUjd1Uk0zQ2VyYmlKLXluSQ?oc=5"
     },
     {
       "title": "경북교육청, 교원 50명과 '경북형 서‧논술형 평가' 문항 개발",
@@ -244,14 +228,6 @@
       "url": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTE5peUg4WjAzOURLcGFEUWxmVnVFNnJCblRKcy1SSnhTWVJtbm9uMVp4MlJqckJBX1FqMmdWOTJ3cVoteHVjaC1SX3R5dWhyWkZSMGVDOVhxUWUtYVBLTjJRNlFSZ1JqZnM?oc=5"
     },
     {
-      "title": "[단독] [2027 9월모평] 입시기관 등급컷 적중률.. '쉬운 수학' 8개 기관 적중 전무 - veritas-a.com",
-      "publisher": "베리타스알파",
-      "topic": "입시",
-      "type": "news",
-      "coverage": 1,
-      "url": "https://news.google.com/rss/articles/CBMibEFVX3lxTE9Bd2EyQTRCQmpWenZzU1otOXdqcjZMNm9VVHpJWFBvSEVpOFNmLUlKdm1sQ1Fpc0M5WkRaWDFtNGtWeXdQMzJrRklkV1JnRlNzNnFOMmJ6RE40d0hQNlJGb3czRm41ckNaX19vUg?oc=5"
-    },
-    {
       "title": "학령인구 줄어도 학교 수는 늘어나는 지역 있다",
       "publisher": "베리타스알파",
       "topic": "대학",
@@ -260,7 +236,7 @@
       "url": "https://www.veritas-a.com/news/articleView.html?idxno=629716"
     },
     {
-      "title": "김천대 경찰소방학과 김환 학생 2026 철원컵 전국유도대회 -90kg급 2위 입상 - veritas-a.com",
+      "title": "김천대 경찰소방학과 김환 학생 2026 철원컵 전국유도대회 -90kg급 2위 입상",
       "publisher": "베리타스알파",
       "topic": "학교",
       "type": "news",
@@ -268,12 +244,20 @@
       "url": "https://news.google.com/rss/articles/CBMibEFVX3lxTFBEMmZpdmJMcXlpTWRYYmpESENYZFh2SmlsY000bE1tVF9rQjRUZjZ2aEhDR1hPbldHNVdOVEZtcVU5ZDZydDF2VWsxTW9OU2daQ2hzNGxkM3RqU0NJY2x1V3pqcUd0OVFSSFlrcQ?oc=5"
     },
     {
+      "title": "부모 모교서 2대째 이어진 명지대 인연… 산업경영공학과 최재원 신임 교수 부임",
+      "publisher": "한겨레",
+      "topic": "대학",
+      "type": "news",
+      "coverage": 3,
+      "url": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTE91clpTSVhrZEZNY1NmZ3pxTlZ3WFpjUDAzSFlQQ1c2REpRSDlXWHJJSTgyVTFpaFRMN1hJYXN5VkdBZzRCTDhvczRIM3FmU0MyOWlwQ1FWdUZZUGpzZGVURF9leHdlUEE?oc=5"
+    },
+    {
       "title": "'화면 끄고 생각을 켜요' 강원교육청, 스마트폰 청정학교 선포식",
-      "publisher": "매일경제",
+      "publisher": "연합뉴스",
       "topic": "정책",
       "type": "news",
       "coverage": 2,
-      "url": "https://news.google.com/rss/articles/CBMiUkFVX3lxTFA2R0N4MjJ4NmRXODl5dllXZFdyRi1wd1diQ3EzeG5aZE9EOV9ZazVlc2F6LVV1ek00RGdlbDBtRDNpczVxaXpVd3ZrY01XZkhsWnc?oc=5"
+      "url": "https://news.google.com/rss/articles/CBMiW0FVX3lxTE9PMlNBeHgtWHZjRjRSYnhDVEZFOXRqSEt0ZXNqcXByemhycXZ2QWdtR0pFdVRuUDJ2VUd1NmpQeHBSbmVsZ1h0aTJsOUVScnhtNjEyNV95bF9FWEXSAWBBVV95cUxNSXpHMUZlallMdG45QS1uWWxZNnpUWGFaZy1oTWxpMXJHTURqYlVEVGxHcHpVSjkya0JubHg3VmFzREhzRC1pNW5lZ2pKcUI3R21xeVdwcTIwcWpkTTBCSko?oc=5"
     },
     {
       "title": "인천교육청 \"인천형 글로벌 미래 교육 체험하세요\"",
@@ -282,6 +266,14 @@
       "type": "news",
       "coverage": 1,
       "url": "https://www.hankyung.com/article/2026092884461"
+    },
+    {
+      "title": "‘1인2기 교육의 힘’ 하나고 남자농구 서울시교육감배 2연패.. 선수 출신 없이 이룬 우승",
+      "publisher": "베리타스알파",
+      "topic": "정책",
+      "type": "news",
+      "coverage": 1,
+      "url": "https://news.google.com/rss/articles/CBMibEFVX3lxTFBXVEtScFpoVllsNUYxV01WaTJ6T1o2Zl9LUVZVYWY5MUxqZEdnRTBxa0E0MHNjelJSM2dYdWJoVWZYUmlNZldRZzVjWFNnODNLTUFvQ21QTFE0TllnaW91R0lpVTlpWXRDRXROYw?oc=5"
     },
     {
       "title": "“동북아재단·한중연·고전번역원 통합 반대”···학계, 교육부 통합안에 반발",
@@ -297,15 +289,7 @@
       "topic": "정책",
       "type": "news",
       "coverage": 1,
-      "url": "https://news.google.com/rss/articles/CBMiYEFVX3lxTE1hS0luNlFvcHV4RWxtRl9qZ2pIWXFZQ3l0YzAyQWtEcmNsUGpISTR0T0R6MW5ITW9UWHpnaW1wRmhKU2R1RUNJVFRQOXBDN3RpSUdIYktQUXVXMGNMeU9pSNIBYEFVX3lxTE1hS0luNlFvcHV4RWxtRl9qZ2pIWXFZQ3l0YzAyQWtEcmNsUGpISTR0T0R6MW5ITW9UWHpnaW1wRmhKU2R1RUNJVFRQOXBDN3RpSUdIYktQUXVXMGNMeU9pSA?oc=5"
-    },
-    {
-      "title": "경북교육청, 교과서 속 한자로 중학생 문해력 키운다",
-      "publisher": "한국일보",
-      "topic": "정책",
-      "type": "news",
-      "coverage": 1,
-      "url": "https://news.google.com/rss/articles/CBMibkFVX3lxTE9wNGxBdFJzWDNBeTNDTlVTSXdleDFXTEViV093dEZmRjh4cy1XYWl4RUVPdVZBbTFRbWlkYWNqSHBlQmprN244WGN3eE13by1oS20zbXBPbG12M0tBSW9yU0FRUm1Vc01DTGpncFB30gFzQVVfeXFMTXZPd0Z6UmNHUlFFcVJWbFdNLTE1U2UwdUp1ckUxbGxoQTNBdy1VeWVscS05NGZhQXhKMW9hR2Z3b2VJMlQxUDZNbm9pQ0FBcDJrWDgtaHlTYU0xRC1zTl8ydEhoUjd1Uk0zQ2VyYmlKLXluSQ?oc=5"
+      "url": "https://news.google.com/rss/articles/CBMiW0FVX3lxTE44QVlzb3p6RlliWlQwMTlNQWJ2NGdySlU3UUlMZGM1eG9SVVJndC1ZcGpPdUp5SG9HS0w2SE1MX3BCUXN4MGdtWDA5VUtLQWZ4bXdQMW5iYWRjY0XSAWBBVV95cUxNYUtJbjZRb3B1eEVsbUZfamdqSFlxWUN5dGMwMkFrRHJjbFBqSEk0dE9EejFuSE1vVFh6Z2ltcEZoSlNkdUVDSVRUUDlwQzd0aUlHSGJLUFF1VzBjTHlPaUg?oc=5"
     },
     {
       "title": "’5억 필요 정치 자금 의혹’…전북교육감, 경찰에 고발당해",
@@ -324,20 +308,20 @@
       "url": "https://news.google.com/rss/articles/CBMickFVX3lxTFB1WjNpb2ZRYzk3RHBxZG5JMWxaczNmb29jTmxKM1Y0alExUUh5Y01lZUFJZHNkNHkwRXc0dzh2NUhKbWdlY05EckRLOW03eVpLdUdHZ1dSYmF1enl6MG9TTW9NRmpkVDFnMGJ2RkZzenFTdw?oc=5"
     },
     {
-      "title": "인천시교육청, 유보통합 ‘기관 따로’ 지원 없앤다…현장 중심 협업체계 구축",
-      "publisher": "동아일보",
-      "topic": "정책",
-      "type": "news",
-      "coverage": 1,
-      "url": "https://news.google.com/rss/articles/CBMickFVX3lxTFBCeUU2c2JYdXUyM3JXREEtdnpBUUNsU2hTZEYxaWdPcUxSUldKMmYzNGFadm5JRnR2V0NWNFpTS0FTYXVEaWN0MTRmN0RMT1dYQmZCWXh3Y2Q4em93THVKUUxOemhZWjByTWQ4eTE5VTJGdw?oc=5"
-    },
-    {
       "title": "[단독]법원은 업체 ‘동의권’ 인정 안 했는데…교육부는 ‘공공 원서접수’ 접었다",
       "publisher": "경향신문",
       "topic": "정책",
       "type": "news",
       "coverage": 1,
       "url": "https://news.google.com/rss/articles/CBMiX0FVX3lxTE91d2NYRjh2VWEyOGdnMjBRZTNoYXBvSEdINU9kclNMT1RUOVN6Mjdqc3lJNm1UcFlGQm1uQlNmX3RwVEV5V3BkRmtTRnRXa2doTUt0Mm8zakZNNGs5NjJn0gFfQVVfeXFMT3V3Y1hGOHZVYTI4Z2cyMFFlM2hhcG9IR0g1T2RyU0xPVFQ5U3oyN2pzeUk2bVRwWUZCbW5CU2ZfdHBURXlXcGRGa1NGdFdrZ2hNS3QybzNqRk00azk2Mmc?oc=5"
+    },
+    {
+      "title": "[단독] [2027 9월모평] 입시기관 등급컷 적중률.. '쉬운 수학' 8개 기관 적중 전무",
+      "publisher": "베리타스알파",
+      "topic": "입시",
+      "type": "news",
+      "coverage": 1,
+      "url": "https://news.google.com/rss/articles/CBMibEFVX3lxTE9Bd2EyQTRCQmpWenZzU1otOXdqcjZMNm9VVHpJWFBvSEVpOFNmLUlKdm1sQ1Fpc0M5WkRaWDFtNGtWeXdQMzJrRklkV1JnRlNzNnFOMmJ6RE40d0hQNlJGb3czRm41ckNaX19vUg?oc=5"
     },
     {
       "title": "\"대학 합창단서 만나 음성인식 AI 회사 창업했죠\"",
@@ -386,6 +370,22 @@
       "type": "news",
       "coverage": 1,
       "url": "https://www.veritas-a.com/news/articleView.html?idxno=629713"
+    },
+    {
+      "title": "국립군산대 전북 해양치유 자원 활용 방안 모색",
+      "publisher": "베리타스알파",
+      "topic": "대학",
+      "type": "news",
+      "coverage": 1,
+      "url": "https://www.veritas-a.com/news/articleView.html?idxno=629691"
+    },
+    {
+      "title": "인천시교육청, 유보통합 ‘기관 따로’ 지원 없앤다…현장 중심 협업체계 구축",
+      "publisher": "동아일보",
+      "topic": "정책",
+      "type": "news",
+      "coverage": 1,
+      "url": "https://news.google.com/rss/articles/CBMickFVX3lxTFBCeUU2c2JYdXUyM3JXREEtdnpBUUNsU2hTZEYxaWdPcUxSUldKMmYzNGFadm5JRnR2V0NWNFpTS0FTYXVEaWN0MTRmN0RMT1dYQmZCWXh3Y2Q4em93THVKUUxOemhZWjByTWQ4eTE5VTJGdw?oc=5"
     },
     {
       "title": "방과후·돌봄 업무 줄인다…울산교육청, 프로그램 개발·보급",
@@ -524,6 +524,14 @@
       "url": "https://www.joongang.co.kr/article/25465105"
     },
     {
+      "title": "[문지혁의 슬기로운 문학생활] [41] 누구세요?",
+      "publisher": "조선일보",
+      "topic": "학교",
+      "type": "column",
+      "coverage": 1,
+      "url": "https://www.chosun.com/opinion/specialist_column/2026/09/28/TMVJCPIYGBDZNHK7W6UT2BNE6E/"
+    },
+    {
       "title": "뉴스데스크 클로징",
       "publisher": "MBC",
       "topic": "학교",
@@ -554,14 +562,6 @@
       "type": "column",
       "coverage": 1,
       "url": "https://news.google.com/rss/articles/CBMiVEFVX3lxTE53ZnhqeWE2RHBUNktqMmp6bUtEUTRqM3BxcHdZZDh5Ti1fUE9hb2pvemhGS2JqcENGNGhHaEVpVmlXSWRmNHEycHQ5MFhEbzNnUVo3Tg?oc=5"
-    },
-    {
-      "title": "[김대성 칼럼] 최교진 장관 1년, 현장 출신 장관에게 바라는 다섯 가지 변화",
-      "publisher": "에듀프레스",
-      "topic": "교사",
-      "type": "column",
-      "coverage": 1,
-      "url": "https://www.edupress.kr/news/articleView.html?idxno=30483"
     }
   ]
 }
