@@ -1,7 +1,7 @@
 {
   "date": "2026-09-29",
-  "generated_at": "2026-09-29T23:22:46.6566739+09:00",
-  "total": 212,
+  "generated_at": "2026-09-29T23:51:24.7638067+09:00",
+  "total": 216,
   "items": [
     {
       "title": "초중고에 몰린 교육재정…대학생 공교육비 OECD 최하위권",
@@ -116,14 +116,6 @@
       "url": "https://news.google.com/rss/articles/CBMijwFBVV95cUxQb2djdTNnX0NpYl9JeVpPTUFrSnpBWFdYanZ4T1Zad0F4ZHVmQ1BWdU1PZmxCQllLUEJKZWlRQm5qc0kxWFhDM3dFU255ZG9JVy1hR2xuenhTWnpUeUdvVXJ0MGozUEVhc2RvWUZpeHUyOUpKN1h3ejliWk9pazBFSlVZbjAyMGF3Y3VtejlfZw?oc=5"
     },
     {
-      "title": "2026 국회 교육위 국정감사, 다음달 7일부터 시작… 교육부·대학 등 67개 기관 대상",
-      "publisher": "한국대학신문",
-      "topic": "입시",
-      "type": "news",
-      "coverage": 1,
-      "url": "https://news.unn.net/news/articleView.html?idxno=597998"
-    },
-    {
       "title": "충북교육청, 위기 학생 전담 ‘병원형 위센터’ 추진",
       "publisher": "KBS",
       "topic": "정책",
@@ -172,12 +164,12 @@
       "url": "https://www.veritas-a.com/news/articleView.html?idxno=629748"
     },
     {
-      "title": "대학 AI 교육 판 바꾼다…기업 참여 AX대학원·AI중심대학 출범",
-      "publisher": "한국일보",
-      "topic": "AI교육",
+      "title": "2026 국회 교육위 국정감사, 다음달 7일부터 시작… 교육부·대학 등 67개 기관 대상",
+      "publisher": "한국대학신문",
+      "topic": "입시",
       "type": "news",
-      "coverage": 3,
-      "url": "https://www.hankookilbo.com/news/article/A2026092916060004010"
+      "coverage": 1,
+      "url": "https://news.unn.net/news/articleView.html?idxno=597998"
     },
     {
       "title": "[단독] [2027정시] 12개 한의대 187명(25.8%) ‘축소’.. '인문 최상위권 집중되나'",
@@ -204,6 +196,22 @@
       "url": "https://news.google.com/rss/articles/CBMiW0FVX3lxTFBDS0lKN1lKWXhkeDZ1el9kUjk1WFF2NjBqVVpjLUg0X2pjbkpOQW9vQmYzOTNYZU9OcmVyOUNwOE54TlA1Y0REbkZCMjctU3lac21xRWFKanFRSWPSAWBBVV95cUxPV2JHeFZwRW9USHNCa3YzbWU1aTVxOFk5TjFyc1N2c3JMOEJwenVKQXZnRDNpd3FwMUtzczhwT2Q3SUFJZlc3MjhycUlrRmdoR0NReHlEQ256bW1SYm1Gc3A?oc=5"
     },
     {
+      "title": "서울교대·구글, AI 교원 연수 프로그램 한국 도입",
+      "publisher": "한국교육신문",
+      "topic": "AI교육",
+      "type": "news",
+      "coverage": 1,
+      "url": "https://news.google.com/rss/articles/CBMiX0FVX3lxTFBNOWs3NXp1eWxsU21oM1FXZGRTRF8yWGlXQzdVanozQmpYckRGWVd6TVN6V1REN05ETldIR2hmZGd5Q3VUTDJ2RkoyZkdvenNtUFpQQ1NoeXNHa0dhNkx3?oc=5"
+    },
+    {
+      "title": "대학 AI 교육 판 바꾼다…기업 참여 AX대학원·AI중심대학 출범",
+      "publisher": "한국일보",
+      "topic": "AI교육",
+      "type": "news",
+      "coverage": 3,
+      "url": "https://news.google.com/rss/articles/CBMibkFVX3lxTE1BTy1tMjVzbTdVX2ZjTFBlUEJmUkg1NjBEZER4QTBoNmdnRzhaQUhpS19pQk1tSV9uQmF2YmJfeFVDbnVNVUM4WXhYWUhLUThPX0pZXzJDa2dQUU5wMFRLNW1LQm1QajlXR0JYVmJB0gFzQVVfeXFMUG9md0R4d2c3TFQ2TmVlMDVhbDBkYWJaeFhBZ3o5UTBSVEFiN1VHc2Q0dk8xS3hNX1Voc3A0U1N5TkcwWkR6Z2NLdTgtNEl5VThWYnNxMEdrY2JueEN5VEZPaG85LVFqRnBSMFkzbG9DakJ4SQ?oc=5"
+    },
+    {
       "title": "[경기G7 앵커 선도대학을 가다/경기앵커센터] 대학 ‘기술혁신 파트너’ 전환… G7 인재양성 생태계로 산업 미스매치 정조준",
       "publisher": "한국대학신문",
       "topic": "대학",
@@ -217,7 +225,7 @@
       "topic": "정책",
       "type": "news",
       "coverage": 2,
-      "url": "https://news.google.com/rss/articles/CBMia0FVX3lxTE16S0xYYmpoMV9jeFFKMk5JVUxlZFc3ZkJNOXlfZU9QaU5wclJuSmtLRUVxV25HUFBiMVpVWTlFZWhGVWd0RWlDaUlURUtLMTlFZTFfXzVITUZPcVMtRWRweXdzLXFHSGx5YXNB?oc=5"
+      "url": "https://news.google.com/rss/articles/CBMiZkFVX3lxTE0xZHNpWkNxeEJzMWVfNERIQzFHcGxZNDZoVzJzY2pBMUtjZzR6b2lVdHhDcHZRdHpsWDVTbGdkbkZOYnplTncxeEFvNWh2c0Ytc213U1lhMFpOamR1NEU1YTk0TDBBZw?oc=5"
     },
     {
       "title": "TOPIK에 AI 도입…부정행위엔 5년 응시 금지",
@@ -276,7 +284,7 @@
       "url": "https://news.google.com/rss/articles/CBMiW0FVX3lxTE1IOERacmZIaWw1c013US16N2JMSkxqWmN5TldtcUlKZk1qSXNPcTV0MURMc00wbWR5a0JZZUdFb1RzdFRPbEZ2SUljN3ZGRHZXYzc5czZVZ2hDQzg?oc=5"
     },
     {
-      "title": "경복대 'AID 거점센터' 개소… 미래형 AI 직업교육 혁신 전면 가동",
+      "title": "경복대 'AID 거점센터' 개소… 미래형 AI 직업교육 혁신 전면 가동 - veritas-a.com",
       "publisher": "베리타스알파",
       "topic": "AI교육",
       "type": "news",
@@ -290,14 +298,6 @@
       "type": "news",
       "coverage": 1,
       "url": "https://www.yonhapnewstv.co.kr/news/MYH20260929231317QWD"
-    },
-    {
-      "title": "[속보] 경찰 “피해학생 없었다”고 했는데… 피해교사들 “재학생들도 있었다” 엇갈린 주장",
-      "publisher": "서울신문",
-      "topic": "교사",
-      "type": "news",
-      "coverage": 1,
-      "url": "https://news.google.com/rss/articles/CBMie0FVX3lxTE9MRkhtNFVPX2lfMzVWN1VPaTBWSHhLM0VRdHBhR1dNOUQyY3NUNVc1dXlldWpsc0JmSGJMV1NNZk5oQkxOWktOVWZHeVM0eXhiRVYtQW9ZUXpDT0IwS3hVVTJTWVlYU0dIYXFXNmhJSjMyZ19zbWhfanpjbw?oc=5"
     },
     {
       "title": "울산교육감, 학교응급심리지원단과 간담회…지원방안 강화 모색",
@@ -356,6 +356,14 @@
       "url": "https://news.google.com/rss/articles/CBMiX0FVX3lxTFBNQm1Rd0ZRbEdQWWZFZ2o3NVZTS0E5eGZ3ZGZpcGl3ZHVTRkRsRHhVejJ3azZvci0xS3FjWnBqY3lFSVpnbnRxWHFpVDY5VWtpUk1OMzdKay1ZVEpoaGRF0gFfQVVfeXFMUE1CbVF3RlFsR1BZZkVnajc1VlNLQTl4ZndkZmlwaXdkdVNGRGxEeFV6MndrNm9yLTFLcWNacGpjeUVJWmdudHFYcWlUNjlVa2lSTU4zN0prLVlUSmhoZEU?oc=5"
     },
     {
+      "title": "[속보] 경찰 “피해학생 없었다”고 했는데… 피해교사들 “재학생들도 있었다” 엇갈린 주장",
+      "publisher": "서울신문",
+      "topic": "교사",
+      "type": "news",
+      "coverage": 1,
+      "url": "https://news.google.com/rss/articles/CBMie0FVX3lxTE9MRkhtNFVPX2lfMzVWN1VPaTBWSHhLM0VRdHBhR1dNOUQyY3NUNVc1dXlldWpsc0JmSGJMV1NNZk5oQkxOWktOVWZHeVM0eXhiRVYtQW9ZUXpDT0IwS3hVVTJTWVlYU0dIYXFXNmhJSjMyZ19zbWhfanpjbw?oc=5"
+    },
+    {
       "title": "‘11개 대학만 채용’에 AI 교과서 수천억 소송까지…교육위 국감 쟁점은",
       "publisher": "경향신문",
       "topic": "AI교육",
@@ -380,6 +388,22 @@
       "url": "https://www.donga.com/news/Society/article/all/20260929/134755596/1"
     },
     {
+      "title": "특수교사 치료·물품보상 5년간 348건 그쳐",
+      "publisher": "한국교육신문",
+      "topic": "교사",
+      "type": "news",
+      "coverage": 1,
+      "url": "https://news.google.com/rss/articles/CBMiX0FVX3lxTFBnMF9XV0JMMlhxTE5Ga0M5azFoZnVhQ2JCdms1bGJOZnd6ZjR3bHNQRGdvQlNwTEtKR0l5X0R0NEhYSmI0SVpVZ1B0OXVyV2hvSklCMVIzX0RqckFqNXlN?oc=5"
+    },
+    {
+      "title": "日, 교사 개인 아닌 시스템으로 교육활동 보호",
+      "publisher": "한국교육신문",
+      "topic": "교사",
+      "type": "news",
+      "coverage": 1,
+      "url": "https://news.google.com/rss/articles/CBMiX0FVX3lxTFBOZkY2VWVWODh6M01sYngyVXFsenJwS3VIMndHRXM0VmRfcGpGOWxuVlQ4U21yTU13VHRkMFl6czlWOEtZejdzS2FjM0NDZnFXZDRNenlOMU5VMVk4TWVr?oc=5"
+    },
+    {
       "title": "[입시의 정석] '진로·과목 연계성' 고려…선택과목 잘 고르려면",
       "publisher": "EBS",
       "topic": "입시",
@@ -394,14 +418,6 @@
       "type": "news",
       "coverage": 1,
       "url": "https://news.google.com/rss/articles/CBMiWkFVX3lxTE5YMFFBcnVnMVdoN0lsT0llbTBkLTFFd2lmYlFiUDVLX0tWS1FqX2d5WEdobzZucmpJOGphOHRnUnJjN1NFclhiQ2lOU3VlWXJwdHVwaWpRS3RSZw?oc=5"
-    },
-    {
-      "title": "30년간 '쉬운 수학'만 좇은 한국…AI 시대 '보복'이 시작됐다",
-      "publisher": "한국경제",
-      "topic": "AI교육",
-      "type": "news",
-      "coverage": 1,
-      "url": "https://www.hankyung.com/article/2026092926911"
     },
     {
       "title": "경북도, 외국인 유학생 2만 명 돌파… 학위과정 증가율 전국 1위",
@@ -457,7 +473,7 @@
       "topic": "입시",
       "type": "news",
       "coverage": 2,
-      "url": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTE1HRnl6MnA2T3FhUUtxVkhzaGdIeW9ldVV6YU44R0EzLWdld3dwLUFwaU9NSzdzWXIwd0xhTWpEVkVZMkdxQjllZk9jajdpbEdDQ1VheS1BVnUtUlJSSnd1VjlyNUtzM0k?oc=5"
+      "url": "https://news.google.com/rss/articles/CBMiX0FVX3lxTE5SaFo2THpiYWM4LWZkanRxMzIwUDkxQUpTTWpkbE9ET2dfcFJZak5ZMnJ1bGVhOFQxdWx2eWRqSXFDS0dvMjduQncxNTRlZDZZTDh2YV9NNUhpbjZHUklr?oc=5"
     },
     {
       "title": "경북교육청, 교과서 속 한자로 중학생 문해력 키운다",
@@ -468,28 +484,20 @@
       "url": "https://news.google.com/rss/articles/CBMibkFVX3lxTE9wNGxBdFJzWDNBeTNDTlVTSXdleDFXTEViV093dEZmRjh4cy1XYWl4RUVPdVZBbTFRbWlkYWNqSHBlQmprN244WGN3eE13by1oS20zbXBPbG12M0tBSW9yU0FRUm1Vc01DTGpncFB30gFzQVVfeXFMTXZPd0Z6UmNHUlFFcVJWbFdNLTE1U2UwdUp1ckUxbGxoQTNBdy1VeWVscS05NGZhQXhKMW9hR2Z3b2VJMlQxUDZNbm9pQ0FBcDJrWDgtaHlTYU0xRC1zTl8ydEhoUjd1Uk0zQ2VyYmlKLXluSQ?oc=5"
     },
     {
-      "title": "'화면 끄고 생각을 켜요' 강원교육청, 스마트폰 청정학교 선포식",
-      "publisher": "연합뉴스",
-      "topic": "정책",
-      "type": "news",
-      "coverage": 2,
-      "url": "https://news.google.com/rss/articles/CBMiW0FVX3lxTE9PMlNBeHgtWHZjRjRSYnhDVEZFOXRqSEt0ZXNqcXByemhycXZ2QWdtR0pFdVRuUDJ2VUd1NmpQeHBSbmVsZ1h0aTJsOUVScnhtNjEyNV95bF9FWEXSAWBBVV95cUxNSXpHMUZlallMdG45QS1uWWxZNnpUWGFaZy1oTWxpMXJHTURqYlVEVGxHcHpVSjkya0JubHg3VmFzREhzRC1pNW5lZ2pKcUI3R21xeVdwcTIwcWpkTTBCSko?oc=5"
-    },
-    {
-      "title": "이병도 \"AI 기반 맞춤교육으로 학생별 콘텐츠 제공…학습 결손 막을 것\"",
-      "publisher": "한국경제",
-      "topic": "AI교육",
-      "type": "news",
-      "coverage": 1,
-      "url": "https://www.hankyung.com/article/2026092911681"
-    },
-    {
       "title": "[사설] 고등교육비 OECD의 72%…이래서야 AI 인재 확보전 이기겠나",
       "publisher": "한국경제",
       "topic": "AI교육",
       "type": "column",
       "coverage": 1,
       "url": "https://www.hankyung.com/article/2026092928751"
+    },
+    {
+      "title": "[사설]대학생은 OECD 평균 72%, 중고생은 146%… 기형적 공교육비",
+      "publisher": "동아일보",
+      "topic": "대학",
+      "type": "column",
+      "coverage": 1,
+      "url": "https://www.donga.com/news/Opinion/article/all/20260929/134756170/2"
     },
     {
       "title": "[기고]국립의전원 안착 위해 뿌리내려야 할 곳은 어디일까",
@@ -521,7 +529,7 @@
       "topic": "학교",
       "type": "column",
       "coverage": 1,
-      "url": "https://stock.mk.co.kr/news/view/1166159"
+      "url": "https://news.google.com/rss/articles/CBMiUkFVX3lxTE1RbUVlT3F6OHplcmMwUkF1V3o5S3NtVy1QUm5rVE96QVFQaVg4VXE4czdJYmFtSklnNkNOdDRhTDlsVUVlRjZDNXlhQVVpaC0xS0E?oc=5"
     },
     {
       "title": "[기고] 소그룹 제자훈련으로 목회 동역자 세우기",
@@ -554,14 +562,6 @@
       "type": "column",
       "coverage": 1,
       "url": "https://news.google.com/rss/articles/CBMiVkFVX3lxTE1sMWtEbERSY0hkZUdXR2N1dHhvVFB4MkhpSVV2NmVydEtHT0FpZm5wbDNPNEItNXI2eHFpZjlncE9MZkxJNjZqTzIyN1k4ZkR2aWVfSVB3?oc=5"
-    },
-    {
-      "title": "[문지혁의 슬기로운 문학생활] [41] 누구세요?",
-      "publisher": "조선일보",
-      "topic": "학교",
-      "type": "column",
-      "coverage": 1,
-      "url": "https://www.chosun.com/opinion/specialist_column/2026/09/28/TMVJCPIYGBDZNHK7W6UT2BNE6E/"
     }
   ]
 }
