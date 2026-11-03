@@ -1,0 +1,567 @@
+{
+  "date": "2026-11-01",
+  "generated_at": "2026-11-01T22:10:53.6544126+09:00",
+  "total": 83,
+  "items": [
+    {
+      "title": "고교 교사가 휴직 중 국회의원 보좌관행…대법 \"정치 중립 훼손\"",
+      "publisher": "SBS",
+      "topic": "교사",
+      "type": "news",
+      "coverage": 8,
+      "url": "https://news.sbs.co.kr/news/endPage.do?news_id=N1008825218"
+    },
+    {
+      "title": "박지향 동북아재단 이사장 직무 수행 유지…교육부 즉시항고 기각",
+      "publisher": "동아일보",
+      "topic": "정책",
+      "type": "news",
+      "coverage": 5,
+      "url": "https://www.donga.com/news/Society/article/all/20261101/134944103/1"
+    },
+    {
+      "title": "서울 수능 228개 시험장에 ‘스마트안경’ 전담요원 투입",
+      "publisher": "동아일보",
+      "topic": "AI교육",
+      "type": "news",
+      "coverage": 5,
+      "url": "https://www.donga.com/news/Society/article/all/20261101/134943902/1"
+    },
+    {
+      "title": "LG유플러스·교육부·티오리한국, AI·정보보호 영재교육원 교육과정 고도화",
+      "publisher": "조선일보",
+      "topic": "AI교육",
+      "type": "news",
+      "coverage": 1,
+      "url": "https://biz.chosun.com/it-science/ict/2026/11/01/XJLPB3B35ZD5LBL4OYNSGMOIWA/"
+    },
+    {
+      "title": "영락의료과학고 찾은 파독 간호사들 마지막 당부는…",
+      "publisher": "에듀프레스",
+      "topic": "AI교육",
+      "type": "news",
+      "coverage": 1,
+      "url": "https://www.edupress.kr/news/articleView.html?idxno=30577"
+    },
+    {
+      "title": "부산교육청, ‘피지컬 AI 연구학교’ 5곳 운영",
+      "publisher": "KBS",
+      "topic": "AI교육",
+      "type": "news",
+      "coverage": 1,
+      "url": "https://news.kbs.co.kr/news/view.do?ncd=8700592"
+    },
+    {
+      "title": "전국 교정시설 포화…수용률 최고 148%",
+      "publisher": "한국경제",
+      "topic": "입시",
+      "type": "news",
+      "coverage": 1,
+      "url": "https://www.hankyung.com/article/2026110185791"
+    },
+    {
+      "title": "“높은 곳에 올려놓고 방치”…‘아동학대’ 보육교사 2명 벌금형",
+      "publisher": "동아일보",
+      "topic": "교사",
+      "type": "news",
+      "coverage": 2,
+      "url": "https://www.donga.com/news/Society/article/all/20261101/134943958/1"
+    },
+    {
+      "title": "대입 '결정적 변수' 되나…고1 내신 성적 봤더니 [지금이뉴스]",
+      "publisher": "YTN",
+      "topic": "입시",
+      "type": "news",
+      "coverage": 1,
+      "url": "https://m.ytn.co.kr/news_view.amp.php?param=0545_202611011620013477"
+    },
+    {
+      "title": "휴직 사립 교사, 의원 보좌관 겸직 못 한다…대법 “양립 불가능 지위”",
+      "publisher": "동아일보",
+      "topic": "대학",
+      "type": "news",
+      "coverage": 1,
+      "url": "https://www.donga.com/news/Society/article/all/20261101/134943404/1"
+    },
+    {
+      "title": "3,500개 학교에 설치했는데…지붕 위 '사각지대'",
+      "publisher": "SBS",
+      "topic": "정책",
+      "type": "news",
+      "coverage": 1,
+      "url": "https://news.sbs.co.kr/news/endPage.do?news_id=N1008825255"
+    },
+    {
+      "title": "충북교육청 13∼14일 교육영상제…학생·교직원 작품 30편 상영",
+      "publisher": "연합뉴스",
+      "topic": "교사",
+      "type": "news",
+      "coverage": 1,
+      "url": "https://www.yna.co.kr/view/AKR20261101022700064"
+    },
+    {
+      "title": "민주화 운동 시위 참여 실형 60대 40년에 만에 무죄",
+      "publisher": "국민일보",
+      "topic": "대학",
+      "type": "news",
+      "coverage": 1,
+      "url": "https://www.kmib.co.kr/article/20261101500099"
+    },
+    {
+      "title": "곧 수능인데 교문 앞 ‘암반 깨기’…“선생님 말씀 안 들려” 영주고에 무슨 일",
+      "publisher": "한겨레",
+      "topic": "입시",
+      "type": "news",
+      "coverage": 1,
+      "url": "https://www.hani.co.kr/arti/area/jeju/1285191.html"
+    },
+    {
+      "title": "스마트안경 쓰고 미 대입시험 커닝하면 몇 점 나올까",
+      "publisher": "한국경제",
+      "topic": "입시",
+      "type": "news",
+      "coverage": 1,
+      "url": "https://www.hankyung.com/article/2026110186287"
+    },
+    {
+      "title": "코로나19 백신이 암 발병 늘렸다?…3600만 분석 결과 “아니요”",
+      "publisher": "국민일보",
+      "topic": "대학",
+      "type": "news",
+      "coverage": 1,
+      "url": "https://www.kmib.co.kr/article/20261031500166"
+    },
+    {
+      "title": "수능 ‘AI 안경 단속’에 수험생들 “의심 받을까 금속테로 바꿔”",
+      "publisher": "중앙일보",
+      "topic": "AI교육",
+      "type": "news",
+      "coverage": 1,
+      "url": "https://news.google.com/rss/articles/CBMiVkFVX3lxTE1LWkpaVUgwa2FhWWVoTE5jalpMYXNRdjFydFNxNDZlU3dxb3puOTA1MlpqUGx1Y1p4UkdkVk5Ic2JONDFYUDB4elQ4YjhYZmtfdUR3STJB?oc=5"
+    },
+    {
+      "title": "\"AI 안경으로 美 수능 83% 정답\" 수능 앞두고 부정행위 우려 확산",
+      "publisher": "조선일보",
+      "topic": "AI교육",
+      "type": "news",
+      "coverage": 1,
+      "url": "https://news.google.com/rss/articles/CBMigwFBVV95cUxOeE9YNGlfVkliQkFuN05jSDhpZEpURHQ1THUzWGh0MTlSSmJjR1FGaHRLSGhrR2lGVWhWZkExWlJkNEIySS1lN2pJdktxZFBUZTBTLVVkYkhoci05aXA3YjR2QXdUaFlrUFBOWjJWSk9jWnZ2VzJ5SFVSY2IyX1I1NzFDaw?oc=5"
+    },
+    {
+      "title": "가을 왕국이 선택한 가장 빛나는 결실⋯“바로 ‘경북사과’ 입니다”",
+      "publisher": "국민일보",
+      "topic": "학교",
+      "type": "news",
+      "coverage": 1,
+      "url": "https://www.kmib.co.kr/article/20261101500397"
+    },
+    {
+      "title": "AI 시대 최고 투자 종목은 문해력 … “아이 분석 없이 학원 고르는 건 기업분석 없이 주식 매수하는 것”",
+      "publisher": "매일경제",
+      "topic": "AI교육",
+      "type": "news",
+      "coverage": 1,
+      "url": "https://news.google.com/rss/articles/CBMiVEFVX3lxTE5MZ3FBNzE1S040cmF3MU04dWd5Nk0zY1NGNFVNQ1laNkxtVUNBcXloa1VOencwaG03LVhDNjQwbEZiV2h5MzU1WHJxQmdqemdacmJPWA?oc=5"
+    },
+    {
+      "title": "스마트안경으로 미 대입 자격시험 풀었더니…문제 80% ’술술’",
+      "publisher": "연합뉴스",
+      "topic": "입시",
+      "type": "news",
+      "coverage": 1,
+      "url": "https://www.yonhapnewstv.co.kr/news/AKR20261101110545KK6"
+    },
+    {
+      "title": "'브래드 피트'의 귀환…극장 찾은 '수능의 비밀'",
+      "publisher": "연합뉴스",
+      "topic": "입시",
+      "type": "news",
+      "coverage": 1,
+      "url": "https://www.yna.co.kr/amp/view/MYH20261101004100038"
+    },
+    {
+      "title": "영덕 국립 교정시설 유치 동의안 군의회 통과…전원 찬성",
+      "publisher": "국민일보",
+      "topic": "입시",
+      "type": "news",
+      "coverage": 1,
+      "url": "https://www.kmib.co.kr/article/20261101500116"
+    },
+    {
+      "title": "전북교육청, '부패·비리 집중 신고기간' 연말까지 운영",
+      "publisher": "연합뉴스",
+      "topic": "정책",
+      "type": "news",
+      "coverage": 1,
+      "url": "https://news.google.com/rss/articles/CBMiW0FVX3lxTFBvZ0dfbVY3MmZDTm1LcmNqMlhjeXNFOUFkd1Jpc3FzeDRhSG0zWTlRcnk5a0xYQl8zamw2RE9udlFlSEdNVFpYNHRiVVg0VDZUWjc0QmlhN3ZkcnPSAWBBVV95cUxPVzRCbDhUaXZiTlZYdG8ySktLd1Z5RmlpemgtVlMzRTE4a2Q4bjIzd3BGb3JqamEtUDY3UHJhd05JQlRCSHM2UVZ3U3JxRVFpbkU5TFFIQjhLNDdRdUp6NC0?oc=5"
+    },
+    {
+      "title": "교정시설 유치 팔걷은 지자체들 \"우리 지역에 지어달라\"",
+      "publisher": "한국경제",
+      "topic": "입시",
+      "type": "news",
+      "coverage": 1,
+      "url": "https://www.hankyung.com/article/2026110185821"
+    },
+    {
+      "title": "[단독] “학비 비싼데, 보안은 구멍가게”…서울 국제학교 3곳, 털린채 운영했다",
+      "publisher": "매일경제",
+      "topic": "학교",
+      "type": "news",
+      "coverage": 1,
+      "url": "https://news.google.com/rss/articles/CBMiVEFVX3lxTE9IaUJXSmRmU2VBelN5UWMtZlR6a2VIQlZNRjd5R1JmdWJLSDNZNGZnY3h0QnR1X2hKUENBU2FjOXBreEZaeWI4U0dKZGtuYjdXYWpXeA?oc=5"
+    },
+    {
+      "title": "\"AI 공짜로 풀겠습니다\"…대학생 잡으러 나선 구글의 승부수 [정지은의 테크킥]",
+      "publisher": "한국경제",
+      "topic": "AI교육",
+      "type": "news",
+      "coverage": 1,
+      "url": "https://news.google.com/rss/articles/CBMiWkFVX3lxTE12V0d1b0RjR2ptaEwtcTlVOFNhMEdXUkpVZHp3bVBSdWh3SE4xaWF3eWd0SnBoZE5MRTJmVXFMcXFHME9odGEzdDJhcVBpazJLb1ZYTnczdTVfdw?oc=5"
+    },
+    {
+      "title": "[한일 미래路] 20년간 양국 오가며 일본 교사와 공동수업 이끈 조은경 교사",
+      "publisher": "연합뉴스",
+      "topic": "교사",
+      "type": "news",
+      "coverage": 1,
+      "url": "https://news.google.com/rss/articles/CBMiYEFVX3lxTFBOdy1feUliclJ3ZHJ0UGxXZnY2NmpqTlNGX0UzZ1plYmhCS09MRkJQZVd4YjdySUJZZXpJcWdqSnZITEV3dG94QUFnUkk2VzMxLUMtSjV1T1YzREZtYzB2SdIBYEFVX3lxTFBOdy1feUliclJ3ZHJ0UGxXZnY2NmpqTlNGX0UzZ1plYmhCS09MRkJQZVd4YjdySUJZZXpJcWdqSnZITEV3dG94QUFnUkk2VzMxLUMtSjV1T1YzREZtYzB2SQ?oc=5"
+    },
+    {
+      "title": "서울 지역 수능 응시자, 재학생 줄고 졸업생 늘었다",
+      "publisher": "한겨레",
+      "topic": "입시",
+      "type": "news",
+      "coverage": 4,
+      "url": "https://www.hani.co.kr/arti/society/schooling/1285161.html"
+    },
+    {
+      "title": "미 법원, 여중생 제자 성폭행 교사에 징역 50년 선고",
+      "publisher": "KBS",
+      "topic": "교사",
+      "type": "news",
+      "coverage": 1,
+      "url": "https://news.google.com/rss/articles/CBMiY0FVX3lxTE0wTVpTWTJBTjE0OUlRQlgtV0Jwb04wWWhQbEFpNVd2c1NSNVoyc0NncTZveElfT3pXRkhJQzZMbUdfY2FSSGJheUc3RkZ1RTZWcFdoYnlFX09lU0lCalhoY1JWNA?oc=5"
+    },
+    {
+      "title": "넷클래스 테크놀로지, AI 어학교육 우수사례상 수상..4만명 지원",
+      "publisher": "매일경제",
+      "topic": "AI교육",
+      "type": "news",
+      "coverage": 1,
+      "url": "https://news.google.com/rss/articles/CBMiUkFVX3lxTE15dGtLSkFWYm96SDREZmhiYm83RG9McG9abnoyU25OdWI2c0R1WmJsSmJRelhLeUljWkxGb1MwQ004bjBwb0xZWTJTam9xRE9qdEE?oc=5"
+    },
+    {
+      "title": "\"문제 내다 문제 생겼네\"...수능 출제위원 합숙 대소동",
+      "publisher": "YTN",
+      "topic": "입시",
+      "type": "news",
+      "coverage": 1,
+      "url": "https://news.google.com/rss/articles/CBMidkFVX3lxTE1MZV9Qci1MOVNPc3otOExEeXZ6Ynk3QzA1UzR0d0V6UTVlNVdCMW0zeW4xQ2ZVZ3ZvRXY2RlRtUnRXQ2xsNU5zMTR4QlVWMElyaEJ4alBYR1Y0TUsxeHhKLUkxVUhBczdUMWI4RVNVYnE2TWUtYmc?oc=5"
+    },
+    {
+      "title": "학교 밖 청소년 전용 온라인 플랫폼 '유스캠퍼스' 개설",
+      "publisher": "연합뉴스",
+      "topic": "대학",
+      "type": "news",
+      "coverage": 2,
+      "url": "https://www.yna.co.kr/view/AKR20261101013900003"
+    },
+    {
+      "title": "외국인 유학생 30만명 돌파…중국 쏠림 줄고 중도탈락률도 낮아져",
+      "publisher": "한겨레",
+      "topic": "해외교육",
+      "type": "news",
+      "coverage": 2,
+      "url": "https://news.google.com/rss/articles/CBMiakFVX3lxTE5xZU5QRmk4UjQ4S3hSLTRncEZwckxJYWo2ZjA1LWpUTFR3QUtFSXpkb0o2RjItb1BsS2k2OHF6Y3ZqdmxUcUVMeFhRWTJfTVA0SDhBbWpXN3V2eDV3YUxMVGs0Q0hpMV9FUVE?oc=5"
+    },
+    {
+      "title": "\"여중생 사진을…\" 남학생 13명, 성착취물 돌려보다 '검거'",
+      "publisher": "한국경제",
+      "topic": "학교",
+      "type": "news",
+      "coverage": 1,
+      "url": "https://www.hankyung.com/article/2026110187357"
+    },
+    {
+      "title": "2028의대특집 발행.. ‘병원 경쟁력’ 의대잣대",
+      "publisher": "베리타스알파",
+      "topic": "학교",
+      "type": "news",
+      "coverage": 1,
+      "url": "https://news.google.com/rss/articles/CBMiYEFVX3lxTFBzdmVKYkwzYVJMb2thVUtrdmZSRTZJcGNTM0JYVWdvRlhUeHpyWGVERXdpTXFzbGlSZkVkLVh0T2JXNV91cGV5bE5VZDB3eHJNX1gtZi1FUUdKZGxrWnp0Ng?oc=5"
+    },
+    {
+      "title": "전문대 외국인 유학생 8년 새 ‘6배’ 껑충",
+      "publisher": "서울신문",
+      "topic": "대학",
+      "type": "news",
+      "coverage": 1,
+      "url": "https://news.google.com/rss/articles/CBMieEFVX3lxTE5LRjVUd0JSSUFHaFdHNERZZmhmanFjSXk5Zjh6d3Bfal9ucFRrZ04yUVJlb3NJSWpaLW13eS1sc3JnRnRnVkRVNUxuRl9KdERwS08zTEdsQWZyZWQtQ0UyY2JxQnM5U01YNzVpcHNUUEJLbEl2ajlmWA?oc=5"
+    },
+    {
+      "title": "충남도의회, 학교내 휴대폰 이용제한 조례 공개",
+      "publisher": "서울신문",
+      "topic": "학교",
+      "type": "news",
+      "coverage": 1,
+      "url": "https://news.google.com/rss/articles/CBMigwFBVV95cUxOX1pUY2FySUpEM21TbFVoNjdiRlNhUFk0bWZTVHZ3ZDJ5R2dsTVFCNU8yZ2RMNWpkRnFHN0prQV9XaFJ5MllQSlkxOWNHV2QzZVI0OGY0bGFIUlRmWnViSTRicW9xZ0NldUVwVks3S0dmVXl4NGZzOHpJVzE3YUIxY0JxOA?oc=5"
+    },
+    {
+      "title": "[해킹 도미노] ① 은행도 카페도 학교도…일상 곳곳서 내 정보 털렸다",
+      "publisher": "연합뉴스",
+      "topic": "학교",
+      "type": "news",
+      "coverage": 2,
+      "url": "https://news.google.com/rss/articles/CBMiW0FVX3lxTFA4MGdtMUNuWjBPUkFsb2NhbXJmVTRUMkplUkRhS3Vva0ZIVDctQ2lpSnFCTkpFUW9ZVGRjYktCZmdHODR1N2Zudm16V0JZdGc2NC01N2ZUb2xJR2PSAWBBVV95cUxOWE0wQnZoN2tDVVZPOVhxNWFjQVhnVWhXa1RFd3I2eEdQMDhIeEFROU84TTdQR3M2RDRDajMxdkJSRFlvREFOYlhXQXFwcDFVeG5yUG96RThXcjhud0ZWdGU?oc=5"
+    },
+    {
+      "title": "‘국영수사과’ 중 수학이 내신 점수 제일 낮아…고1 평균 66.3점",
+      "publisher": "동아일보",
+      "topic": "입시",
+      "type": "news",
+      "coverage": 1,
+      "url": "https://www.donga.com/news/Society/article/all/20261101/134944021/1"
+    },
+    {
+      "title": "‘소년 광부’ 김월용 국가평생교육진흥원장 “공부엔 때가 없고 배움엔 졸업이 없죠”",
+      "publisher": "에듀프레스",
+      "topic": "대학",
+      "type": "news",
+      "coverage": 1,
+      "url": "https://www.edupress.kr/news/articleView.html?idxno=30576"
+    },
+    {
+      "title": "대구보건대 ‘사랑의 연탄 나눔 봉사’⋯지역 기관들과 5000장 전달",
+      "publisher": "국민일보",
+      "topic": "대학",
+      "type": "news",
+      "coverage": 1,
+      "url": "https://www.kmib.co.kr/article/20261101500661"
+    },
+    {
+      "title": "고1 내신 주요 과목 중 수학 점수가 3년 연속 '최하'",
+      "publisher": "MBC",
+      "topic": "입시",
+      "type": "news",
+      "coverage": 1,
+      "url": "https://news.google.com/rss/articles/CBMid0FVX3lxTFB2ZFZhOVUxcVBUTUNObFBVdTlHZHJ5c2JjeXZWWVpGODZaTnIteEg3a2JjUmt4UXdnX2loYldwMUtqUnlHQ25TZFV1eU9HbUxHb0V4UXVZYlJXNS1Fd0xkbUNrSWhnZE5PZXRvc3lmdWdTbE9rRW5n0gF3QVVfeXFMUHZkVmE5VTFxUFRNQ05sUFV1OUdkcnlzYmN5dlZZWkY4NlpOci14SDdrYmNSa3hRd2dfaWhiV3AxS2pSeUdDblNkVXV5T0dtTEdvRXhRdVliUlc1LUV3TGRtQ2tJaGdkTk9ldG9zeWZ1Z1NsT2tFbmc?oc=5"
+    },
+    {
+      "title": "차예련♥’ 주상욱 SNS까지 불똥…학폭 의혹에 “결혼 잘못하신 듯”",
+      "publisher": "경향신문",
+      "topic": "학교",
+      "type": "news",
+      "coverage": 1,
+      "url": "https://news.google.com/rss/articles/CBMiY0FVX3lxTE9lZnhTMVlhU2VwdWxHeDRKR3RuNXQ5Y0hmVFBJdUNRcEZBdkg5TzJULTlNZjhBOFl4Ymtpd19kd1A2VHlrZ3laWko3Nl8zRnRPT0E4NG5CY2RzVUpTSUp6UF9Gc9IBY0FVX3lxTE9lZnhTMVlhU2VwdWxHeDRKR3RuNXQ5Y0hmVFBJdUNRcEZBdkg5TzJULTlNZjhBOFl4Ymtpd19kd1A2VHlrZ3laWko3Nl8zRnRPT0E4NG5CY2RzVUpTSUp6UF9Gcw?oc=5"
+    },
+    {
+      "title": "공연·전시·체험 가득⋯‘동두천양주 RAS FESTA’ 성료",
+      "publisher": "국민일보",
+      "topic": "정책",
+      "type": "news",
+      "coverage": 1,
+      "url": "https://www.kmib.co.kr/article/20261101500493"
+    },
+    {
+      "title": "“글씨 못 쓰는 초등생, 엄마가 반성해야해?”…알림장 메모에 학부모 ‘불편’",
+      "publisher": "매일경제",
+      "topic": "학교",
+      "type": "news",
+      "coverage": 1,
+      "url": "https://news.google.com/rss/articles/CBMiRkFVX3lxTFB5bUk3czRFNkRyMERRb21Mb0ZGU2taX1ZWUVR1YTVrNk9hU2hyNVhBOGZQWm5RNmc4SnFtTlVzeVMzME5ScXc?oc=5"
+    },
+    {
+      "title": "한신대 총학 “강제출국 피해자 피눈물”…‘사건 각하’ 학교 인권센터 비판",
+      "publisher": "한겨레",
+      "topic": "학교",
+      "type": "news",
+      "coverage": 1,
+      "url": "https://news.google.com/rss/articles/CBMiY0FVX3lxTE5kVUF1R2Z2U2ZVVVd1UXV0ek40NnRlQWk4NVM3Tk8zdGkxOEJhNHBQYzBaaFJlSHVDcHpIcWtBMWdLNndMZk5JOVNpQlFXc3hwNEhaMk1KSWhsc0FrOHdUZ2t3NA?oc=5"
+    },
+    {
+      "title": "“공원 앞·학교 옆 첫 라이프 스테이 몰”…계양신도시 생활밀착형 상업시설 보니",
+      "publisher": "매일경제",
+      "topic": "학교",
+      "type": "news",
+      "coverage": 1,
+      "url": "https://news.google.com/rss/articles/CBMiRkFVX3lxTE53MmFvQ3R3X0ZZS1RJVUZac0x6U1YwclVTWXlSeXV5VUNydXVuZVNwYktWZ0xPSmJEcXJzblJ0Tkt4ZDluNWc?oc=5"
+    },
+    {
+      "title": "[인사] 행정안전부 ; 교육부 ; 산림청",
+      "publisher": "한국경제",
+      "topic": "정책",
+      "type": "news",
+      "coverage": 1,
+      "url": "https://www.hankyung.com/article/2026110185221"
+    },
+    {
+      "title": "AAC 출전자 30%가 美 대학 골퍼…세계 1위 셰플러 뒤따르는 아태 유망주들",
+      "publisher": "매일경제",
+      "topic": "대학",
+      "type": "news",
+      "coverage": 1,
+      "url": "https://news.google.com/rss/articles/CBMiRkFVX3lxTE5UOUthUDJhSkQzc1I0Mmw3cXZmenhvbUFFbTIyc0s4bjlVT3NGYkcwZDN3cHVVZFdEa0JUdkpwSjZDQXNIM3c?oc=5"
+    },
+    {
+      "title": "[알립니다] 제18회 한국대학신문 대학직원대상 공모… 11월 23일까지 후보자 추천",
+      "publisher": "한국대학신문",
+      "topic": "대학",
+      "type": "news",
+      "coverage": 1,
+      "url": "https://news.google.com/rss/articles/CBMiZkFVX3lxTE9zejBrWE5VMUFiNXZtNHl5a3pYUWNDakRyeHY2OG10blFZemc3Y0dORlNjZ1cxS2kybkYtMlNELTdVQnVDMkgtOXhfTnVtRUFZcXhmYkVlZlpJa01tVGxsbkJsQ3JQZw?oc=5"
+    },
+    {
+      "title": "차예련, 학폭 의혹 부인했는데…SNS엔 추가 해명 요구",
+      "publisher": "매일경제",
+      "topic": "학교",
+      "type": "news",
+      "coverage": 2,
+      "url": "https://news.google.com/rss/articles/CBMiWEFVX3lxTE5DWmxxenlyUXhHVzdiUVJIRWpMR3g3dTVXMm1hQk5nS0ZDTlMyVEhLYkk5U29NUE5pRGwwVHVySHhJU2N4cFRWc3JNOFN1bm9PMWVuS0lkZE0?oc=5"
+    },
+    {
+      "title": "인천봉수초 계약제교원(시간강사) 2차 채용 공고(2학년 담임교사_2026.11.6.)",
+      "publisher": "서울신문",
+      "topic": "교사",
+      "type": "news",
+      "coverage": 1,
+      "url": "https://news.google.com/rss/articles/CBMiYkFVX3lxTFByaFZqQTFybm5EVlJCNEFyN1RoWFZtSTRFLVNUX2R1NERtVnp6QlhiQTVCMGNXRHVXV2J5Zmx4eVROYWhQeVpub3FwZTlkc1k3UjVlZjlkNzlJTFBoSlV4dktn?oc=5"
+    },
+    {
+      "title": "차예련 ‘학폭 의혹’에 ♥주상욱 과거 발언 재조명…13년 전부터 “학교 폭력 근절”",
+      "publisher": "경향신문",
+      "topic": "학교",
+      "type": "news",
+      "coverage": 1,
+      "url": "https://news.google.com/rss/articles/CBMiXkFVX3lxTE9JZ3dxOXRBX2lxOGhXWXFPNnh5WHoxVUxqTEZKYThfWGVIZi1ua19SS0JMTGI2bjNSdnlnczBfZ3l0RUl0SGRGMnlwSzlxSlRsTjRJYTlybS1rQ0EzNHfSAWNBVV95cUxNT2czZUw4LWhIbTNUMGw4SVhHS051dGUzSFlpUENZV3A2NGJyRFdidEJnZ1dQVjVNaWNLY2RWd3pER0dwdXNlVk1naFB4OFZqQ3dQWjFEVTN3Z0VPbzRmdG5lMzA?oc=5"
+    },
+    {
+      "title": "교장이 \"학폭 가해자 보디가드로 써라\" #shorts",
+      "publisher": "SBS",
+      "topic": "학교",
+      "type": "news",
+      "coverage": 1,
+      "url": "https://news.google.com/rss/articles/CBMiaEFVX3lxTE9lcE9kUF83Mkdvdk1zSDFER1BLZnRxbzVFd1ItUUhXa0RjQ2otQnlYZGxBZFlyc0ZsVFRxNDFVazd5TVdwR2VBZ2huYWQyWXhTejd4RWF1YnpndXJ2OVZuOXBLSVdSV3U3?oc=5"
+    },
+    {
+      "title": "교수소개",
+      "publisher": "EBS",
+      "topic": "대학",
+      "type": "news",
+      "coverage": 1,
+      "url": "https://news.google.com/rss/articles/CBMie0FVX3lxTFBKNjE3MEFXd2JwbkY4SURQODJ4QU1GVVVPM0FDcER0S19RNl9aU2JFTXlQNG50MGg4WHJaUEs0b250YzdaWDFrMV9sQlVPQXRnSGJtVFNPcklLaG0yUGNnOFFtUEJjakFqT0NhanBvbU1BUjRaRW12cnROaw?oc=5"
+    },
+    {
+      "title": "내신 부담 줄인다더니‥'5등급제' 불안에 '100만 원 컨설팅'까지",
+      "publisher": "MBC",
+      "topic": "입시",
+      "type": "news",
+      "coverage": 1,
+      "url": "https://news.google.com/rss/articles/CBMieEFVX3lxTE5aRTBQdUI5ZWxtR0NmNjEtSWNPUnoxUjFscllOcm03Zkxpb0VGS1Y1QXhWSUZWRjc0dk1OcXUyejI3eVJyQ1didnEwcldiUHJyZnhLNjJzSThEQmVtRGo1YXVXYzhzT1d2OG5MdlRJVjhBbmJQZVVhWNIBeEFVX3lxTE5aRTBQdUI5ZWxtR0NmNjEtSWNPUnoxUjFscllOcm03Zkxpb0VGS1Y1QXhWSUZWRjc0dk1OcXUyejI3eVJyQ1didnEwcldiUHJyZnhLNjJzSThEQmVtRGo1YXVXYzhzT1d2OG5MdlRJVjhBbmJQZVVhWA?oc=5"
+    },
+    {
+      "title": "'학폭 의혹' 차예련, 딸 공개가 독 됐나..♥주상욱 꽃길에 '찬물' [핫피플]",
+      "publisher": "조선일보",
+      "topic": "학교",
+      "type": "news",
+      "coverage": 1,
+      "url": "https://news.google.com/rss/articles/CBMijwFBVV95cUxPNng2T3pTUVZtaS1FZElqUmhXNVZqbjVFaGp3ekxIeWZaVDJSTW9DcE4ybmRDQ2N2RGVOUUhabmxINDFYQ3JQazd6X0VrZnUyMnZFaDV5S25yUHVneU1oZkNVSE43ZlpGNnZBcVFzaGlPVFFac29wanFsSUdOR2E3SWg4TDRWRXZQd05JZzRLZw?oc=5"
+    },
+    {
+      "title": "411개 대학을 연결하는 '힘'",
+      "publisher": "한국대학신문",
+      "topic": "대학",
+      "type": "news",
+      "coverage": 1,
+      "url": "https://news.google.com/rss/articles/CBMipgFBVV95cUxPN01SN3pQbWxjTnN4SGF6WE11aFRnN0s1aVJKWUZpNm5Ebmp4NzdQSjhmVDhXSmVFY3NGOHF6bVdRRVcyeEJtTDR3a2ZVUkdOczA1aHlpeHl4NjlmTF9uWTI2ODZEdUdwUDVtVWlvWWJFZjN2V2hCT3dTdGdiZUpLVlk0UUItT1AzczkwVS10aXZjM2VMejZZX0xjUFY0bHhVWXFKQlVn?oc=5"
+    },
+    {
+      "title": "님비? “50년 만에 동네가 살아난 느낌이죠”… 미아동과 효정학교의 특별한 10년 동행",
+      "publisher": "조선일보",
+      "topic": "학교",
+      "type": "news",
+      "coverage": 1,
+      "url": "https://news.google.com/rss/articles/CBMiakFVX3lxTE44T1ZkaDdHbkpMTkdCM1Z1NXJQTGt6Y2RKSXpxX09PbU1FUVVOVEY3TWJNZWFVb1FYblNlQ1BrV2tWY3JaR090a3N1RGlLbkFvbUJKRlljZko2b3dDeE5mSmJxVW5qYThFMkHSAW5BVV95cUxOLXVXWFNtNjJoUExBNjROdy1Dc1RfMTNuOUkzRzkxTU9aQnFNWTlBNVpOdXRMTjVua2FvRmZEeERPbjAzT0RjdjBmRTJRZlBoSC0xYXdSRlBJeDIwVUNSNjN2a0YxbFhKbVdiV1Y1UQ?oc=5"
+    },
+    {
+      "title": "[MBC 뉴스데스크 주요뉴스] 국감 끝나자 '820조' 예산전쟁 돌입‥'162조' 미래기금 놓고 與 \"사수\" 野 \"삭감\"",
+      "publisher": "MBC",
+      "topic": "정책",
+      "type": "column",
+      "coverage": 1,
+      "url": "https://imnews.imbc.com/news/2026/society/article/6862320_36918.html"
+    },
+    {
+      "title": "[사설] ‘양극화 완화’ 예산 보강하되, ‘새는 돈’ 없게 철저 심사해야",
+      "publisher": "한겨레",
+      "topic": "정책",
+      "type": "column",
+      "coverage": 1,
+      "url": "https://www.hani.co.kr/arti/opinion/editorial/1285235.html"
+    },
+    {
+      "title": "물 들어와 노 젓기 전에 [세상읽기]",
+      "publisher": "한겨레",
+      "topic": "학교",
+      "type": "column",
+      "coverage": 1,
+      "url": "https://www.hani.co.kr/arti/opinion/column/1285238.html"
+    },
+    {
+      "title": "[취재수첩] 시험대 오른 다문화 우대 정책",
+      "publisher": "한국경제",
+      "topic": "정책",
+      "type": "column",
+      "coverage": 1,
+      "url": "https://www.hankyung.com/article/2026110184841"
+    },
+    {
+      "title": "[조학규 칼럼] 교장공모제 확대.. ‘허리’ 없는 학교를 만들 셈인가",
+      "publisher": "에듀프레스",
+      "topic": "교사",
+      "type": "column",
+      "coverage": 1,
+      "url": "https://www.edupress.kr/news/articleView.html?idxno=30567"
+    },
+    {
+      "title": "[사설] AI 활용한 해킹, 국가 대응 체계 점검해야",
+      "publisher": "국민일보",
+      "topic": "AI교육",
+      "type": "column",
+      "coverage": 1,
+      "url": "https://news.google.com/rss/articles/CBMiWEFVX3lxTE1IWmlBZUJnRXRjZFJqTkxWbnlvemVkaDgyUzZFQkRPbHJaZG5ZQUZScUd2NWxHX0lXZnVIYk96WHVabnpPLVkyazRGeGZSM2F2VlRFS1l2NEg?oc=5"
+    },
+    {
+      "title": "[기자수첩]\"해달라\" 대신 \"먼저 하겠다\"…하남 교육 바꾼 이현재",
+      "publisher": "한국경제",
+      "topic": "학교",
+      "type": "column",
+      "coverage": 1,
+      "url": "https://news.google.com/rss/articles/CBMiWkFVX3lxTE1ObWVEalpTZUdIWTZuYWpGOGNNRXNDWlhRd2JXSmh0cnU5bTFFU3BTYno3WDlmZElLX2RhSS13aEdDRDI5bkhaSjVlYlg1MHVkWGh4VXJpNVBHdw?oc=5"
+    },
+    {
+      "title": "[데스크 진단] 청소년 자살 예방 나선 전북교육청, 실효 있으려면?",
+      "publisher": "KBS",
+      "topic": "정책",
+      "type": "column",
+      "coverage": 1,
+      "url": "https://news.google.com/rss/articles/CBMiXkFVX3lxTE9tdWRLZ2pyT19MTzBKYUlPc09nMmhoU3VLc0ttMDU0bzdnZW9sVTl1eUJTWFdXTm1HQ2NxSExzMmcwcVhrNi14bHhJTGFNXzNFYXJ4UDU0OTVBRXhHZmc?oc=5"
+    },
+    {
+      "title": "[사설] 메가 프로젝트의 종착지는 새로운 성장과 AI 국가",
+      "publisher": "국민일보",
+      "topic": "AI교육",
+      "type": "column",
+      "coverage": 1,
+      "url": "https://news.google.com/rss/articles/CBMiWEFVX3lxTFA3dHJ6RHRQOXlfNkhjeV9mZUZ4d3o2QXd0NXdpbG1fMkZqMWtJVGZuZkQzSnV4eExQN0tpa3YzYlJDRjJDc28zSW55ZllEZ0o5UXA4aDFvemU?oc=5"
+    },
+    {
+      "title": "뉴스데스크 클로징",
+      "publisher": "MBC",
+      "topic": "학교",
+      "type": "column",
+      "coverage": 1,
+      "url": "https://news.google.com/rss/articles/CBMieEFVX3lxTFAwTnpVVFNkYmpQLUUxbWNxQ05ocEhyUlc5d1NFamtwWUsyLVpxb3UtTXp4TXAyOUl2LTItbnUzQ043YV8xcGFTX0FEVnUwQWgza2JsYW5Fbm1yMmpQQVk5VWdPdVpCTjFkdEw4WTU0dkVvc1VrS29VV9IBeEFVX3lxTE9XWnhUOUN6TzZYa2JFd2hfVmpCZDAyVWI2eVVLVzl4bS1DVFQyd2J6RTFOY1VKZVdOVG1DbDE2dnVKYVJzbDVjVXY1a2Q0blZVQUc1VEFDT2FseHhfVG1uZWg3S1pTTHNpYkh5aW95VDdZcjJGMXRfQg?oc=5"
+    }
+  ]
+}

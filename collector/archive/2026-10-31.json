@@ -1,0 +1,567 @@
+{
+  "date": "2026-10-31",
+  "generated_at": "2026-10-31T22:25:40.7545359+09:00",
+  "total": 153,
+  "items": [
+    {
+      "title": "“상습 폭행?” 차예련 측, 학폭 가해 의혹 전면 부인 [공식]",
+      "publisher": "동아일보",
+      "topic": "학교",
+      "type": "news",
+      "coverage": 8,
+      "url": "https://sports.donga.com/ent/article/all/20261030/134940649/1"
+    },
+    {
+      "title": "AI 안경 전담 감독관⋯ 올 수능 시험장 배치",
+      "publisher": "국민일보",
+      "topic": "AI교육",
+      "type": "news",
+      "coverage": 2,
+      "url": "https://www.kmib.co.kr/article/20261029502352"
+    },
+    {
+      "title": "부산교육청, 전국 첫 피지컬 AI 연구학교 운영",
+      "publisher": "국민일보",
+      "topic": "AI교육",
+      "type": "news",
+      "coverage": 2,
+      "url": "https://www.kmib.co.kr/article/20261030500079"
+    },
+    {
+      "title": "학폭 가해자만 한숨 돌렸다?…‘변호사 노쇼’ 피해자 사건, 결국 종료 확정",
+      "publisher": "매일경제",
+      "topic": "학교",
+      "type": "news",
+      "coverage": 4,
+      "url": "https://m.mk.co.kr/amp/12192022"
+    },
+    {
+      "title": "서울시교육청·교육감협·조국혁신당, 정부 교부금 개편에 공동 대응",
+      "publisher": "한국대학신문",
+      "topic": "대학",
+      "type": "news",
+      "coverage": 1,
+      "url": "https://news.unn.net/news/articleView.html?idxno=599670"
+    },
+    {
+      "title": "[단독] '속도전/N수 유리' 수능 전면개편해야.. '2028개편도 객관식 유지'",
+      "publisher": "베리타스알파",
+      "topic": "입시",
+      "type": "news",
+      "coverage": 1,
+      "url": "https://www.veritas-a.com/news/articleView.html?idxno=634401"
+    },
+    {
+      "title": "한동대 2026 유네스코 유니트윈 국제개발협력 컨퍼런스 개최",
+      "publisher": "베리타스알파",
+      "topic": "AI교육",
+      "type": "news",
+      "coverage": 4,
+      "url": "https://www.veritas-a.com/news/articleView.html?idxno=634475"
+    },
+    {
+      "title": "교육부, 전국 교육청과 직업계고 현장실습 안전관리 논의",
+      "publisher": "연합뉴스",
+      "topic": "정책",
+      "type": "news",
+      "coverage": 1,
+      "url": "https://www.yna.co.kr/amp/view/AKR20261030041700530"
+    },
+    {
+      "title": "국립목포대 교수평의회, 교육부에 전남 국립의대 후보대학 선정 재검토 촉구",
+      "publisher": "한국대학신문",
+      "topic": "대학",
+      "type": "news",
+      "coverage": 2,
+      "url": "https://news.unn.net/news/articleView.html?idxno=599678"
+    },
+    {
+      "title": "교육부, 특별성과 우수사례 시상…AI 보안관제 구축한 이진구 사무관 등 4명 대상",
+      "publisher": "조선일보",
+      "topic": "AI교육",
+      "type": "news",
+      "coverage": 2,
+      "url": "https://biz.chosun.com/topics/topics_social/2026/10/30/MV3GDITTY5EHHAPXO7TTUHXLRM/"
+    },
+    {
+      "title": "전북교육청, '부패·비리 집중 신고기간' 연말까지 운영",
+      "publisher": "연합뉴스",
+      "topic": "정책",
+      "type": "news",
+      "coverage": 2,
+      "url": "https://www.yna.co.kr/view/AKR20261031024800055"
+    },
+    {
+      "title": "주민직선 제5기 강원교육 비전 설명하는 강삼영 교육감",
+      "publisher": "연합뉴스",
+      "topic": "정책",
+      "type": "news",
+      "coverage": 3,
+      "url": "https://www.yna.co.kr/amp/view/PYH20261030125100062"
+    },
+    {
+      "title": "[뉴스토리] 베트남에서 온 천재 소녀…30만 유학생의 미래는?",
+      "publisher": "SBS",
+      "topic": "대학",
+      "type": "news",
+      "coverage": 1,
+      "url": "https://news.sbs.co.kr/news/endPage.do?news_id=N1008824134"
+    },
+    {
+      "title": "코로나19 백신이 암 발병 늘렸다?…3600만 분석 결과 “아니요”",
+      "publisher": "국민일보",
+      "topic": "대학",
+      "type": "news",
+      "coverage": 1,
+      "url": "https://www.kmib.co.kr/article/20261031500166"
+    },
+    {
+      "title": "[앵커 선도대학을 가다/울산앵커센터] ‘AI 산업수도’ 정조준… ‘울산형 앵커’로 청년 정주‧산단 안전 두 난제 푼다",
+      "publisher": "한국대학신문",
+      "topic": "AI교육",
+      "type": "news",
+      "coverage": 1,
+      "url": "https://news.unn.net/news/articleView.html?idxno=599423"
+    },
+    {
+      "title": "전교조 위원장 선거 2파전…김현희 vs 박영환 격돌",
+      "publisher": "에듀프레스",
+      "topic": "대학",
+      "type": "news",
+      "coverage": 1,
+      "url": "https://www.edupress.kr/news/articleView.html?idxno=30574"
+    },
+    {
+      "title": "동의대, AI 활용 5단계로 구분…사용 기록 제출 의무화",
+      "publisher": "국민일보",
+      "topic": "AI교육",
+      "type": "news",
+      "coverage": 1,
+      "url": "https://www.kmib.co.kr/article/20261030500181"
+    },
+    {
+      "title": "서울 교사·시민 2천600명 \"초교서 생성형 AI 전면 금지해야\"",
+      "publisher": "연합뉴스",
+      "topic": "AI교육",
+      "type": "news",
+      "coverage": 1,
+      "url": "https://news.google.com/rss/articles/CBMidkFVX3lxTE5ZTHpfYVNpTmJ5dnFsUUpPejAwdDQ0UE9TWlJONEkzMUtJNk1zcUxYT3hTR1NfWkMteDRPUVdjdW9tSUF2NzlvdWJrM080cEt2REFOMTFxYmJCN0gzd1ZTVjhzcy0xcUdZUkQ0b19xV1FSdXJEYXfSAWBBVV95cUxPRUpYZXZZVlkySkhqamthMWZOZ0lIbGU1c2phd1dLSUNwM0JHVkpzbDAwSFUtcjYyUmhFTUVCVTRqSXlXV3NZNWZVOGYxc196LWh0SnE2Q09naXlfYmlOOHU?oc=5"
+    },
+    {
+      "title": "울산대 교육대학원 고등교육정책 변화와 교육혁신 방향 모색",
+      "publisher": "베리타스알파",
+      "topic": "대학",
+      "type": "news",
+      "coverage": 1,
+      "url": "https://www.veritas-a.com/news/articleView.html?idxno=634435"
+    },
+    {
+      "title": "강삼영 교육감 “AI 시대…강한 학력·진로 교육 주력”",
+      "publisher": "KBS",
+      "topic": "AI교육",
+      "type": "news",
+      "coverage": 1,
+      "url": "https://news.kbs.co.kr/news/view.do?ncd=8700149"
+    },
+    {
+      "title": "강원도교육청, 수능 수험생 응원 펼침막 게시",
+      "publisher": "KBS",
+      "topic": "입시",
+      "type": "news",
+      "coverage": 1,
+      "url": "https://news.kbs.co.kr/news/mobile/view/view.do?ncd=8699789"
+    },
+    {
+      "title": "교육부, 시도교육청과 함께 사교육 인식 개선 나선다",
+      "publisher": "조선일보",
+      "topic": "정책",
+      "type": "news",
+      "coverage": 1,
+      "url": "https://edu.chosun.com/site/data/html_dir/2026/10/30/2026103080034.html"
+    },
+    {
+      "title": "한림대 대학일자리플러스센터 '우수 프로그램 아이디어 공모전' 개최",
+      "publisher": "베리타스알파",
+      "topic": "대학",
+      "type": "news",
+      "coverage": 3,
+      "url": "https://www.veritas-a.com/news/articleView.html?idxno=634428"
+    },
+    {
+      "title": "동국대 WISE캠퍼스 교직원 대상 'AI 활용 실무교육' 총 11회 실시",
+      "publisher": "베리타스알파",
+      "topic": "AI교육",
+      "type": "news",
+      "coverage": 1,
+      "url": "https://www.veritas-a.com/news/articleView.html?idxno=634432"
+    },
+    {
+      "title": "신정훈 “임관 전 군사훈련, 군 복무 경력으로 인정해야”",
+      "publisher": "국민일보",
+      "topic": "대학",
+      "type": "news",
+      "coverage": 1,
+      "url": "https://www.kmib.co.kr/article/20261030500116"
+    },
+    {
+      "title": "연성대 2026년 안양시 미래평생학습포럼서 AI 시대 평생학습의 방향 제시 및 실천 사례 발표",
+      "publisher": "베리타스알파",
+      "topic": "AI교육",
+      "type": "news",
+      "coverage": 1,
+      "url": "https://news.google.com/rss/articles/CBMibEFVX3lxTE12dDJycklETEFtek1fVVdJaDhFWVVDeTFYZTRFRXhRS2xLbENMVjVETjZ0TFFzdVJDQVhUR25YQTFwNFVSU21BUlVDcnNqbS04dWV6WW53dF9BamdHR2lGU1lla2RfNHZqdGxYcg?oc=5"
+    },
+    {
+      "title": "인공지능시대사이버보안영재교육지원을위한 교육부.LG유플러스.티오리한국 업무협약 체결",
+      "publisher": "서울신문",
+      "topic": "AI교육",
+      "type": "news",
+      "coverage": 4,
+      "url": "https://go.seoul.co.kr/news/prnewsView.php?id=454327"
+    },
+    {
+      "title": "안민석 “황현필 강연 취소 요구, 후졌다”... 교총 “사과하라”",
+      "publisher": "조선일보",
+      "topic": "정책",
+      "type": "news",
+      "coverage": 2,
+      "url": "https://www.chosun.com/national/education/2026/10/30/C2SKDWHH6JBZHB5CMMY5FZUZZE/"
+    },
+    {
+      "title": "[2027수시면접] 성균관대 면접 3년 기출분석.. 지난해 사범대 '스마트폰', 자유전공 '유전자 조작' 찬반",
+      "publisher": "베리타스알파",
+      "topic": "AI교육",
+      "type": "news",
+      "coverage": 1,
+      "url": "https://www.veritas-a.com/news/articleView.html?idxno=634269"
+    },
+    {
+      "title": "[단독] 'AI 세특 어떻게 하나' 대학가 '획일화 깡통 학생부' 우려.. 2028정성평가 확대에 변별력 과제",
+      "publisher": "베리타스알파",
+      "topic": "AI교육",
+      "type": "news",
+      "coverage": 1,
+      "url": "https://news.google.com/rss/articles/CBMibEFVX3lxTE1FVkNUX2h5VXpKUmxNNXMwOGlWMjNIZHh2aHZXdlMtUHZ1eEZUYjVfb0NWdlg5cThoTFFIQ25IdXZjSFNLeS1MNGQ4T2RzWGVuTDNPMERPS05aeGY0YXViSXh4WllGY0MxVHBrNw?oc=5"
+    },
+    {
+      "title": "인천시교육청, 대한민국 첫 ‘우주인’과 함께 ‘미래 과학의 꿈’을 열다",
+      "publisher": "동아일보",
+      "topic": "정책",
+      "type": "news",
+      "coverage": 1,
+      "url": "https://news.google.com/rss/articles/CBMickFVX3lxTE5mdjhYZndTTlZkT1k4d1VFUWlLYVUycjVjSzU0ckVjSF9xUFZmTVJXcE5obFU1TFUySTVsdFdpbDZQMFA4aXZKdllUN1B2VWhIaHc0YUVtSEsyd1lUdEI1X0pqdkhDbDZ2QTZLNTJfbUJIdw?oc=5"
+    },
+    {
+      "title": "통합시-교육청, 첫 교육행정협의회 서면 대체",
+      "publisher": "KBS",
+      "topic": "정책",
+      "type": "news",
+      "coverage": 1,
+      "url": "https://news.google.com/rss/articles/CBMiW0FVX3lxTE5ZczhZZEFra3FGaHBuNVNROHpzXzNBeTJYZnpDWjNKdExwbjlIdFlrdm11TWtvUVMyTFhhazNwM3BWVFdoUl9EUUdBTl92bnZMclN2aktHSC02cFE?oc=5"
+    },
+    {
+      "title": "수능 앞두고 간식 위생 점검…과일찹쌀떡 등 대상",
+      "publisher": "연합뉴스",
+      "topic": "입시",
+      "type": "news",
+      "coverage": 2,
+      "url": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTE9OVFp2dmlJemMyZ1dNZm9XZS1zbFVvYzlqZ2VnR1lFOFA1WVlJNThKa3hIaVVoamFQNFphVlQ2OWVsbjAyRGF5N3hiOEpUUy1BRjB6ZEFtXzNvcms0dTdiY0dsTEJ5TXc?oc=5"
+    },
+    {
+      "title": "'대리수능' 배현성·차강윤·박윤호, 의미심장 첫 스틸 공개",
+      "publisher": "조선일보",
+      "topic": "입시",
+      "type": "news",
+      "coverage": 2,
+      "url": "https://news.google.com/rss/articles/CBMijwFBVV95cUxNVENKLWM0dzhTcVZkemVmZ2RvQlg4RTR4QnZXemEtSGhXRUNJcWI5MnlpaGV3cmtOQVN0bVlMaXF0TjVCUlczREt4VmZ3TjhPVnNQLXptNXM0WWlhUFJ6S193RThfZWRJdzdXaGcwdXdCUHcwVmZYTHBiN1BhYnJKbld1Z2tBMWtWOHBISHBlTQ?oc=5"
+    },
+    {
+      "title": "창원시장에 다회용기 도입 제안 편지 쓴 중학생들, 현장 캠페인",
+      "publisher": "연합뉴스",
+      "topic": "학교",
+      "type": "news",
+      "coverage": 1,
+      "url": "https://www.yna.co.kr/view/AKR20261030072700052"
+    },
+    {
+      "title": "“전국 학교에서도 포메인 쌀국수”...포메인, 코주부씨앤에프와 급식 공급 추진",
+      "publisher": "서울신문",
+      "topic": "학교",
+      "type": "news",
+      "coverage": 1,
+      "url": "https://news.google.com/rss/articles/CBMib0FVX3lxTE1KNkRyOHlmejRvYWRkZVRuM1R6QlI5Q0hJUmRPLUhBN2J1eUFPRTI5Z3dQVTFHZUpYRC1BejFwS3pPTnctbTlzQVcxNXRuWUFabXkyT1hQSWNCV3BrQktZYjRiRUgwRG9sS2xIcGN3bw?oc=5"
+    },
+    {
+      "title": "건양사이버대, 초등돌봄서비스 참여 아동 작품발표회 개최",
+      "publisher": "한국대학신문",
+      "topic": "대학",
+      "type": "news",
+      "coverage": 2,
+      "url": "https://news.unn.net/news/articleView.html?idxno=599682"
+    },
+    {
+      "title": "충남도의회, 학교내 휴대폰 이용제한 조례 공개",
+      "publisher": "서울신문",
+      "topic": "학교",
+      "type": "news",
+      "coverage": 1,
+      "url": "https://news.google.com/rss/articles/CBMijgFBVV95cUxPMnFPMmplUjZ5X2UybmxZWXRpbTNvSkZKUUxGanAtcWlKbzJkYWZZcVJuQXR4TV9uU0pMZXpNRU5lWDU0Y2JkRXhid2h5b1dPUjFBQkdfa2lPaXVHaUxvSzc3dGlQU2Q4OWZIbnpDVTA4T1JRTGQxc3dEQ3NaQlhOb2N3RzI1TmZUcjd0a1N3?oc=5"
+    },
+    {
+      "title": "넷클래스 테크놀로지, AI 어학교육 우수사례상 수상..4만명 지원",
+      "publisher": "매일경제",
+      "topic": "AI교육",
+      "type": "news",
+      "coverage": 1,
+      "url": "https://news.google.com/rss/articles/CBMiUkFVX3lxTE15dGtLSkFWYm96SDREZmhiYm83RG9McG9abnoyU25OdWI2c0R1WmJsSmJRelhLeUljWkxGb1MwQ004bjBwb0xZWTJTam9xRE9qdEE?oc=5"
+    },
+    {
+      "title": "\"문제 내다 문제 생겼네\"...수능 출제위원 합숙 대소동",
+      "publisher": "YTN",
+      "topic": "입시",
+      "type": "news",
+      "coverage": 1,
+      "url": "https://news.google.com/rss/articles/CBMiXkFVX3lxTE5vTUhWMVN2UVZxZW9HTV9ScDB1WGlIY003dk9hQnhxYk4xcDlncHRKbHJiYmFXRTI0VWctNFNOZks3Wlg2Z2ZIWEcxU3JIbEF1aVlpOG83dnh4UmtKYVE?oc=5"
+    },
+    {
+      "title": "강원도교육청, 제5기 교육 비전 선포…5대 과제 제시",
+      "publisher": "KBS",
+      "topic": "정책",
+      "type": "news",
+      "coverage": 1,
+      "url": "https://news.google.com/rss/articles/CBMiW0FVX3lxTE9WNTFObk1DXzhkVlg3c2V1WnlPaEZZZDNlZmw3WmpydXMzRHppak5wX1hrenJLTThIcDBWd0IxcWxscnVNNGtqQzEwNUhzQWJqNEh3cFBId0hNQU0?oc=5"
+    },
+    {
+      "title": "동두천·양주서 ‘찾아가는 교육감실’ 안민석, “집에서도 ‘폰프리’ 해야”",
+      "publisher": "서울신문",
+      "topic": "정책",
+      "type": "news",
+      "coverage": 1,
+      "url": "https://news.google.com/rss/articles/CBMiV0FVX3lxTE5Rb1BmWlpFUWNOUzdIYzZTOUpmTjJLZVQ0bUlIQWNJbXR5VjQ4VnlqeEdjRnR3RmlCMWNvWHd5a004WVN5eUNGZzY5ekN2eXE4YXl3aFVUTQ?oc=5"
+    },
+    {
+      "title": "권오을 장관， 교육부 및 소방청과 보훈역사 현장체험교육 확대 논의",
+      "publisher": "서울신문",
+      "topic": "정책",
+      "type": "news",
+      "coverage": 1,
+      "url": "https://news.google.com/rss/articles/CBMiYkFVX3lxTE9QTWlfenVvY19qaVg4MDZsNHloMGdiS09UNERRN3phM04zQWNzU0dGLWkyUXJLV1hwVmxWZVZfM2FsWHBlMGlkRUdYQ2JleEpRc05zdk42UlZGYUdiek9jekFR?oc=5"
+    },
+    {
+      "title": "경남교육청 ‘공약평가위’ 구성…도민·학생 40명",
+      "publisher": "KBS",
+      "topic": "정책",
+      "type": "news",
+      "coverage": 1,
+      "url": "https://news.google.com/rss/articles/CBMiW0FVX3lxTFAzMXFZSkVSaVpxNEg5djRCSkVyRGVuQlI3Ym5DenRCa0FsaDVHeTFrMnZGNnpmbDE1NDcwVXp1NVMtdm1wZU40VkpRZ3V3TWZTVzh3T25EQ2VWdVE?oc=5"
+    },
+    {
+      "title": "보훈장관, 소방청장 만나 노고 격려…교육부와도 협력 논의",
+      "publisher": "연합뉴스",
+      "topic": "정책",
+      "type": "news",
+      "coverage": 1,
+      "url": "https://news.google.com/rss/articles/CBMiW0FVX3lxTE9haHdmT2s1cXZfdkV5NkNkTkJPWGZqc01NZXozVjA4am1kUVBJOTFuU3RkSk1BOU1SWXJnUzZwcFd4dWd6TjZaV0J1V2pJajdmeG9FVnpSdlJXUVnSAWBBVV95cUxPYmwxaVgxYkxoS2VMWE1CT0U4LTN4MF9oSnltZUhtS29DUHVrLU03TVJIWmdyaDNSNHBzbHJsbmo2Qko3eXNJa0VMQjhvdUhIdWQ2UkVsRHQ5MzhSQkhxMlc?oc=5"
+    },
+    {
+      "title": "미 법원, 여중생 제자 성폭행 교사에 징역 50년 선고",
+      "publisher": "KBS",
+      "topic": "교사",
+      "type": "news",
+      "coverage": 1,
+      "url": "https://news.google.com/rss/articles/CBMiY0FVX3lxTE0wTVpTWTJBTjE0OUlRQlgtV0Jwb04wWWhQbEFpNVd2c1NSNVoyc0NncTZveElfT3pXRkhJQzZMbUdfY2FSSGJheUc3RkZ1RTZWcFdoYnlFX09lU0lCalhoY1JWNA?oc=5"
+    },
+    {
+      "title": "[단독] [2027대입잣대] 상위15개대 전임교원 강의비율 인하대 64.7% ‘톱’.. 한대 서강대 톱3",
+      "publisher": "베리타스알파",
+      "topic": "입시",
+      "type": "news",
+      "coverage": 1,
+      "url": "https://www.veritas-a.com/news/articleView.html?idxno=634451"
+    },
+    {
+      "title": "[단독] [2027대입잣대] 학생 1인당 자료구입비 서울대 48만8451원 '최고'.. 연대 고대 한대 시립대 톱5",
+      "publisher": "베리타스알파",
+      "topic": "입시",
+      "type": "news",
+      "coverage": 1,
+      "url": "https://www.veritas-a.com/news/articleView.html?idxno=634400"
+    },
+    {
+      "title": "차예련, 학폭 의혹 부인했는데…SNS엔 추가 해명 요구",
+      "publisher": "매일경제",
+      "topic": "학교",
+      "type": "news",
+      "coverage": 2,
+      "url": "https://news.google.com/rss/articles/CBMiWEFVX3lxTE5DWmxxenlyUXhHVzdiUVJIRWpMR3g3dTVXMm1hQk5nS0ZDTlMyVEhLYkk5U29NUE5pRGwwVHVySHhJU2N4cFRWc3JNOFN1bm9PMWVuS0lkZE0?oc=5"
+    },
+    {
+      "title": "\"사관학교 통합 반대\"…대전서 궐기대회 열려",
+      "publisher": "연합뉴스",
+      "topic": "학교",
+      "type": "news",
+      "coverage": 1,
+      "url": "https://www.yna.co.kr/view/AKR20261031039700063"
+    },
+    {
+      "title": "내신 부담 줄인다더니‥'5등급제' 불안에 '100만 원 컨설팅'까지",
+      "publisher": "MBC",
+      "topic": "입시",
+      "type": "news",
+      "coverage": 1,
+      "url": "https://news.google.com/rss/articles/CBMieEFVX3lxTE5aRTBQdUI5ZWxtR0NmNjEtSWNPUnoxUjFscllOcm03Zkxpb0VGS1Y1QXhWSUZWRjc0dk1OcXUyejI3eVJyQ1didnEwcldiUHJyZnhLNjJzSThEQmVtRGo1YXVXYzhzT1d2OG5MdlRJVjhBbmJQZVVhWNIBeEFVX3lxTE5aRTBQdUI5ZWxtR0NmNjEtSWNPUnoxUjFscllOcm03Zkxpb0VGS1Y1QXhWSUZWRjc0dk1OcXUyejI3eVJyQ1didnEwcldiUHJyZnhLNjJzSThEQmVtRGo1YXVXYzhzT1d2OG5MdlRJVjhBbmJQZVVhWA?oc=5"
+    },
+    {
+      "title": "인천시, 인현동 화재참사 27주기 해상추모제 개최…첫 공식 주관",
+      "publisher": "국민일보",
+      "topic": "정책",
+      "type": "news",
+      "coverage": 1,
+      "url": "https://www.kmib.co.kr/article/20261030500300"
+    },
+    {
+      "title": "‘취업 후 학자금대출’ 의무상환액 납부, 11월부터 휴일도 가능",
+      "publisher": "한국대학신문",
+      "topic": "대학",
+      "type": "news",
+      "coverage": 1,
+      "url": "https://news.unn.net/news/articleView.html?idxno=599675"
+    },
+    {
+      "title": "인제대, 지역 일자리 합동 워크숍 개최",
+      "publisher": "한국대학신문",
+      "topic": "대학",
+      "type": "news",
+      "coverage": 1,
+      "url": "https://news.unn.net/news/articleView.html?idxno=599660"
+    },
+    {
+      "title": "호남대 의료지원센터, 광주금연지원센터 우수사업장 선정",
+      "publisher": "한국대학신문",
+      "topic": "대학",
+      "type": "news",
+      "coverage": 1,
+      "url": "https://news.unn.net/news/articleView.html?idxno=599659"
+    },
+    {
+      "title": "변재석 경기도의원, 학교 밖 청소년 지원 현장 애로 청취 및 예산·인력 지원 방안 모색",
+      "publisher": "서울신문",
+      "topic": "정책",
+      "type": "news",
+      "coverage": 1,
+      "url": "https://news.google.com/rss/articles/CBMiakFVX3lxTE9ZbVFsZm5kUTVhT2hBZjh1WnRpU1pVMzJ4Wlp3eEpIYXFBRGM3akNGUlU3WVFWWVpmdVQzVWhmb1VFQVZ5U1IwQzllM2dRV3o4M1lVcGlrdldRenZfOG40OXNfR2JHd0VMN3c?oc=5"
+    },
+    {
+      "title": "수시 지원 65% “유료 입시 상담 받았어요”… 상위권 학생 비율 커",
+      "publisher": "한국대학신문",
+      "topic": "입시",
+      "type": "news",
+      "coverage": 1,
+      "url": "https://news.unn.net/news/articleView.html?idxno=599694"
+    },
+    {
+      "title": "‘급식서 브로콜리 퇴출’ AI 결정, 초등생 토론하더니…“부정확한 판단”",
+      "publisher": "한겨레",
+      "topic": "AI교육",
+      "type": "news",
+      "coverage": 1,
+      "url": "https://news.google.com/rss/articles/CBMiakFVX3lxTFBmWkpyanE4MWpGWmtZM2hZLWp0WUIwMGIxU0RWUjJ4MFdUUGtobERJdWIyX2ZEaEJUVGt6X3R0bTdNR2tJQlVKUkFxUUQyT0xlejZpTmhSYWdlSnFsOTFLOTYwWmptU3BCaHc?oc=5"
+    },
+    {
+      "title": "경남 원어민 영어보조교사 30명 경주서 한국문화 체험 연수",
+      "publisher": "연합뉴스",
+      "topic": "교사",
+      "type": "news",
+      "coverage": 1,
+      "url": "https://news.google.com/rss/articles/CBMiW0FVX3lxTFBycWxCN1hpaVpwMHVnQ0xZOGpUcjVJQnlzbkZzUkxQeWZqM0xRdGZTWlZHRnRqSnR5UHlGcWNSaE5vSEhudFAxRkNCN3JsbExMVnFyaG44N3JTejTSAWBBVV95cUxPVlVvcE1CVDdaNTJpZ3VtRmxRRU15UGN3Y0hWaUhaRGtSbW5yQ1plWUxyMi1LeGdzTVpXa0plbS1OdFdBRk95cUVWZWhkUTFKLTVTLUpKV25YNkYyVGZyS0U?oc=5"
+    },
+    {
+      "title": "“일하는 방식 ‘확’ 바꾼다”…정부 지원 업고 중소기업 인공지능 교육 열풍",
+      "publisher": "매일경제",
+      "topic": "AI교육",
+      "type": "news",
+      "coverage": 1,
+      "url": "https://news.google.com/rss/articles/CBMiRkFVX3lxTFBuVGgyUVE4VndVVVVoZmZKS2pIZWd1MUNYVVVkMXRMRmM0ekZDdVdhcWFRTXF3OWJ0UzVEOXlJMjZWY1VDMkE?oc=5"
+    },
+    {
+      "title": "배재대, 2027 대입 수시모집 예술인재전형 실기고사",
+      "publisher": "한국대학신문",
+      "topic": "입시",
+      "type": "column",
+      "coverage": 1,
+      "url": "https://news.unn.net/news/articleView.html?idxno=599701"
+    },
+    {
+      "title": "[선데이 칼럼] 한국 반도체 기업, AI 컴퓨팅의 주도자로",
+      "publisher": "중앙일보",
+      "topic": "AI교육",
+      "type": "column",
+      "coverage": 1,
+      "url": "https://www.joongang.co.kr/article/25474551"
+    },
+    {
+      "title": "[이연숙 칼럼] 수능으로 들어온 스마트안경, 진짜 감독관은 아이 안에 있어야 한다",
+      "publisher": "에듀프레스",
+      "topic": "AI교육",
+      "type": "column",
+      "coverage": 1,
+      "url": "https://www.edupress.kr/news/articleView.html?idxno=30575"
+    },
+    {
+      "title": "[데스크 진단] 청소년 자살 예방 나선 전북교육청, 실효 있으려면?",
+      "publisher": "KBS",
+      "topic": "정책",
+      "type": "column",
+      "coverage": 1,
+      "url": "https://news.kbs.co.kr/news/pc/view/view.do?ncd=8700142"
+    },
+    {
+      "title": "[조학규 칼럼] 교장공모제 확대.. ‘허리’ 없는 학교를 만들 셈인가",
+      "publisher": "에듀프레스",
+      "topic": "교사",
+      "type": "column",
+      "coverage": 1,
+      "url": "https://www.edupress.kr/news/articleView.html?idxno=30567"
+    },
+    {
+      "title": "[사설]수능 부정행위 대응 강화, 현장 혼란 없도록 만전 기하길",
+      "publisher": "경향신문",
+      "topic": "입시",
+      "type": "column",
+      "coverage": 1,
+      "url": "https://news.google.com/rss/articles/CBMiX0FVX3lxTE5BMzZqSDNuY2N1M2twbjJQd1hibGt6MzN4c3ZrWlpUaFQybXJOQm52UlE4OHdDQzBJeXJ5ZkJRZ3N4dkpwWlZDUnNhTFlCUXBPcXBkcEtsUTNhYnVwU19F0gFfQVVfeXFMTkEzNmpIM25jY3Uza3BuMlB3WGJsa3ozM3hzdmtaWlRoVDJtck5CbnZSUTg4d0NDMEl5cnlmQlFnc3h2SnBaVkNSc2FMWUJRcE9xcGRwS2xRM2FidXBTX0U?oc=5"
+    },
+    {
+      "title": "[기고] 피지컬 AI 경쟁력, 디지털트윈에 달렸다",
+      "publisher": "국민일보",
+      "topic": "AI교육",
+      "type": "column",
+      "coverage": 1,
+      "url": "https://news.google.com/rss/articles/CBMiWEFVX3lxTFBtaEdidWVveF96aUFXd1daMXZtWTFrR2FUUjRQbGMyMXhPQi1LTjdGUV9nOWF1R2JHcDFvQWlCSElaemtfTVdFUVlvZXNaWV9WTU42cUUyYVA?oc=5"
+    },
+    {
+      "title": "[사설] 28년 만의 SCM 연기, 신뢰 없는 전작권 전환 성공 못 한다",
+      "publisher": "중앙일보",
+      "topic": "학교",
+      "type": "column",
+      "coverage": 1,
+      "url": "https://news.google.com/rss/articles/CBMiVkFVX3lxTE8za0xuSno0dlBELWhYOVlLYVBqYkJJTGVRRkpvUDQzdzR5aEpWbzRrQUNsRUxKWWFCZE5aekpKZk9FUERUSTB6OVNvMVZpWXEyTFVvZ3Nn?oc=5"
+    },
+    {
+      "title": "[김도연 칼럼]지방국립대 무상등록금, 공정성은 어디에 있나",
+      "publisher": "동아일보",
+      "topic": "대학",
+      "type": "column",
+      "coverage": 1,
+      "url": "https://news.google.com/rss/articles/CBMidkFVX3lxTE9UcVlpMDhlSE9JY09jQnBocUpSVzRCdDY2bUZhVUU3Y0pkZjdkZDZDX3BIUC1MX01fOVJUZUI4RW1SbVJXQmFhVW1COFYxV3VYU3pzaDhRSlRsUmNGdXlsZldwR2NDdVo1SXpoVUVhamRwNzNSZlHSAWZBVV95cUxNQlR1MmwxeWhzN2IxWXMwVEo5RVBXaE1UTmg2N1FCRmdJVm56by04S09KbmVGWWRobUxIR19NTXduQzdFMWlOSTk3UklTSGlxeExVYWFpZlBnM2VDS3VJMFliVTlkMnc?oc=5"
+    },
+    {
+      "title": "토익 4년인데 수능은 1년 응시 제한…이정도로 AI안경 막겠다고? [논설실Pick]",
+      "publisher": "매일경제",
+      "topic": "AI교육",
+      "type": "column",
+      "coverage": 1,
+      "url": "https://news.google.com/rss/articles/CBMiRkFVX3lxTFA2V3R6cmJNWnJCT1drT2pDOU13clpNNFJrRUlucHNBMVN6X3hScjFkZ21ZZk9zcU9vWDVrWW9TOU12Q2R6cFE?oc=5"
+    }
+  ]
+}
