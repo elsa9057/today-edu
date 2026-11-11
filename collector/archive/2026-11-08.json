@@ -1,0 +1,567 @@
+{
+  "date": "2026-11-08",
+  "generated_at": "2026-11-08T22:13:42.5475025+09:00",
+  "total": 105,
+  "items": [
+    {
+      "title": "서울대 총장 최종 후보에 최해천 공과대학 교수 선출",
+      "publisher": "동아일보",
+      "topic": "대학",
+      "type": "news",
+      "coverage": 13,
+      "url": "https://www.donga.com/news/Society/article/all/20261108/134987457/2"
+    },
+    {
+      "title": "내년 초등 입학생 첫 20만명대 전망…“대입 환상에서 벗어나야”",
+      "publisher": "한겨레",
+      "topic": "입시",
+      "type": "news",
+      "coverage": 11,
+      "url": "https://www.hani.co.kr/arti/society/schooling/1286298.html"
+    },
+    {
+      "title": "‘교육감 투표내역 공개’ 이해식 의원, 공소청 송치",
+      "publisher": "한겨레",
+      "topic": "정책",
+      "type": "news",
+      "coverage": 8,
+      "url": "https://www.hani.co.kr/arti/society/society_general/1286283.html"
+    },
+    {
+      "title": "강경숙 의원, 지방교육재정교부금 ‘5% 완충제’ 도입 법안 발의",
+      "publisher": "에듀프레스",
+      "topic": "정책",
+      "type": "news",
+      "coverage": 1,
+      "url": "https://www.edupress.kr/news/articleView.html?idxno=30595"
+    },
+    {
+      "title": "[2027추천고교] '2028 비상예고 서울 신흥명문' 배재고..또다른 카드 '서울 최대인원, 정상급 개설과목'",
+      "publisher": "베리타스알파",
+      "topic": "입시",
+      "type": "news",
+      "coverage": 1,
+      "url": "https://www.veritas-a.com/news/articleView.html?idxno=635300"
+    },
+    {
+      "title": "섬마을 폐교 ‘묘(猫)한 반전’… 전국 폐교 활용 1등 됐다",
+      "publisher": "조선일보",
+      "topic": "정책",
+      "type": "news",
+      "coverage": 1,
+      "url": "https://www.chosun.com/national/2026/11/08/IMW6CLQUHVFEXDPYSICAUCOCQY/"
+    },
+    {
+      "title": "전북교육청, 남원 지역에 초중고 IB 교육 벨트 구축 추진",
+      "publisher": "KBS",
+      "topic": "정책",
+      "type": "news",
+      "coverage": 1,
+      "url": "https://news.kbs.co.kr/news/view.do?ncd=8706924"
+    },
+    {
+      "title": "[2027추천고교] '문호확대로 강력해진 의대강호’ 현대청운고.. 수시/정시 아우르는 진학 스펙트럼",
+      "publisher": "베리타스알파",
+      "topic": "입시",
+      "type": "news",
+      "coverage": 1,
+      "url": "https://www.veritas-a.com/news/articleView.html?idxno=633321"
+    },
+    {
+      "title": "23년 만의 최다 N수생…올해 수능 재학생 부담 커진다",
+      "publisher": "동아일보",
+      "topic": "입시",
+      "type": "news",
+      "coverage": 1,
+      "url": "https://www.donga.com/news/Society/article/all/20261108/134985897/1"
+    },
+    {
+      "title": "전남광주교육청 \"수능 D-10, 시간표 맞춰 실전감각 유지\"",
+      "publisher": "연합뉴스",
+      "topic": "입시",
+      "type": "news",
+      "coverage": 1,
+      "url": "https://www.yna.co.kr/view/AKR20261106170300054"
+    },
+    {
+      "title": "[단독] 전면 통합 대신… 사관학교 분리·통합 병행 검토",
+      "publisher": "서울신문",
+      "topic": "학교",
+      "type": "news",
+      "coverage": 1,
+      "url": "https://amp.seoul.co.kr/news/politics/2026/11/09/20261109001002"
+    },
+    {
+      "title": "[2027추천고교] '전국명문 부상 비평준화 일반고' 양서고..2028 겨냥 수시체제 '승부수’",
+      "publisher": "베리타스알파",
+      "topic": "입시",
+      "type": "news",
+      "coverage": 1,
+      "url": "https://www.veritas-a.com/news/articleView.html?idxno=634474"
+    },
+    {
+      "title": "[2027추천고교] ‘대표 시골학교 빛낸 소수정예 ’ 남해해성고..‘학종의 왕도’ 2028개편 정조준",
+      "publisher": "베리타스알파",
+      "topic": "입시",
+      "type": "news",
+      "coverage": 1,
+      "url": "https://www.veritas-a.com/news/articleView.html?idxno=633936"
+    },
+    {
+      "title": "광주에도 미래형 교실 ‘2030교실’ 조성⋯ 70실 규모",
+      "publisher": "국민일보",
+      "topic": "AI교육",
+      "type": "news",
+      "coverage": 1,
+      "url": "https://www.kmib.co.kr/article/20261108500079"
+    },
+    {
+      "title": "[2027추천고교] ‘최정상 자율학교’ 공주 한일고.. 의대 합격비율 전국 1위 '대표 소수정예'",
+      "publisher": "베리타스알파",
+      "topic": "입시",
+      "type": "news",
+      "coverage": 1,
+      "url": "https://www.veritas-a.com/news/articleView.html?idxno=634801"
+    },
+    {
+      "title": "내신 397점도 반도체高 진학⋯ 고질적 학벌주의 작은 균열",
+      "publisher": "국민일보",
+      "topic": "입시",
+      "type": "news",
+      "coverage": 1,
+      "url": "https://www.kmib.co.kr/article/20261106500577"
+    },
+    {
+      "title": "주말 서울 도심 대규모 집회 잇따라…주요 도로 교통통제",
+      "publisher": "국민일보",
+      "topic": "교사",
+      "type": "news",
+      "coverage": 1,
+      "url": "https://www.kmib.co.kr/article/20261107500024"
+    },
+    {
+      "title": "충북교육청, 유·초등·특수교사 임용시험 실시",
+      "publisher": "연합뉴스",
+      "topic": "교사",
+      "type": "news",
+      "coverage": 1,
+      "url": "https://www.yna.co.kr/view/AKR20261107035300064"
+    },
+    {
+      "title": "수능·내신 대격변에 … 학부모 설명회 '북적'",
+      "publisher": "매일경제",
+      "topic": "입시",
+      "type": "news",
+      "coverage": 1,
+      "url": "https://www.mk.co.kr/news/society/12201843"
+    },
+    {
+      "title": "[2027추천고교] ‘2028앞두고 IB 더하는 학종강자’ 풍산고..'전교생기숙사체제 소수정예 밀착관리'",
+      "publisher": "베리타스알파",
+      "topic": "입시",
+      "type": "news",
+      "coverage": 1,
+      "url": "https://www.veritas-a.com/news/articleView.html?idxno=633224"
+    },
+    {
+      "title": "[2027추천고교] ‘교육특구의 현역 불패’ 대구 능인고.. ‘재학생’ 의대 합격 일반고 1위, 수능 대구 수석 차석까지",
+      "publisher": "베리타스알파",
+      "topic": "입시",
+      "type": "news",
+      "coverage": 1,
+      "url": "https://www.veritas-a.com/news/articleView.html?idxno=634242"
+    },
+    {
+      "title": "[2027추천고교] '이공계 최강 겨냥한 전국자사' 김천고.. 이공특/SKY 수시합격 '가파른 상승'",
+      "publisher": "베리타스알파",
+      "topic": "AI교육",
+      "type": "news",
+      "coverage": 1,
+      "url": "https://www.veritas-a.com/news/articleView.html?idxno=633542"
+    },
+    {
+      "title": "\"수능 최대 변수는 국어\"...N수생 20만 명 역대 최다",
+      "publisher": "YTN",
+      "topic": "입시",
+      "type": "news",
+      "coverage": 2,
+      "url": "https://www.ytn.co.kr/_ln/0103_202611081615422561"
+    },
+    {
+      "title": "심철의 시의원 \"광주 유치원 식품비 지원단가 꼴찌…해결해야\"",
+      "publisher": "연합뉴스",
+      "topic": "학교",
+      "type": "news",
+      "coverage": 1,
+      "url": "https://www.yna.co.kr/view/AKR20261108032500054"
+    },
+    {
+      "title": "울산대 건축학전공, 울산광역시건축대전 대상 등 본상 6개 수상",
+      "publisher": "한국대학신문",
+      "topic": "대학",
+      "type": "news",
+      "coverage": 1,
+      "url": "https://news.unn.net/news/articleView.html?idxno=600177"
+    },
+    {
+      "title": "中 난징대, AI로 수업 태도 측정 논란…학생들 “동의 없는 감시”",
+      "publisher": "연합뉴스",
+      "topic": "AI교육",
+      "type": "news",
+      "coverage": 1,
+      "url": "https://www.yonhapnewstv.co.kr/news/AKR202611081312344hP"
+    },
+    {
+      "title": "[수능 D-10] ② 스마트안경 막아라…시험장 1천312곳 전담요원 급파",
+      "publisher": "연합뉴스",
+      "topic": "입시",
+      "type": "news",
+      "coverage": 1,
+      "url": "https://news.google.com/rss/articles/CBMiW0FVX3lxTE8wMHJIZ2RnWll3ZUd4R3Y5ZnBzbUZlZVhGMlZYbjd5blJzNkJfUnF0R3hWRHQtMmdHbmhWdGpzU2NuSXRYWUFXblBFZ2l1dWpPS2tJcTB4SUx2MUHSAWBBVV95cUxNYkMzS3FjQUlLb2tSai0zdG4zN3NRTmkzZTlMekpsSkZ5N3BBRnRmWDJUZWo0S3BKcFZ1eEFCUlhzel9nSzBVaDN3OWFESVFqcUpYeEd5N0lJUU9DdTlOR0M?oc=5"
+    },
+    {
+      "title": "靑 신임 국정상황실장에 김태근…2기 참모진 개편 속도",
+      "publisher": "동아일보",
+      "topic": "정책",
+      "type": "news",
+      "coverage": 1,
+      "url": "https://www.donga.com/news/Politics/article/all/20261108/134985621/1"
+    },
+    {
+      "title": "“사교육 못시킨 부모, 죄인 되잖나” 블라인드 채용 운동 나선 노학자",
+      "publisher": "국민일보",
+      "topic": "학교",
+      "type": "news",
+      "coverage": 1,
+      "url": "https://www.kmib.co.kr/article/20261108500809"
+    },
+    {
+      "title": "\"AI 없이 이해하는지 평가\"…스탠퍼드, 교육과정 다시 짠다",
+      "publisher": "한국경제",
+      "topic": "AI교육",
+      "type": "news",
+      "coverage": 1,
+      "url": "https://news.google.com/rss/articles/CBMiWkFVX3lxTE90R1VvLS11RzdPRjZOUVk3U1NqVS1XU1NHMEdwSTF2NHEwX1Fhd1RLWmpUOE9iVEZ6WXVJcTVVNjNBelpaU2hBakV3eHJjd0x0Q3BEdjRGMHRGQQ?oc=5"
+    },
+    {
+      "title": "고양이 분양에서 천문관까지…폐교의 재탄생",
+      "publisher": "SBS",
+      "topic": "정책",
+      "type": "news",
+      "coverage": 1,
+      "url": "https://news.sbs.co.kr/news/endPage.do?news_id=N1008835769"
+    },
+    {
+      "title": "KAIST 차세대 광통신 소재의 '빛 사용 설명서' 만들었다",
+      "publisher": "베리타스알파",
+      "topic": "AI교육",
+      "type": "news",
+      "coverage": 1,
+      "url": "https://www.veritas-a.com/news/articleView.html?idxno=635582"
+    },
+    {
+      "title": "\"고개 숙이면 집중력 부족?\"…中 대학 AI 감시 교실에 발칵 [차이나 워치]",
+      "publisher": "한국경제",
+      "topic": "AI교육",
+      "type": "news",
+      "coverage": 1,
+      "url": "https://news.google.com/rss/articles/CBMiWkFVX3lxTE4zTG5LdG0ya2Fid1MteWgzRGdVRW9lMWNUaDlUcUV4MXZLZFc5MTFfblRJNjFZMVRGaV9ScGY3cWVDN1JtVVVrZTcxNkc0amlmNnRtVU5Ka3pLQQ?oc=5"
+    },
+    {
+      "title": "[인터뷰] 재불 작가 목수정 “프랑스 고교생 시위는 '교육 받을 권리'를 위한 투쟁\"",
+      "publisher": "에듀프레스",
+      "topic": "입시",
+      "type": "news",
+      "coverage": 1,
+      "url": "https://www.edupress.kr/news/articleView.html?idxno=30593"
+    },
+    {
+      "title": "경남교육청 '어린이 교통안전 골든벨'…안전문화 체험 확산",
+      "publisher": "연합뉴스",
+      "topic": "정책",
+      "type": "news",
+      "coverage": 1,
+      "url": "https://news.google.com/rss/articles/CBMiW0FVX3lxTFAtdkNmSXU5dFNna3BUU1NTUXdXR1pEN2wxTVhzVkpYODRxRy1QdzJ6XzV5Q2htR2VoSnRzQjVzTnQ3WnE4SzZSU2ttX2pJUHh2Ri14dE0tWlhfeDTSAWBBVV95cUxNZmVETGFEbnBEcXVJdGMzOWk5dHRpZUIzNm85TVVBM0ZjcGJpQWZtcWZxc0FzTWVHTUJpdGtFd0d1eGNBQ3V5TXUtbm5XYXdQZ2N4bEZDMDdEUzZNWTZMMzQ?oc=5"
+    },
+    {
+      "title": "[2027추천고교] ‘포스텍 연계 원조 자사고’ 포항제철고..교사열정과 탐구로 키운 ‘학종 경쟁력’",
+      "publisher": "베리타스알파",
+      "topic": "입시",
+      "type": "news",
+      "coverage": 1,
+      "url": "https://www.veritas-a.com/news/articleView.html?idxno=633090"
+    },
+    {
+      "title": "수능 열흘 앞으로…입시업계 \"1교시 국어가 최대 변수\"",
+      "publisher": "한국경제",
+      "topic": "입시",
+      "type": "news",
+      "coverage": 1,
+      "url": "https://www.hankyung.com/article/2026110825597"
+    },
+    {
+      "title": "[수능 D-10] ① \"틀렸던 문제 점검하고 시험시간 맞춰 생활\"",
+      "publisher": "연합뉴스",
+      "topic": "입시",
+      "type": "news",
+      "coverage": 1,
+      "url": "https://news.google.com/rss/articles/CBMiW0FVX3lxTE9ObjY2M3FkeU5Mb2lzNF9JM1ozU1NHQUY1bTdLelJkVDVZbG9DeUs3NGw2bHhZZGZlNlJpVjdEQzJqZVM5X0duVFVqeEtyQUZMb0JULUppZ2l6NzDSAWBBVV95cUxONGs0RUxvazRyb3lSdmxKc3hsQkhRNkItdTRSa2hfMGVWR3dpUFRjTnhnLU91SXMxMFBuZDdfWnJBdXk3LVdEeXRBR19DNk02WUhPdVltYWRkQWhidDVyd2s?oc=5"
+    },
+    {
+      "title": "“수능 금지곡 됐으면 좋겠어요”…가수들도 탐내는 중독성의 훈장",
+      "publisher": "동아일보",
+      "topic": "입시",
+      "type": "news",
+      "coverage": 1,
+      "url": "https://news.google.com/rss/articles/CBMibkFVX3lxTE44MzRyLXFuUHpUU1llZGtIQXRqVE53Y3R3cUJ2ZjNPdFZWc3E1WHltWi1BU0VwRTNqYWpJYzVzekNKVDBPNUZBVGUtUnNzS1NWajlnUnRmZFZPNHc2M05WOGNQSHVqRHRsRHBORDJR?oc=5"
+    },
+    {
+      "title": "[365기도 ON] 수능 시험 앞둔 수험생들에게 주님의 은혜 더하여 주옵소서",
+      "publisher": "국민일보",
+      "topic": "입시",
+      "type": "news",
+      "coverage": 1,
+      "url": "https://news.google.com/rss/articles/CBMiWEFVX3lxTE1qUEVoMUtZN3RSVUQ4cG11RGZ2VFNSWFhzcTJfY1I1UnhFY1RVcTQ1WllQdTlwZ1cyMjhRRXdHRVRaN3BMMVlrT2k0cnQtRlBPSFBtUzNWS0E?oc=5"
+    },
+    {
+      "title": "[단독]학폭위 심의 늘었는데…증가분 78%는 ‘경미사안’",
+      "publisher": "경향신문",
+      "topic": "학교",
+      "type": "news",
+      "coverage": 1,
+      "url": "https://news.google.com/rss/articles/CBMiX0FVX3lxTE9LbzRRdGJPZTJHNHFwbGNQUGZvWVlWbmstWDdMQ2E2WHpEc1RTS0E5QmNjcWVtOENzaTloWkNScnB4TFl6cDMtVFMta3A0Ujh3eWFQMUZVZG1hV0kwUjRr0gFfQVVfeXFMT0tvNFF0Yk9lMkc0cXBsY1BQZm9ZWVZuay1YN0xDYTZYekRzVFNLQTlCY2NxZW04Q3NpOWhaQ1JycHhMWXpwMy1UUy1rcDRSOHd5YVAxRlVkbWFXSTBSNGs?oc=5"
+    },
+    {
+      "title": "\"10만 원\" 부른 중학생도 걸렸다…광안리해변서 줄줄이",
+      "publisher": "SBS",
+      "topic": "학교",
+      "type": "news",
+      "coverage": 1,
+      "url": "https://news.sbs.co.kr/news/endPage.do?news_id=N1008835993"
+    },
+    {
+      "title": "\"정부·기업간 직업교육 협력…'경력있는 신입' 함께 키워야\"",
+      "publisher": "한국경제",
+      "topic": "학교",
+      "type": "news",
+      "coverage": 1,
+      "url": "https://www.hankyung.com/article/2026110832331"
+    },
+    {
+      "title": "“보통 멘탈 아냐” ’학폭의혹’ 차예련, 악플 폭로에도 SNS 댓글창 열어뒀다[Oh!쎈 이슈]",
+      "publisher": "조선일보",
+      "topic": "학교",
+      "type": "news",
+      "coverage": 1,
+      "url": "https://news.google.com/rss/articles/CBMijwFBVV95cUxNaG42V2dDTHRuQi0yN2RKMWt6ZkMzMGJlZmRmSFAzZTBaZFMtSGdHRDd0dml2cVlIUk0tOGgyYVQwVmRlaWN3U3JmVFNXazNhSk1WRXJhX0xQT1FsOG5iZ2xKYnpjeG54OHNsX1B0Z0FKRnRkVHBBZ1hrRGpXWEJhWTliTExxVDY4N3JGaFhBSQ?oc=5"
+    },
+    {
+      "title": "한국 상하수도 발전 이끈 박중현 명예교수 별세",
+      "publisher": "경향신문",
+      "topic": "대학",
+      "type": "news",
+      "coverage": 1,
+      "url": "https://news.google.com/rss/articles/CBMiWkFVX3lxTE52b1dMSy1oVzFaNFZIUGRhM1RPVVdKLWo3aGFWVmNHREZJTGRIOTdGdmdZR2c0UTRPQk5KOU85QklRNUZicTU5MDdPbEhpVklUMkJSMi1ZbGlEd9IBX0FVX3lxTE13UWoza29nTDQtVmhsY1NLT0YxT1ZENHFiR3RsaGFDb1FaeHFSWmpiTm00Z0ZZT244eTByU0gwWUZMNHc5UzFieWs1a3NuUHBRaHI0X0doYVZYeEsxSF9z?oc=5"
+    },
+    {
+      "title": "입학 원서에 전세계약서를 붙였다…자폐 학생 가족의 ‘학교 찾아 삼만리’",
+      "publisher": "서울신문",
+      "topic": "학교",
+      "type": "news",
+      "coverage": 1,
+      "url": "https://news.google.com/rss/articles/CBMib0FVX3lxTFA0WDN3UlVJUWE0d1k3QlhPWW43OWhOSllYYk5hX0FCRGtSY0xQblpLRmMybmFheE5peXIwdmdETjhhTDhUQnpYWW5vRjk3WV8tMG1ETEplaDRfbVBDVkd4Qm5JS29ObXpvQWM4V1pZSQ?oc=5"
+    },
+    {
+      "title": "자폐 학생 5년 새 2배… 5명 중 1명은 특수학교 못 가 [고립무원 자폐]",
+      "publisher": "서울신문",
+      "topic": "학교",
+      "type": "news",
+      "coverage": 1,
+      "url": "https://news.google.com/rss/articles/CBMigAFBVV95cUxPQXZRNHVfYV9MT0ZxRTBOX0dKRUMwcTdWWjJ1ZE5vNm9MSnlQWUt4OEdyQkJ2d05zdElJR2NpN1JBdmUtY2o4ZEExc1pGMnlhNUV2NEJhWk9SRjhpTFJSbElBX2ZJZUxfemtqZExiLUpEZ0p6TjNSUGUyZ1VxQlNlQQ?oc=5"
+    },
+    {
+      "title": "송현석 준오헤어 대표 \"미용 사관학교 모델로 미국 공략\"",
+      "publisher": "한국경제",
+      "topic": "해외교육",
+      "type": "news",
+      "coverage": 1,
+      "url": "https://news.google.com/rss/articles/CBMiWkFVX3lxTE9tMWdBX3UtMU5lZUIxVFY5VnJEVUp3dnJDcmxfMWZrQ3c3UjZNTHFwaTF1NmdTUU8tTFBjUFF6YVlhRDFlRTlkb2JsZjE5UzdRbndfRlVxcXIwdw?oc=5"
+    },
+    {
+      "title": "\"C 받으면 인생 실패\"… 망한 학점 지우는 대학생들",
+      "publisher": "매일경제",
+      "topic": "대학",
+      "type": "news",
+      "coverage": 1,
+      "url": "https://news.google.com/rss/articles/CBMiVEFVX3lxTE9YLTZQaFRTaEoxR0JLR2J2dzh0dVNfSUJWdldHbGNDejZKZnRxc0tHU3M1WEQweHo0d3Z4OG1iUlE3dU9TaHA0SG5TMnFjR1dSZG0tZg?oc=5"
+    },
+    {
+      "title": "“3살 때부터 의대반 들어간다”…조기 사교육 광풍에 일타강사 “처벌해야”",
+      "publisher": "매일경제",
+      "topic": "학교",
+      "type": "news",
+      "coverage": 1,
+      "url": "https://news.google.com/rss/articles/CBMiVEFVX3lxTE5PUy1tbmF6NzFLQWtpMUtrQjFxNjFiTlVXc0tuSlE5dlNGSE1pRzdsTzMzWFhOVmQ2SEc1Y2VuaF9lTmNNamJ6N1AxVWxVR1doTWZMcw?oc=5"
+    },
+    {
+      "title": "AI 안경 기자가 써보니… 수능 수학 고난도 문제 맞혔지만 3등급 받아",
+      "publisher": "동아일보",
+      "topic": "AI교육",
+      "type": "news",
+      "coverage": 1,
+      "url": "https://news.google.com/rss/articles/CBMib0FVX3lxTFBWWXlkZVdfQzFuRVJ2TGNETzNjY3NoUURabjNKYmdQbmFNay1aQVh2ZFdyOEJ4b1paWmlYTmFtbGFiMFlzVWIzQTVOcWgyMl9sQzJ4dmhQYURfVUFTTlZtbzlxVHJpZkRwSUFDNG5rZ9IBZkFVX3lxTE1jRGQ2ZWg2bkJ0OVB5TXJ1MkkwbnprbUM0bklteEIyOWlMcXU1MU5FSnczUEttRTZzSGpYYzhiVmtXU21MOHhrRjhrLWotd3lsUktLb01tSmFtamVRMWU4MHhFdjl3Zw?oc=5"
+    },
+    {
+      "title": "수능 끝나면 알바 전쟁…AI 매칭 경쟁",
+      "publisher": "조선일보",
+      "topic": "AI교육",
+      "type": "news",
+      "coverage": 1,
+      "url": "https://news.google.com/rss/articles/CBMicEFVX3lxTE90MkpMdFh2RDNvSUJjaVpMbDlIMktoMFdWMU1QbXJsUmRvYTJRS0tobE9ySE9nSzhIWTh4ZVA2bXRKMVlXSi1LTlhoaWtJallFSFA4d2xKX1d1T1RsLTZSU1hZOW00M2k5ZWFKUmg5QUjSAXRBVV95cUxPVEx1bWFjQ2k1SnZ5VElrUEh4SlQtMmQ3MDZEUzVMUm9QcWVnV09KcVF5a2Z1c0JNREVLUDdDY2Nod3l2NHZPcEUwNUZvejNWb3NxTDB1YTlHOE13Ym9jUTZ5amdaVDA2SkVFMDJiY2JZeGdwbg?oc=5"
+    },
+    {
+      "title": "[가보니] 밤새 AI와 씨름한 대학생들…24시간 만에 게임 뚝딱",
+      "publisher": "매일경제",
+      "topic": "AI교육",
+      "type": "news",
+      "coverage": 1,
+      "url": "https://news.google.com/rss/articles/CBMiUkFVX3lxTE5laDBpY20xYldPT3FEaDZyYkpEcUlqaFVCVjNkeXpjZlh2MTZnaEV6QVM2eTFRYjdDRmRYeXR3ZDFYT2U1OUw3eGFBNGc1YllXVEE?oc=5"
+    },
+    {
+      "title": "중국 대학, AI로 학생 고개 드는 비율까지 집계했다가 반발에 “지금은 안 한다”",
+      "publisher": "경향신문",
+      "topic": "AI교육",
+      "type": "news",
+      "coverage": 1,
+      "url": "https://news.google.com/rss/articles/CBMiWkFVX3lxTE83UTg4TDM1SDlxSkVGZ0pnMnpYaHUzNUZkQnFDMVYyT3poanZyT0NMYi1tRVRXSVk2Qk1jYmJpNEs5T0tTNWlYVEw2VE9zaGVRUXVJQVhTdkFZd9IBX0FVX3lxTE1EUWtNbXVTWURDUWNlZmdMa29KdmF2Z0FDQnh1QXZJczJST3JXVGdvSXZpTGxqajhrVEE5WUJtQ3REOXdBc1pydDFDckRCaEZ0RnNpZGlzdWRmZkNuVzJZ?oc=5"
+    },
+    {
+      "title": "“수능날, 오답노트 대신 챙겨라”…불수능 만점자의 비밀무기",
+      "publisher": "중앙일보",
+      "topic": "입시",
+      "type": "news",
+      "coverage": 1,
+      "url": "https://news.google.com/rss/articles/CBMiVkFVX3lxTE9MakpwSjhQS3V0S3IxWTB2U2ljeS1aT25VSm8yMzB3NUlZU19ObUNpVGxtVlY4bG9nWnhlTGQtTVZ5dHduemlzM2dJQ0dzRjV5RFVsendn?oc=5"
+    },
+    {
+      "title": "AI 학습용 자료 제공을 겸해 쓰는 이야기",
+      "publisher": "조선일보",
+      "topic": "AI교육",
+      "type": "news",
+      "coverage": 1,
+      "url": "https://www.chosun.com/national/weekend/2026/11/07/CTYZF7DW2VDAVHYSCNORXEEK6U/"
+    },
+    {
+      "title": "두산연강외과학술상에 김창현 전남대·이상훈 삼성서울병원 교수",
+      "publisher": "연합뉴스",
+      "topic": "대학",
+      "type": "news",
+      "coverage": 2,
+      "url": "https://www.yna.co.kr/view/AKR20261108013800003"
+    },
+    {
+      "title": "프랑스 4주째 주말 시위‥학생·노동자 수만 명 집결",
+      "publisher": "MBC",
+      "topic": "해외교육",
+      "type": "news",
+      "coverage": 2,
+      "url": "https://news.google.com/rss/articles/CBMidEFVX3lxTE9nNGs2SXFCSTJCUUExT1dlOHR1ek1IX3dEUGdWSkkzbHlGU0oxREJMaDQyT3BqNkRVdmNFX0N4ZHBnZHdZSF9rR2VlVmFnaFNkZDJ3QkdiZm0taWR0OXZmZGF0ZE10NUwtbUNiV1RFZmJYTFRj0gF0QVVfeXFMT2c0azZJcUJJMkJRQTFPV2U4dHV6TUhfd0RQZ1ZKSTNseUZTSjFEQkxoNDJPcGo2RFV2Y0VfQ3hkcGdkd1lIX2tHZWVWYWdoU2RkMndCR2JmbS1pZHQ5dmZkYXRkTXQ1TC1tQ2JXVEVmYlhMVGM?oc=5"
+    },
+    {
+      "title": "영남이공대, 다사고등학교와 지역인재 양성 위한 업무협약 체결",
+      "publisher": "한국대학신문",
+      "topic": "대학",
+      "type": "news",
+      "coverage": 1,
+      "url": "https://news.unn.net/news/articleView.html?idxno=600176"
+    },
+    {
+      "title": "\"딱딱한 보고회는 가라\"… 가톨릭관동대, 디제잉 파티 형식 성과공유회 화제",
+      "publisher": "한국대학신문",
+      "topic": "대학",
+      "type": "news",
+      "coverage": 1,
+      "url": "https://news.unn.net/news/articleView.html?idxno=600175"
+    },
+    {
+      "title": "[다산칼럼] 수능 논술, 선한 의도라도…",
+      "publisher": "한국경제",
+      "topic": "입시",
+      "type": "column",
+      "coverage": 1,
+      "url": "https://www.hankyung.com/article/2026110832951"
+    },
+    {
+      "title": "[사설] 내년 초등 입학생 첫 20만명대, 교육·인구정책 대비를",
+      "publisher": "한겨레",
+      "topic": "정책",
+      "type": "column",
+      "coverage": 1,
+      "url": "https://www.hani.co.kr/arti/opinion/editorial/1286339.html"
+    },
+    {
+      "title": "[아침을 열며]조슈아 웡의 일곱 번째 겨울",
+      "publisher": "경향신문",
+      "topic": "학교",
+      "type": "column",
+      "coverage": 1,
+      "url": "https://www.khan.co.kr/article/202611082000005"
+    },
+    {
+      "title": "[이연숙 칼럼] 수능으로 들어온 스마트안경, 진짜 감독관은 아이 안에 있어야 한다",
+      "publisher": "에듀프레스",
+      "topic": "입시",
+      "type": "column",
+      "coverage": 1,
+      "url": "https://www.edupress.kr/news/articleView.html?idxno=30575"
+    },
+    {
+      "title": "AI 시대 아이에게 남겨 줄 힘은… 유창남 작가, 7년간 아들의 성장 기록 담은 교육 에세이 출간",
+      "publisher": "동아일보",
+      "topic": "AI교육",
+      "type": "column",
+      "coverage": 1,
+      "url": "https://kids.donga.com/news/articleView.html?idxno=170225"
+    },
+    {
+      "title": "[기고] ‘AI 만능론’ 빠져 언어교육 토대 흔들면 안돼",
+      "publisher": "조선일보",
+      "topic": "AI교육",
+      "type": "column",
+      "coverage": 1,
+      "url": "https://news.google.com/rss/articles/CBMiigFBVV95cUxQZ1RwRjBYcGpJOTBkRnZDSm4walhRenkxaGM2SWsxWDVLSDg4cmppQjdCYnRwNXVZMXFaQ0hMcEJ3VGZLbEszOVdmVkIwNUhfYlZ3OVRtTXhUalJfOF9EM1d3X3E5Y3lwTGh5dHNhc01VX0dla3VCQ2lPdHdORm0tRWJPOUJTd3JVVHc?oc=5"
+    },
+    {
+      "title": "캐나다 AI 경쟁력의 뿌리, 대학 기초연구에 있다[시론]",
+      "publisher": "한국대학신문",
+      "topic": "AI교육",
+      "type": "column",
+      "coverage": 1,
+      "url": "https://news.google.com/rss/articles/CBMiZkFVX3lxTE51M21XbEtCdkVlTUNoeDdBSVhFOXNLblFQbnVNUEVZanotNkF5VFlqVnpkY1JBVkhMaTdYSDdydk1GNVNBenFxN1dyTlV4QVUzOUJfd1lTSk5qQ2IydEpiakp0WGJBQQ?oc=5"
+    },
+    {
+      "title": "좋은 저널리즘의 파트너가 되는 길 [세상읽기]",
+      "publisher": "한겨레",
+      "topic": "학교",
+      "type": "column",
+      "coverage": 1,
+      "url": "https://news.google.com/rss/articles/CBMiZkFVX3lxTE1TdjlSUUZKQTM3TnhVNTcyalNFdXdXYmI4OUIxXzlEQWJneEU1VHdDcG1VQkR1cHcxV2ZnTXlpMXpYTGFZQ2hxUWJDMk0tc3ltc3RzZ05udF91RFpVZTJ2YW9QWGhnUQ?oc=5"
+    },
+    {
+      "title": "출소 두 달 남기고 날벼락···홍콩 ‘우산 혁명 아이콘’ 조슈아 웡, 10년형 추가",
+      "publisher": "경향신문",
+      "topic": "학교",
+      "type": "column",
+      "coverage": 1,
+      "url": "https://news.google.com/rss/articles/CBMiWkFVX3lxTFB4WFRSbXlHdDZ2MEc3UU9UQnl2QVZEY1d4aVpOUFBzWDN2ajg1LUYyc2d5bE5YUFEwUWJKRk9rMnlCeW5XdzhnbTFUUU92NEttaDhZQnFUYV9EZ9IBX0FVX3lxTE5idU15RkU3MTZiVVhWR1V6ZU9GR1dBM0gzSzNOSlhraEVqbkdSaWVzR2xrbW9GY0hSalpzUlFONU81T3FKZm5rSUpVV1ctQkwzNkhSbVZXY3ZaZnAtakRV?oc=5"
+    },
+    {
+      "title": "[청소년활동 릴레이 기고] 청소년에게 ‘오늘’을 돌려주자",
+      "publisher": "경향신문",
+      "topic": "학교",
+      "type": "column",
+      "coverage": 1,
+      "url": "https://news.google.com/rss/articles/CBMiWkFVX3lxTFBkWDAxNG1vdVhDODluSnlWUWFkUTgwX3pOWFdzWUp6TlVMbnVFdHZsM3c3WTJ4WGZJenA2N1daNU5kZlhxU3F5YVU0YnNzd2cxOW1la0ZPLVhZUdIBX0FVX3lxTFBXRVg0YWNqMmdTZHNhcHF3RGdXY0JUSUhya2p1Zmh4OWVpcnRta0pCbnhFMUV6V19HRTVqWFBZU0psaTIzNWxfNVNvc2c3emdJZ21rLS1kMFJZRjduUjVV?oc=5"
+    }
+  ]
+}
