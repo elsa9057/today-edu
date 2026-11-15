@@ -1,0 +1,567 @@
+{
+  "date": "2026-11-15",
+  "generated_at": "2026-11-15T23:16:06.7172363+09:00",
+  "total": 133,
+  "items": [
+    {
+      "title": "'수학 7등급'인데 AI 안경 썼더니…결과 충격적",
+      "publisher": "연합뉴스",
+      "topic": "AI교육",
+      "type": "news",
+      "coverage": 7,
+      "url": "https://www.yonhapnewstv.co.kr/news/AKR20261115231402nwH"
+    },
+    {
+      "title": "靑, 국가자격시험 AI 부정행위 의심 사례 전수 조사한다",
+      "publisher": "동아일보",
+      "topic": "AI교육",
+      "type": "news",
+      "coverage": 7,
+      "url": "https://www.donga.com/news/Politics/article/all/20261115/135027385/2"
+    },
+    {
+      "title": "안경에 귓속까지 봐야 하나…‘55만 응시’ 수능 ‘AI 커닝’ 비상",
+      "publisher": "동아일보",
+      "topic": "AI교육",
+      "type": "news",
+      "coverage": 4,
+      "url": "https://www.donga.com/news/Society/article/all/20261115/135026123/1"
+    },
+    {
+      "title": "서울 대학 기숙사 ‘좁은 문’…100명 중 고작 13명 수용",
+      "publisher": "동아일보",
+      "topic": "대학",
+      "type": "news",
+      "coverage": 4,
+      "url": "https://www.donga.com/news/Society/article/all/20261115/135027008/1"
+    },
+    {
+      "title": "[날씨] 전국 가을비, 내일 온화한 늦가을...다음 주 '수능 추위'",
+      "publisher": "YTN",
+      "topic": "입시",
+      "type": "news",
+      "coverage": 3,
+      "url": "https://www.ytn.co.kr/_ln/0108_202611141637362002"
+    },
+    {
+      "title": "지능화된 ‘AI커닝’ 감독은 육안으로…전파탐지기 내년에나 도입",
+      "publisher": "동아일보",
+      "topic": "AI교육",
+      "type": "news",
+      "coverage": 1,
+      "url": "https://www.donga.com/news/Society/article/all/20261115/135027707/1"
+    },
+    {
+      "title": "버스 집중 배차·장애인콜택시 무료···인천시, 19일 수능 특별수송 대책 시행",
+      "publisher": "경향신문",
+      "topic": "입시",
+      "type": "news",
+      "coverage": 2,
+      "url": "https://www.khan.co.kr/article/202611151118001"
+    },
+    {
+      "title": "이민근 안산시장, 경일고 교육환경 개선 공로 감사패 받아",
+      "publisher": "국민일보",
+      "topic": "정책",
+      "type": "news",
+      "coverage": 1,
+      "url": "https://www.kmib.co.kr/article/20261115500968"
+    },
+    {
+      "title": "수능 초비상, 스마트안경만 막으면 될까? .. 교사노조, AI 부정행위 대책 촉구",
+      "publisher": "에듀프레스",
+      "topic": "AI교육",
+      "type": "news",
+      "coverage": 1,
+      "url": "https://www.edupress.kr/news/articleView.html?idxno=30624"
+    },
+    {
+      "title": "교육부, 의대 교육혁신 8편 선정… ‘맞춤형 교육과정·AI 학습도구’ 주목",
+      "publisher": "한국대학신문",
+      "topic": "AI교육",
+      "type": "news",
+      "coverage": 3,
+      "url": "https://news.unn.net/news/articleView.html?idxno=600615"
+    },
+    {
+      "title": "수능 수험생들 공정성 훼손 불안 고조⋯ 교육부는 “부정행위 쉽지 않아” 강조",
+      "publisher": "국민일보",
+      "topic": "입시",
+      "type": "news",
+      "coverage": 1,
+      "url": "https://www.kmib.co.kr/article/20261115501292"
+    },
+    {
+      "title": "전북 학교 사업 낙찰차액 11억8000만원 집행⋯목적 외 사용 지적",
+      "publisher": "국민일보",
+      "topic": "정책",
+      "type": "news",
+      "coverage": 1,
+      "url": "https://www.kmib.co.kr/article/20261115500521"
+    },
+    {
+      "title": "대구시·경찰 수능 당일 수험생 위한 특별 교통관리 나서",
+      "publisher": "국민일보",
+      "topic": "입시",
+      "type": "news",
+      "coverage": 2,
+      "url": "https://www.kmib.co.kr/article/20261115500258"
+    },
+    {
+      "title": "교육위, 내일 'AI안경 부정행위 대책' 현안보고…수능 대책 주목",
+      "publisher": "연합뉴스",
+      "topic": "AI교육",
+      "type": "news",
+      "coverage": 2,
+      "url": "https://www.yna.co.kr/view/AKR20261115032200001"
+    },
+    {
+      "title": "세무사 AI 부정 적발에…국힘 “D-4 수능 대비책 마련 시급”",
+      "publisher": "국민일보",
+      "topic": "AI교육",
+      "type": "news",
+      "coverage": 1,
+      "url": "https://www.kmib.co.kr/article/20261115500401"
+    },
+    {
+      "title": "[속보] 청와대 \"수능서 AI 부정행위 없도록 관리감독체계 집중 점검\"",
+      "publisher": "연합뉴스",
+      "topic": "AI교육",
+      "type": "news",
+      "coverage": 3,
+      "url": "https://www.yonhapnewstv.co.kr/news/AKR20261115165941a7V"
+    },
+    {
+      "title": "1살 아이 코푼 휴지로 입틀어막고…‘320차례 학대’ 강릉 어린이집 교사들",
+      "publisher": "매일경제",
+      "topic": "교사",
+      "type": "news",
+      "coverage": 3,
+      "url": "https://m.mk.co.kr/amp/12209120"
+    },
+    {
+      "title": "“너도 AI 안경?” 의심에 리트 만점자 “수능 국어 생중계 풀이”",
+      "publisher": "한겨레",
+      "topic": "AI교육",
+      "type": "news",
+      "coverage": 2,
+      "url": "https://news.google.com/rss/articles/CBMickFVX3lxTFBvWmRfdFY1VGlLeTVpWEJpQm1EMFAzMTNXYk1xWmVISjY1Y1ZOZk8zSFJJUHhrc3pXelVmUGtKX1JGX1pOelFwZGZab0tQdjQ5cmpTeEVMd0F1VGxYV2dsNDNDZFJkdlFXaF9TVXFucVYzUQ?oc=5"
+    },
+    {
+      "title": "[날씨] 휴일 포근한 늦가을…화~수 전국 비 뒤로 ’수능 한파’",
+      "publisher": "연합뉴스",
+      "topic": "입시",
+      "type": "news",
+      "coverage": 1,
+      "url": "https://www.yonhapnewstv.co.kr/news/MYH20261115110040dmp"
+    },
+    {
+      "title": "경남도의회, 도교육청 민원 전화·상담 20분 제한 추진",
+      "publisher": "연합뉴스",
+      "topic": "정책",
+      "type": "news",
+      "coverage": 1,
+      "url": "https://www.yna.co.kr/view/AKR20261112102500052"
+    },
+    {
+      "title": "靑 \"수능 시험장별로 AI 기기 판단할 전담인력 배치\"",
+      "publisher": "매일경제",
+      "topic": "AI교육",
+      "type": "news",
+      "coverage": 1,
+      "url": "https://news.google.com/rss/articles/CBMiVkFVX3lxTFAxTjBtX0xqLTVtVGx4cERFNFNGRTJMRFBTcTV0T051cWVEUVN4VE11ME1oSzJtQjRVY2Z1Z0E2RzFPSHktelE0bFlCTXRqOTVHQUFXWEtB?oc=5"
+    },
+    {
+      "title": "“스마트안경 못잡는 것 아냐?”... 다른 자격시험까지 불신 번져",
+      "publisher": "조선일보",
+      "topic": "AI교육",
+      "type": "news",
+      "coverage": 1,
+      "url": "https://www.chosun.com/national/national_general/2026/11/14/AMH2KW5CZFD7XACR23ELRX5F6U/"
+    },
+    {
+      "title": "수능 코앞인데 'AI 부정행위' 파문… 靑 \"사안 엄중, 오후 대책회의\"",
+      "publisher": "한국일보",
+      "topic": "AI교육",
+      "type": "news",
+      "coverage": 2,
+      "url": "https://www.hankookilbo.com/news/article/amp/A2026111514090000295"
+    },
+    {
+      "title": "“1년차 교사는 밤 9시 넘어 퇴근”…‘야간 근무’ 강요한 교장, 항소심도 패소",
+      "publisher": "매일경제",
+      "topic": "교사",
+      "type": "news",
+      "coverage": 4,
+      "url": "https://news.google.com/rss/articles/CBMiRkFVX3lxTE9tdzhWS2k5ZXhucWNZbEZwUGh1RFRqWGMtbFRoY0lNVDBGMVBZUkdxUVFNdUxqazJKLS1tQVhLanhXaHlLaEE?oc=5"
+    },
+    {
+      "title": "D-4 수능 'AI 안경' 비상‥교사 82% \"식별 어렵다\"",
+      "publisher": "MBC",
+      "topic": "AI교육",
+      "type": "news",
+      "coverage": 2,
+      "url": "https://imnews.imbc.com/replay/2026/nwdesk/article/6865808_37004.html"
+    },
+    {
+      "title": "또 다른 '수석 합격자' 어떻게 막나…수능 대책 '주목'",
+      "publisher": "SBS",
+      "topic": "입시",
+      "type": "news",
+      "coverage": 1,
+      "url": "https://news.sbs.co.kr/news/endPage.do?news_id=N1008846773"
+    },
+    {
+      "title": "감독관 코앞에서 부정행위 파장…수능 앞두고 비상",
+      "publisher": "연합뉴스",
+      "topic": "AI교육",
+      "type": "news",
+      "coverage": 1,
+      "url": "https://www.yonhapnewstv.co.kr/news/MYH20261115181828lz0"
+    },
+    {
+      "title": "“AI 안경만? 초소형 카메라 대책은 왜 없나”…수능앞 수험생 불안 확산",
+      "publisher": "한겨레",
+      "topic": "AI교육",
+      "type": "news",
+      "coverage": 1,
+      "url": "https://www.hani.co.kr/arti/society/schooling/1287449.html"
+    },
+    {
+      "title": "\"대전교육청, 반복된 학생 수요 예측 실패로 과밀학급 초래\"",
+      "publisher": "연합뉴스",
+      "topic": "정책",
+      "type": "news",
+      "coverage": 1,
+      "url": "https://www.yna.co.kr/view/AKR20261115039000063"
+    },
+    {
+      "title": "수능 나흘 앞두고 터졌다…학부모들 \"시험 연기해야 하나\" 분통",
+      "publisher": "한국경제",
+      "topic": "입시",
+      "type": "news",
+      "coverage": 1,
+      "url": "https://www.hankyung.com/article/2026111573067"
+    },
+    {
+      "title": "“차라리 수능 연기하라”…수능 공정성 우려도 커져",
+      "publisher": "KBS",
+      "topic": "입시",
+      "type": "news",
+      "coverage": 1,
+      "url": "https://news.google.com/rss/articles/CBMiW0FVX3lxTFBwZWdxeXo4dzh6c1NfWDV6V1l5Q2ExYWRESEFsY1ZIMXFRNzh2Z2NueDFlWkRBQk5Ub2Y3aVE1UENLRjliYWozVzJqNUFxMGExTXAtQ3Z6SHVkTFk?oc=5"
+    },
+    {
+      "title": "“EBS 교재 베껴 재시험 118명”… 김재헌 의원, 부산교육청 부실 학업성적 관리 직격",
+      "publisher": "동아일보",
+      "topic": "정책",
+      "type": "news",
+      "coverage": 1,
+      "url": "https://news.google.com/rss/articles/CBMickFVX3lxTFBxQ2dUWGlkMFdSb3N0S1kwSXViRmtDTk5GT2YtVFRvVy1XQ0lMdml5VjZCTm5TRkVvX3dXX3dDaVNBLXhESzhoOG0yMi1WcDgyX09SSEhqYTlFd0Y1eXVtR3Y5WWJ0b0JiTDBpX245MGI0UQ?oc=5"
+    },
+    {
+      "title": "“가산점 주면 그만인가”… 서성부 의원, 부산교육청 교원 행정업무 경감 실효성 직격",
+      "publisher": "동아일보",
+      "topic": "교사",
+      "type": "news",
+      "coverage": 1,
+      "url": "https://news.google.com/rss/articles/CBMickFVX3lxTE13Mnh3X3N2cHAwUnNTVDlQb3d3R1JXZU52X0s2VUp4WTZSc1M0ZzFleDlfWVlTVVhGbnlFZS1WeDdqdXFXd254bWpyQjJQYVQ0NGlZVUloSnF2cVdvWFlDS0NqU3JvMzRqc0ozUS1lWlI2Zw?oc=5"
+    },
+    {
+      "title": "靑 “수능 AI 부정행위 막기 위해 열감지카메라 등 총동원”",
+      "publisher": "국민일보",
+      "topic": "AI교육",
+      "type": "news",
+      "coverage": 2,
+      "url": "https://news.google.com/rss/articles/CBMiWEFVX3lxTE40X0tCbjZiaUVsakt0TGNwNjJROU5OanlfQWNUU0hrSXY1TXhnUWZGY2ZuVmVQNDR1ZGtlQTdDdUFscmFIM0d6aXZYbmgtWThaZTJwSm5zYUs?oc=5"
+    },
+    {
+      "title": "수능 전 마지막 주말...\"실수 유형 반드시 잡아라\"",
+      "publisher": "YTN",
+      "topic": "입시",
+      "type": "news",
+      "coverage": 2,
+      "url": "https://news.google.com/rss/articles/CBMiXkFVX3lxTE00QkpBdWhGSFdhN2FCWEp1RVJUZ0sxTGgtYlQxb0g0b2o3c0VmbGs1QnpsMHBSdnZzM01mNGtvMDZiREMxdU1nUzRxMkZOeTFNTGxQNzVVYkdvTUFpQmc?oc=5"
+    },
+    {
+      "title": "“회계사 시험도”…수능 앞 AI 커닝 비상, 청와대 직접 대책 만든다",
+      "publisher": "한겨레",
+      "topic": "AI교육",
+      "type": "news",
+      "coverage": 1,
+      "url": "https://news.google.com/rss/articles/CBMia0FVX3lxTE45ZHZxZTgtcnZTVnhwa01ENkE3T29YS2VuRzNnemF1NmJVR1R2NmxKQ0RVWjloeG9TcUJwUGd6SVlNNEZkWk5wN3FDZ3NJY2RoNmFCY1dQODZ4d1ZUdHZaZjd3Q1d3MEFXWWNV?oc=5"
+    },
+    {
+      "title": "4일 뒤 수능인데…\"모든 게 의심\" 불안감 최고조",
+      "publisher": "SBS",
+      "topic": "입시",
+      "type": "news",
+      "coverage": 1,
+      "url": "https://news.sbs.co.kr/news/endPage.do?news_id=N1008846756"
+    },
+    {
+      "title": "“대치동에 갈 수 없으니”…수능 앞두고 ‘불법 PDF방’ 몰리는 지역 수험생들",
+      "publisher": "한겨레",
+      "topic": "입시",
+      "type": "news",
+      "coverage": 1,
+      "url": "https://news.google.com/rss/articles/CBMickFVX3lxTE4xT2lkTG5DM2JlejJMWHN2RkZVUVVRUTNqQ0NYLTJtXzNYYmdYenZ0My1yYkw3VjVWRHltWVlLVXJwOURMdXlJbWxuUGFrczMySEE4cHprcHM5ZDcwbDRPRjhhbXZtWjNON211YldqZzlIQQ?oc=5"
+    },
+    {
+      "title": "N수생 쏠림·AI 안경 차단…응시자 50만 돌파 가능성",
+      "publisher": "경향신문",
+      "topic": "AI교육",
+      "type": "news",
+      "coverage": 1,
+      "url": "https://news.google.com/rss/articles/CBMiX0FVX3lxTE1yckV4YWZHeGpFTGltZkI3T2lfZVhaQmUwdVlKbjFvam5zM1ZxQVFUQmlOUlpCUGdHN2gteFB4YV9sSWxGQUV4Vlk3bHdOV2ljTERrV3JnbnJvc2VYWUl30gFfQVVfeXFMTXJyRXhhZkd4akVMaW1mQjdPaV9lWFpCZTB1WUpuMW9qbnMzVnFBUVRCaU5SWkJQZ0c3aC14UHhhX2xJbEZBRXhWWTdsd05XaWNMRGtXcmducm9zZVhZSXc?oc=5"
+    },
+    {
+      "title": "수능 때 어쩌지? AI한테 물어보자 [그림판]",
+      "publisher": "한겨레",
+      "topic": "AI교육",
+      "type": "news",
+      "coverage": 1,
+      "url": "https://news.google.com/rss/articles/CBMibEFVX3lxTE5QcGNoZHRITG16RjRaZ0szTFZJM3lraC1OTktZamd0ZkZ0ODRfZ2hCSEwtekVtTjZCSHVVdmtzRnB6LTZLNHgwTEFudVdGY3dLY1hDTFZoNW5ZUHIwRk1NeGFCeDhGX2ZwU0ZOSQ?oc=5"
+    },
+    {
+      "title": "수능 코앞⋯ ‘공정한 시험’ 신뢰가 깨졌다",
+      "publisher": "국민일보",
+      "topic": "입시",
+      "type": "news",
+      "coverage": 1,
+      "url": "https://news.google.com/rss/articles/CBMiWEFVX3lxTFBOcjJDcmlOZE5iTnM3bmVhcy1SWF8zMmVQek8yQ1lvMDVwekNqa1RJUksybm5nSV9WSE5ZeExEN2NlRmZsc05ZSFpJa1Y5RWRKQ1hBSHdvU18?oc=5"
+    },
+    {
+      "title": "\"안경 안 써도 의심해야\"...수능 앞두고 비상",
+      "publisher": "YTN",
+      "topic": "입시",
+      "type": "news",
+      "coverage": 1,
+      "url": "https://news.google.com/rss/articles/CBMiXkFVX3lxTE5hcWIzOEtuNnRwZmlsZ3ZUb1RLWFF1NzJzZkItWEVHaVhLRWJVNkJuZTVRZHdHSWF6ZXFFNU01VnpvRkczNXVmaWxxSkdxVXZtYTVIazdsWHBZVFBDRnc?oc=5"
+    },
+    {
+      "title": "충남동남 문화유산돌봄센터 국가유산청 평가서 S등급",
+      "publisher": "국민일보",
+      "topic": "학교",
+      "type": "news",
+      "coverage": 1,
+      "url": "https://www.kmib.co.kr/article/20261115500155"
+    },
+    {
+      "title": "경남교육청, 교직원에 학교회계 온라인 교육…기간·과정 확대",
+      "publisher": "연합뉴스",
+      "topic": "교사",
+      "type": "news",
+      "coverage": 1,
+      "url": "https://www.yna.co.kr/view/AKR20261113126300052"
+    },
+    {
+      "title": "경기 광주시 ‘통합돌봄과’ 신설⋯현장 중심 돌봄체계 구축",
+      "publisher": "국민일보",
+      "topic": "정책",
+      "type": "news",
+      "coverage": 1,
+      "url": "https://www.kmib.co.kr/article/20261115500974"
+    },
+    {
+      "title": "\"수능 탐구과목 결시율, 수시 최저기준에 중대변수 될수도\"",
+      "publisher": "연합뉴스",
+      "topic": "입시",
+      "type": "news",
+      "coverage": 2,
+      "url": "https://www.yna.co.kr/view/AKR20261115013400530"
+    },
+    {
+      "title": "수능 D-3… 응시자 8년 만에 50만명 넘나",
+      "publisher": "조선일보",
+      "topic": "입시",
+      "type": "news",
+      "coverage": 2,
+      "url": "https://news.google.com/rss/articles/CBMiigFBVV95cUxPcUZkclZPZ0NHanl6T2Ruclc3c19wUlFEYzJ1NTk4LTI3cUhWblZrbHU3enpJSWNjY29YVGtuVHVPVjNuQnZKVGc2M2FydjVxZS1CdGRpSWJxVGFHbG5VREIxQnFwQ3M4eDQ1VHFzUGRoa1psS2lxRU0xa0VnWTNsY01PLUNLWkZ0YmfSAZ4BQVVfeXFMT3k1YWZCZFRRcFBPMjhXRTZzdzlnUy11dVE5SHFKLWhXdVlZU3RtWXhJdjBoZDlMSWFwSENCd2NCQWtyLV9nVUVZS2pSNnpmTW1OSW5yUll4M0VtUVpWaHdrbWtKNmNQcFFGVW5DbTY0akliSUx4X0dINnJqcEFQX2JhWVRoQkNpNjVSamlMeU0tTGkzMlpRRlQxUlVlS0E?oc=5"
+    },
+    {
+      "title": "\"안경 구별도 어려운데…\" 계속 진화하는 AI 부정행위에 '비상'",
+      "publisher": "SBS",
+      "topic": "AI교육",
+      "type": "news",
+      "coverage": 1,
+      "url": "https://news.sbs.co.kr/news/endPage.do?news_id=N1008846651"
+    },
+    {
+      "title": "\"수능도 뚫린다\" 강성태의 경고…AI 안경에 교육계 '비상'",
+      "publisher": "한국경제",
+      "topic": "AI교육",
+      "type": "news",
+      "coverage": 1,
+      "url": "https://www.hankyung.com/article/2026111572677"
+    },
+    {
+      "title": "경주 민간 조류학습장서 H5형 AI 검출…긴급 방역조치",
+      "publisher": "연합뉴스",
+      "topic": "AI교육",
+      "type": "news",
+      "coverage": 1,
+      "url": "https://www.yna.co.kr/view/AKR20261115023100030"
+    },
+    {
+      "title": "나흘 뒤 수능인데…‘AI 부정행위’에 공정성 포비아",
+      "publisher": "서울신문",
+      "topic": "AI교육",
+      "type": "news",
+      "coverage": 1,
+      "url": "https://news.google.com/rss/articles/CBMib0FVX3lxTE1nd0FXVDlrWlpVV0o4SFVFQkFhdE5jV1R3elNGMUE0QnhHSVZWVjFtVlV0bWNFa3QxaGN4YzRRUS1TVnFJTk1wcVJzN1J3cG5rZ2Q5Smo4N2tuRE1icWZxSzhmcElCRkExVFFBM2ViMA?oc=5"
+    },
+    {
+      "title": "‘수능 한파’ 이번에도 찾아온다···비 그친 뒤 기온 ‘뚝’, 수능 아침엔 영하 3도 강추위",
+      "publisher": "경향신문",
+      "topic": "입시",
+      "type": "news",
+      "coverage": 1,
+      "url": "https://news.google.com/rss/articles/CBMiWkFVX3lxTE9BY1R6Q1R0WDdMaGtPMEZ4QUU1UkJJdlVkTjBNU05pZHRGU25kR25leXBUaHBTLWxyY1FFRzdfNzM3Y1E0VXVObms2Qkc3eXQ1b3BTX045ZENVd9IBX0FVX3lxTFAwbHF5N0dIY0lQRXV6cHVvWm03TGRzcmM3ZVJLYzVHeXdDNGpxTWcwWGVMN2dLSVNBOThjOHpzTXMzb3VjWTc4WWFNLUw4NW1PX3BWczV2TWV0SUQ5Z0lR?oc=5"
+    },
+    {
+      "title": "“아버지에게 돈 빌리면서 시위 나간다” 40대 교사가 말한 유럽 시위 이유",
+      "publisher": "국민일보",
+      "topic": "교사",
+      "type": "news",
+      "coverage": 1,
+      "url": "https://news.google.com/rss/articles/CBMiWEFVX3lxTE53Y1I1ck9HUGRkOS14MmhuQzNVcjdiNDZ1MU9jRGFSN3ZHWWU5X0FUS1gxTUswbzNZVzJELUpnUWlvbUM2YzFFLUNILVQydEVRbWxBV2FxV0M?oc=5"
+    },
+    {
+      "title": "수능 나흘 앞두고 ‘AI 커닝’ 비상… 교원단체, 감독 부담 우려",
+      "publisher": "조선일보",
+      "topic": "AI교육",
+      "type": "news",
+      "coverage": 1,
+      "url": "https://news.google.com/rss/articles/CBMiigFBVV95cUxPVVZLVUhXdHNNZXBSQ0dkQ2VHM19PREI4YXQ5blpZZDBwZ0hOUndIUVBvSVRaaV9qMlBKQ1h1M0ZhRnE2T3NMNWJwOEVvRTRkc2pfSlJEYXN0TTFKRGFCR3Z2bmtmTW1LV29EUnBRMmMtTUVNYlk5SlQ5Znd5WE9fdE56Uk1SN0U4MVHSAZ4BQVVfeXFMT0NVRVN5QTZIcUM0b2cwMjdtbmN5aDhneDVnMnBhcHhGbVBwUFZJcXJveUpDYUNHdk4yRW5zc1VicmY2MUozdktVNEc3N0tyNk50LVB6ZFhDMS1Pa3UxYlZXU3prWEQ2QVJHV1l6enhSamVYU1BpanlWeEI1cEtraU14UTEwOEdKMDZxc2c5U3BjeW1IZ0V4M2hZNlMtX3c?oc=5"
+    },
+    {
+      "title": "‘카메라+AI+스마트워치=만점’…나흘 앞둔 수능 비상 걸렸다",
+      "publisher": "중앙일보",
+      "topic": "AI교육",
+      "type": "news",
+      "coverage": 1,
+      "url": "https://news.google.com/rss/articles/CBMiVkFVX3lxTE9nZERGd21yU01rbFJQeGdIT1V4TkRfRXEyS2I4amk2U3U2aGpvRGIzRDFDRUxrTFdNLUp0ZGE2cE81aG9ZV0J2dG1hYnE0eHZBbXJ6Ukln?oc=5"
+    },
+    {
+      "title": "수능 변수 ‘4교시 결시율’…사탐런과 겹쳐 등급 예측 혼선 예상",
+      "publisher": "매일경제",
+      "topic": "입시",
+      "type": "news",
+      "coverage": 1,
+      "url": "https://news.google.com/rss/articles/CBMiVEFVX3lxTE1vWmRzSXZ4WmY0V2I0azhoSW4tNjJWQVRLVUM0Sy1pUmJTcnFWTnZfWHFkQ1ZzdjRvRm1tZ21JSmRnWEpYdnp0MV9DeG1zSTJiWGtjVA?oc=5"
+    },
+    {
+      "title": "N수생 최대·AI 안경까지···‘현행 마지막 시험’ 올 수능 변수는?",
+      "publisher": "경향신문",
+      "topic": "AI교육",
+      "type": "news",
+      "coverage": 1,
+      "url": "https://news.google.com/rss/articles/CBMiWkFVX3lxTE5fWFR3OVFXY1JCYlE3UzVRUGM1bExBY3NscTIwenFHRDQ5NW1aMno1M2NtMDI5dWxidHc4ZlJuLWpJMkNyQzlkQWRlZG94VmdibVFRaURVQUJqd9IBX0FVX3lxTE8zSkhlSmJlZUNBMnk4Zm9QdzJCMXMxd3NzVnFNYXlnZjFRdWdKRms4MFMxR1dCNEkzQlV5NFFTcVRZajZkWWJVZW5waV8zSlUzYkMzYi0yay1fUG0wOXFj?oc=5"
+    },
+    {
+      "title": "세무사 수석 “수능 AI커닝 생각도 말라…수사기관에 수법 다 알려줬다”",
+      "publisher": "매일경제",
+      "topic": "AI교육",
+      "type": "news",
+      "coverage": 1,
+      "url": "https://news.google.com/rss/articles/CBMiVEFVX3lxTE9kc3ctdFRIbi1qSlVlbzRlZkE4UzJBcy1pN3VSY29vU2t5VmVsTGtjMlIxYW92b2x2SmUwTkdHOHoxbzhKUi1GaXpySXg4V05zNFFnNA?oc=5"
+    },
+    {
+      "title": "수능 D-4 ‘마지막 까지 최선을’",
+      "publisher": "국민일보",
+      "topic": "입시",
+      "type": "news",
+      "coverage": 1,
+      "url": "https://news.google.com/rss/articles/CBMiWEFVX3lxTE82bTY2c09LS2VzOWllYzFqaWtLTUY0WmNBZ1BpZUt5Z3k5U3RVVDZmQVluYWs4cDEtTnFScjN2VEJWTnp0Wlp3TmhIWUtXbVFjRmo4cVRUWU8?oc=5"
+    },
+    {
+      "title": "“1300곳 수능장 AI 어떻게 잡을건데…” 시험 4일전 핵폭탄 터졌다",
+      "publisher": "매일경제",
+      "topic": "AI교육",
+      "type": "news",
+      "coverage": 1,
+      "url": "https://news.google.com/rss/articles/CBMiVEFVX3lxTE9MbUlNMkZZY3M3Z2x4YzU2M011WFpHXy1OeU91WXhydmMxZEhQckkxU1NUSjgzTU1wNWh5M255QldsZGtYWTB5SU9CWXpYQ0FYdFZ2dA?oc=5"
+    },
+    {
+      "title": "[진영아 칼럼] 문해력 떨어졌다고 한자? .. \"낱말은 문장 속에서 자란다\"",
+      "publisher": "에듀프레스",
+      "topic": "정책",
+      "type": "column",
+      "coverage": 1,
+      "url": "https://www.edupress.kr/news/articleView.html?idxno=30626"
+    },
+    {
+      "title": "레고랜드·씨라이프, 수능 수험생 특별 할인 > 뉴스데스크",
+      "publisher": "MBC",
+      "topic": "입시",
+      "type": "column",
+      "coverage": 1,
+      "url": "https://www.mbceg.co.kr/post/141983"
+    },
+    {
+      "title": "[사설] ‘AI 시대’ 진화한 시험부정, 수능 영향 없게 잘 대처를",
+      "publisher": "한겨레",
+      "topic": "AI교육",
+      "type": "column",
+      "coverage": 1,
+      "url": "https://www.hani.co.kr/arti/opinion/editorial/1287442.html"
+    },
+    {
+      "title": "[MBC 뉴스데스크 주요뉴스] \"찍는 것도 기술\" 우기던 세무사 수석 합격자, 결국 'AI 부정행위' 자백‥회계사 시험에서도 부정행위‥\"초소형 카메라로 찍고 AI로 전송\"",
+      "publisher": "MBC",
+      "topic": "AI교육",
+      "type": "column",
+      "coverage": 1,
+      "url": "https://imnews.imbc.com/news/2026/society/article/6865803_36919.html"
+    },
+    {
+      "title": "[사설] AI 커닝에 뚫린 국가시험… 발본색원 엄벌 장치 마련해야",
+      "publisher": "서울신문",
+      "topic": "AI교육",
+      "type": "column",
+      "coverage": 1,
+      "url": "https://www.seoul.co.kr/news/editOpinion/editorial/2026/11/16/20261116027003"
+    },
+    {
+      "title": "[천자칼럼] 부정시험의 진화",
+      "publisher": "한국경제",
+      "topic": "입시",
+      "type": "column",
+      "coverage": 1,
+      "url": "https://www.hankyung.com/article/2026111575011"
+    },
+    {
+      "title": "“의사 친구가 하나 있었으면 원이 없겠다” [신영전 칼럼]",
+      "publisher": "한겨레",
+      "topic": "학교",
+      "type": "column",
+      "coverage": 1,
+      "url": "https://news.google.com/rss/articles/CBMiZkFVX3lxTFBocDdWTnhVUEUyRDdQV0hvZVNvOTFrTHVKc3VSd1Zsa3RCQ2VEV29aSk9mcTdpbVJKLWo5blBGOHNfc29FWm5iWFJvU0dlelRVOU1rVjNMdDQ4TEk5QzQyM2ZSOEkxUQ?oc=5"
+    },
+    {
+      "title": "[사설]위기의 ‘가정·학교 밖 청소년’, 구멍 뚫린 공적 보호망 점검 시급",
+      "publisher": "경향신문",
+      "topic": "학교",
+      "type": "column",
+      "coverage": 1,
+      "url": "https://news.google.com/rss/articles/CBMiWkFVX3lxTE5kbHJyU2FZZUpRZDI4NWdERzZHRUtYdUxGMHQyU3B0V0Vvb1h1VkZfNFhIVFV2WTU3QmlWTUlYa0FPNnMyVU9UWUFBZ1NlelpwM09xZ3l1Q25qZ9IBX0FVX3lxTE5MWmx6Q2RVNmxtOVZVcXhuRk5SY3B3cWpFWlR0bG56dHJ0SzlKVW4wOVNLb1lmTGU1Rm05SzNGMTVDZzVZR3Ytc20yRnV4S20tMHd3YnFYR0pjNi1Ca3VR?oc=5"
+    },
+    {
+      "title": "[사설] 벼랑 끝에 선 위기 청소년 총체적 점검하고 속히 대책 내놔야",
+      "publisher": "한국일보",
+      "topic": "학교",
+      "type": "column",
+      "coverage": 1,
+      "url": "https://news.google.com/rss/articles/CBMibkFVX3lxTE1JQUl1dGs2RElkd0VlMXVfT21Ba3pwNWVaOG5jRkc2WERkeUxVVUlkZGgxN1l4cV95bWlhaTFNVlR4RWlsSE9Tb3JvU3RfNFRESXZ2NkhrcVVaQkhId2FOQTlmYUxmMkJ6cGVWdEx30gFzQVVfeXFMUEJmak1hUzk4eGhFeDFMOW9HSHJ6UVlTME1aeUF3UXFQQ095OUhzT0MxOWhGelg3NTBrYnN1TjRaV2pCS0d6bjJqOW5ZSTlkZFN3YkRtWWxZdE43enhwT2FvZERkU253WUFnWUtXb0JpRG9Ucw?oc=5"
+    },
+    {
+      "title": "[이서연의 돌봄과 실버사회] 노후 준비는 관계 자산부터",
+      "publisher": "한국경제",
+      "topic": "학교",
+      "type": "column",
+      "coverage": 1,
+      "url": "https://www.hankyung.com/article/2026111574651"
+    }
+  ]
+}
